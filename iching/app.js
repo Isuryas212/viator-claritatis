@@ -57,7 +57,7 @@
     const upper = data.trigrams.find(t => t.id === h.upper);
     const lines = h.pattern.split("").map((bit,i) => '<div class="detail-line"><span>Garis ' + (i+1) + (i===0 ? ' · terbawah' : i===5 ? ' · teratas' : '') + '</span><strong>' + (bit==="1" ? 'Yang · utuh' : 'Yin · terputus') + '</strong></div>').join("");
     detail.hidden = false;
-    detail.innerHTML = '<div class="detail-heading"><div><small>HEKSAGRAM ' + String(h.number).padStart(2,"0") + ' · KING WEN</small><h3>' + h.symbol + ' ' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + ' <em>(padanan ringkas kerja)</em></p></div><button type="button" class="detail-close">Tutup ×</button></div><div class="detail-pair"><div><small>TRIGRAM BAWAH</small><strong>' + lower.symbol + ' ' + lower.pinyin + '</strong><p>' + lower.image + '</p></div><div><small>TRIGRAM ATAS</small><strong>' + upper.symbol + ' ' + upper.pinyin + '</strong><p>' + upper.image + '</p></div></div><h4>Enam garis · dibaca dari bawah ke atas</h4><div class="detail-lines">' + lines + '</div><div class="detail-source">'+renderClassical(h)+'</div>';
+    detail.innerHTML = '<div class="detail-heading"><div><small>HEKSAGRAM ' + String(h.number).padStart(2,"0") + ' · KING WEN</small><h3>' + h.symbol + ' ' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + ' <em>(padanan ringkas kerja)</em></p></div><button type="button" class="detail-close">Tutup ×</button></div><div class="detail-pair"><div><small>TRIGRAM BAWAH</small><strong>' + lower.symbol + ' ' + lower.pinyin + '</strong><p>' + lower.image + '</p></div><div><small>TRIGRAM ATAS</small><strong>' + upper.symbol + ' ' + upper.pinyin + '</strong><p>' + upper.image + '</p></div></div><h4>Enam garis · dibaca dari bawah ke atas</h4><div class="detail-lines">' + lines + '</div><div class="detail-source">'+renderViator(h)+'<h4>RUJUKAN KLASIK</h4>'+renderClassical(h)+'</div>';
     detail.scrollIntoView({behavior:"smooth",block:"start"});
     detail.querySelector(".detail-close").addEventListener("click", () => { detail.hidden = true; });
   }
@@ -118,7 +118,7 @@
     }).join("");
     const analysis=$("viator-analysis");
     analysis.innerHTML=
-      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+renderViator(primary)+'+'
+      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+renderViator(primary)+'
       '<p class="analysis-note">Kerangka ini adalah lensa pengamatan Viator yang disusun dari citra trigram. Ia bukan terjemahan makna klasik, diagnosis keadaan, atau ramalan masa depan.</p>'+
       '<div class="analysis-block"><strong>1 · DASAR KEADAAN</strong><p>Trigram bawah: '+lowerName+'.</p><p>Lensa pengamatan: '+lowerLens[0]+'.</p><p>'+lowerLens[1]+'</p></div>'+
       '<div class="analysis-block"><strong>2 · KONDISI YANG MENAUNGI</strong><p>Trigram atas: '+upperName+'.</p><p>Lensa pengamatan: '+upperLens[0]+'.</p><p>'+upperLens[1]+'</p></div>'+
