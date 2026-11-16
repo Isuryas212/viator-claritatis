@@ -93,11 +93,97 @@
     upper: trigramByPattern[pattern.slice(3,6)].id
   }));
 
+  const classical = {
+  "1": {
+    "source": "James Legge, The Yî King (1882), teks Zhouyi dan Great Image. Padanan Indonesia ini terjemahan kerja ringkas, bukan terjemahan resmi.",
+    "judgment": {
+      "zh": "元亨。利貞。",
+      "id": "Sangat besar dan menjadi awal; membawa kelancaran. Menguntungkan bila dijalani dengan ketepatan dan keteguhan."
+    },
+    "image": {
+      "zh": "天行健，君子以自強不息。",
+      "id": "Gerak langit berlangsung kuat dan terus-menerus. Manusia berbudi meneladaninya dengan menguatkan diri dan tidak berhenti berusaha."
+    },
+    "lines": [
+      [
+        "初九：潛龍勿用。",
+        "Naga masih tersembunyi. Belum waktunya bertindak."
+      ],
+      [
+        "九二：見龍在田，利見大人。",
+        "Naga muncul di lapangan. Menguntungkan untuk bertemu atau meminta arahan dari pribadi yang matang."
+      ],
+      [
+        "九三：君子終日乾乾，夕惕若，厲无咎。",
+        "Sepanjang hari orang berbudi bekerja tekun; pada malam hari ia tetap waspada. Keadaan berbahaya, tetapi tidak harus berakhir dengan kesalahan."
+      ],
+      [
+        "九四：或躍在淵，无咎。",
+        "Seperti hendak melompat, tetapi masih berada di kedalaman. Tidak ada cela bila langkah diambil dengan tepat."
+      ],
+      [
+        "九五：飛龍在天，利見大人。",
+        "Naga terbang di langit. Menguntungkan untuk bertemu atau memperoleh dukungan dari pribadi yang agung."
+      ],
+      [
+        "上九：亢龍有悔。",
+        "Naga telah melampaui batas ketinggiannya. Akan ada penyesalan."
+      ]
+    ],
+    "changing": [
+      "用九：見羣龍无首，吉。",
+      "Ketika seluruh garis Yang berubah, sekumpulan naga tanpa satu kepala yang mendominasi membawa keberuntungan."
+    ]
+  },
+  "2": {
+    "source": "James Legge, The Yî King (1882), teks Zhouyi dan Great Image. Padanan Indonesia ini terjemahan kerja ringkas, bukan terjemahan resmi.",
+    "judgment": {
+      "zh": "元亨。利牝馬之貞。君子有攸往，先迷後得主。利西南得朋，東北喪朋。安貞吉。",
+      "id": "Ada potensi besar dan kelancaran. Keteguhan digambarkan seperti kuda betina: kuat dalam mengikuti arah. Jika mengambil inisiatif tanpa memahami arah, seseorang dapat tersesat; dengan mengikuti arah yang tepat, ia menemukan pegangan. Keteguhan yang tenang membawa keberuntungan."
+    },
+    "image": {
+      "zh": "地勢坤，君子以厚德載物。",
+      "id": "Daya bumi menopang segala sesuatu. Manusia berbudi meneladaninya dengan keluasan watak yang mampu menanggung dan mendukung banyak hal."
+    },
+    "lines": [
+      [
+        "初六：履霜，堅冰至。",
+        "Ketika menginjak embun beku, es yang keras akan menyusul. Gejala kecil dapat menjadi keadaan besar."
+      ],
+      [
+        "六二：直方大，不習无不利。",
+        "Lurus, tepat, dan luas. Tidak perlu dibuat-buat; tidak ada yang merugikan bila sifat itu dijaga."
+      ],
+      [
+        "六三：含章可貞。或從王事，无成有終。",
+        "Simpan kecakapan dan tetaplah teguh. Bila menjalankan urusan bersama, jangan menuntut pengakuan; tuntaskan pekerjaan dengan baik."
+      ],
+      [
+        "六四：括囊，无咎无譽。",
+        "Ikatlah kantong. Menahan diri dan tidak banyak bicara menghindarkan cela, meski tidak mendatangkan pujian."
+      ],
+      [
+        "六五：黃裳，元吉。",
+        "Jubah bawah berwarna kuning. Keberuntungan besar melalui sikap yang rendah hati dan tepat."
+      ],
+      [
+        "上六：龍戰于野，其血玄黃。",
+        "Naga-naga bertarung di padang; darah mereka berwarna gelap dan kuning. Pertentangan telah mencapai batas yang berbahaya."
+      ]
+    ],
+    "changing": [
+      "用六：利永貞。",
+      "Ketika seluruh garis Yin berubah, keteguhan yang berlangsung lama membawa manfaat."
+    ]
+  }
+};
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
     yin: "0",
     trigrams,
-    hexagrams
+    hexagrams,
+    classical
   });
 })(window);
