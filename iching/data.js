@@ -1599,6 +1599,305 @@
   }
 });
 
+  Object.assign(classical, {
+  "41": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "損：有孚，元吉，无咎，可貞，利有攸往。曷之用？二簋可用享。",
+      "Pengurangan yang disertai ketulusan dapat membawa keberuntungan besar dan tidak bercela. Keteguhan tetap mungkin; perjalanan memiliki manfaat. Persembahan sederhana pun cukup bila ketulusan hadir."
+    ],
+    "image": [
+      "山下有澤，損；君子以懲忿窒欲。",
+      "Gunung berada di atas danau. Manusia berbudi mengendalikan kemarahan dan membatasi keinginan."
+    ],
+    "lines": [
+      [
+        "初九：已事遄往，无咎，酌損之。",
+        "Setelah urusan selesai, segera bergerak; tidak ada cela. Kurangi secukupnya sesuai keadaan."
+      ],
+      [
+        "九二：利貞，征凶，弗損益之。",
+        "Keteguhan menguntungkan. Memaksakan perjalanan membawa bahaya; jangan mengurangi diri sendiri, sebab justru perlu menambah kekuatan."
+      ],
+      [
+        "六三：三人行，則損一人；一人行，則得其友。",
+        "Tiga orang berjalan, seorang akan terpisah; seorang berjalan sendiri, ia akan menemukan teman. Perubahan jumlah dan hubungan mengubah keseimbangan."
+      ],
+      [
+        "六四：損其疾，使遄有喜，无咎。",
+        "Mengurangi penyakit atau kelemahan dengan segera membawa kegembiraan; tidak ada cela."
+      ],
+      [
+        "六五：或益之十朋之龜，弗克違，元吉。",
+        "Seseorang memberi hadiah kura-kura bernilai sepuluh kelompok uang; pemberian itu tidak dapat ditolak. Keberuntungan besar."
+      ],
+      [
+        "上九：弗損益之，无咎，貞吉，利有攸往，得臣无家。",
+        "Tidak mengurangi, tetapi menambah; tidak ada cela. Keteguhan membawa keberuntungan dan perjalanan bermanfaat. Mendapat pengikut tanpa kepentingan rumah tangga pribadi."
+      ]
+    ]
+  },
+  "42": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "益：利有攸往，利涉大川。",
+      "Penambahan membawa manfaat untuk bergerak dan menyeberangi sungai besar; pertumbuhan memberi daya untuk menghadapi pekerjaan sulit."
+    ],
+    "image": [
+      "風雷，益；君子以見善則遷，有過則改。",
+      "Angin dan guntur saling menguatkan. Manusia berbudi segera mengikuti kebaikan ketika melihatnya dan memperbaiki kesalahan ketika menyadarinya."
+    ],
+    "lines": [
+      [
+        "初九：利用為大作，元吉，无咎。",
+        "Baik untuk memulai pekerjaan besar. Keberuntungan besar dan tidak ada cela."
+      ],
+      [
+        "六二：或益之十朋之龜，弗克違，永貞吉。王用享于帝，吉。",
+        "Seseorang memberi kura-kura bernilai sepuluh kelompok uang; pemberian itu tak dapat ditolak. Keteguhan jangka panjang membawa keberuntungan. Raja mempersembahkannya kepada Yang Mahatinggi; baik."
+      ],
+      [
+        "六三：益之用凶事，无咎。有孚中行，告公用圭。",
+        "Penambahan digunakan untuk menghadapi peristiwa buruk; tidak ada cela. Dengan ketulusan dan tindakan yang seimbang, laporkan kepada penguasa dengan membawa tanda giok."
+      ],
+      [
+        "六四：中行，告公從。利用為依遷國。",
+        "Bertindak di jalan tengah dan melapor kepada penguasa; ia akan diikuti. Baik untuk menjadikannya dasar pemindahan ibu kota."
+      ],
+      [
+        "九五：有孚惠心，勿問元吉。有孚惠我德。",
+        "Ketulusan yang melahirkan kemurahan hati membawa keberuntungan besar tanpa perlu bertanya. Ketulusan membuat orang lain menghargai kebajikan."
+      ],
+      [
+        "上九：莫益之，或擊之，立心勿恆，凶。",
+        "Tidak ada yang menambah atau membantu; bahkan ada yang menyerang. Niat yang tidak teguh membawa bahaya."
+      ]
+    ]
+  },
+  "43": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "夬：揚于王庭，孚號有厲，告自邑，不利即戎，利有攸往。",
+      "Keputusan tegas diumumkan di hadapan penguasa. Seruan yang tulus disertai bahaya; sampaikan lebih dahulu kepada lingkungan sendiri. Tidak menguntungkan untuk langsung menggunakan kekuatan bersenjata; ada manfaat pada langkah yang tepat."
+    ],
+    "image": [
+      "澤上於天，夬；君子以施祿及下，居德則忌。",
+      "Danau naik ke langit. Manusia berbudi menyalurkan manfaat kepada mereka yang di bawah dan menghindari sikap menyimpan kebajikan hanya untuk diri sendiri."
+    ],
+    "lines": [
+      [
+        "初九：壯于前趾，往不勝為咎。",
+        "Kekuatan mendorong langkah pertama. Maju tanpa kemampuan untuk menang akan menjadi cela."
+      ],
+      [
+        "九二：惕號，莫夜有戎，勿恤。",
+        "Waspada dan berseru. Bila serangan datang pada malam hari, jangan panik."
+      ],
+      [
+        "九三：壯于頄，有凶。君子夬夬，獨行遇雨，若濡有慍，无咎。",
+        "Kekuatan tampak pada tulang pipi dan membawa bahaya. Orang berbudi mengambil keputusan tegas; berjalan sendiri dan kehujanan, tampak basah serta dicela, tetapi tidak bersalah."
+      ],
+      [
+        "九四：臀无膚，其行次且。牽羊悔亡，聞言不信。",
+        "Duduk tanpa kulit pada pantat dan berjalan tersendat. Bila mau dituntun seperti domba, penyesalan dapat lenyap; tetapi nasihat yang didengar tidak dipercaya."
+      ],
+      [
+        "九五：莧陸夬夬，中行无咎。",
+        "Memotong tanaman liar dengan tegas. Bertindak di jalan tengah tidak membawa cela."
+      ],
+      [
+        "上六：无號，終有凶。",
+        "Tidak ada seruan atau peringatan; pada akhirnya bahaya datang."
+      ]
+    ]
+  },
+  "44": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "姤：女壯，勿用取女。",
+      "Pertemuan dengan sesuatu yang kuat dan mendadak. Teks klasik memakai gambaran perempuan yang kuat sebagai peringatan agar tidak terburu-buru mengikat hubungan; konteksnya historis, bukan penilaian universal terhadap perempuan."
+    ],
+    "image": [
+      "天下有風，姤；后以施命誥四方。",
+      "Angin bergerak di bawah langit. Penguasa menyebarkan perintah dan pengumuman ke segala penjuru."
+    ],
+    "lines": [
+      [
+        "初六：繫于金柅，貞吉。有攸往，見凶。羸豕孚蹢躅。",
+        "Terikat pada rem logam; keteguhan membawa keberuntungan. Bila terus maju, bahaya terlihat. Babi kurus tetap bergerak gelisah; sesuatu yang tampak lemah dapat menyimpan dorongan."
+      ],
+      [
+        "九二：包有魚，无咎，不利賓。",
+        "Ada ikan di dalam wadah; tidak ada cela, tetapi tidak menguntungkan untuk menjamu tamu. Sesuatu yang telah berada dalam lingkup sendiri perlu dijaga."
+      ],
+      [
+        "九三：臀无膚，其行次且，厲，无大咎。",
+        "Duduk tanpa kulit pada pantat dan berjalan tersendat. Keadaan berbahaya, tetapi tidak menjadi cela besar."
+      ],
+      [
+        "九四：包无魚，起凶。",
+        "Wadah kosong tanpa ikan; bergerak dari keadaan ini membawa bahaya."
+      ],
+      [
+        "九五：以杞包瓜，含章，有隕自天。",
+        "Menggunakan daun willow untuk membungkus melon; menyimpan keindahan di dalam, lalu sesuatu jatuh dari langit. Ada hasil yang datang tanpa dipaksakan."
+      ],
+      [
+        "上九：姤其角，吝，无咎。",
+        "Bertemu pada tanduk, keadaan sulit dan canggung, tetapi tidak ada cela."
+      ]
+    ]
+  },
+  "45": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "萃：亨。王假有廟。利見大人，亨，利貞。用大牲吉，利有攸往。",
+      "Berkumpul membawa kelancaran. Raja datang ke kuil leluhur. Baik bertemu orang besar; keteguhan menguntungkan. Persembahan besar membawa keberuntungan dan perjalanan memiliki manfaat."
+    ],
+    "image": [
+      "澤上於地，萃；君子以除戎器，戒不虞。",
+      "Danau berada di atas bumi. Manusia berbudi menyiapkan perlengkapan pertahanan dan berjaga terhadap kejadian yang tidak terduga."
+    ],
+    "lines": [
+      [
+        "初六：有孚不終，乃亂乃萃。若號，一握為笑，勿恤，往无咎。",
+        "Ketulusan belum bertahan sampai akhir; keadaan menjadi kacau dan orang-orang berkumpul. Bila berseru, mereka dapat segera bersatu dan tertawa. Jangan cemas; bergerak tidak membawa cela."
+      ],
+      [
+        "六二：引吉，无咎，孚乃利用禴。",
+        "Menerima tarikan atau ajakan membawa keberuntungan dan tidak bercela. Ketulusan membuat persembahan sederhana layak."
+      ],
+      [
+        "六三：萃如嗟如，无攸利。往无咎，小吝。",
+        "Berkumpul dengan keluhan; tidak ada manfaat. Bergerak tidak membawa cela, meski ada kesulitan kecil."
+      ],
+      [
+        "九四：大吉，无咎。",
+        "Keberuntungan besar; tidak ada cela."
+      ],
+      [
+        "九五：萃有位，无咎。匪孚，元永貞，悔亡。",
+        "Berkumpul dengan kedudukan dan tanggung jawab; tidak ada cela. Bila kepercayaan belum ada, keteguhan besar dan berkelanjutan menghapus penyesalan."
+      ],
+      [
+        "上六：齎咨涕洟，无咎。",
+        "Meratap dan menangis; tidak ada cela. Kesedihan dapat menjadi bagian dari keadaan berkumpul dan berpisah."
+      ]
+    ]
+  },
+  "46": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "升：元亨。用見大人，勿恤。南征吉。",
+      "Pertumbuhan ke atas membawa kelancaran besar. Baik menghadap orang besar tanpa kecemasan; bergerak ke selatan membawa keberuntungan."
+    ],
+    "image": [
+      "地中生木，升；君子以順德，積小以高大。",
+      "Pohon tumbuh dari dalam bumi. Manusia berbudi mengikuti kebajikan dan mengumpulkan hal-hal kecil hingga menjadi besar."
+    ],
+    "lines": [
+      [
+        "初六：允升，大吉。",
+        "Pertumbuhan yang dipercaya dan diterima; keberuntungan besar."
+      ],
+      [
+        "九二：孚乃利用禴，无咎。",
+        "Ketulusan membuat persembahan sederhana menjadi tepat; tidak ada cela."
+      ],
+      [
+        "九三：升虛邑。",
+        "Naik ke kota yang kosong. Jalan terbuka tanpa banyak hambatan."
+      ],
+      [
+        "六四：王用亨于岐山，吉，无咎。",
+        "Raja mempersembahkan korban di Gunung Qi. Keberuntungan dan tidak ada cela."
+      ],
+      [
+        "六五：貞吉，升階。",
+        "Keteguhan membawa keberuntungan; naik melalui tangga setahap demi setahap."
+      ],
+      [
+        "上六：冥升，利于不息之貞。",
+        "Terus naik dalam kegelapan. Keteguhan untuk tidak berhenti dapat bermanfaat, tetapi perlu disadari bahwa arah belum terlihat jelas."
+      ]
+    ]
+  },
+  "47": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "困：亨，貞，大人吉，无咎。有言不信。",
+      "Dalam keadaan terhimpit, kelancaran masih mungkin melalui keteguhan. Orang besar memperoleh keberuntungan dan tidak bercela. Kata-kata saja tidak akan dipercaya."
+    ],
+    "image": [
+      "澤无水，困；君子以致命遂志。",
+      "Danau tanpa air. Manusia berbudi mempertaruhkan diri demi menuntaskan tujuan yang benar."
+    ],
+    "lines": [
+      [
+        "初六：臀困于株木，入于幽谷，三歲不覿。",
+        "Duduk terhimpit pada tunggul pohon dan masuk ke lembah gelap; selama tiga tahun tidak terlihat. Keadaan terisolasi dan sulit."
+      ],
+      [
+        "九二：困于酒食，朱紱方來，利用亨祀。征凶，无咎。",
+        "Terhimpit oleh makanan dan minuman; pejabat berjubah merah datang. Persembahan layak dilakukan. Memaksakan perjalanan membawa bahaya, tetapi tidak menjadi cela."
+      ],
+      [
+        "六三：困于石，據于蒺藜，入于其宮，不見其妻，凶。",
+        "Terhimpit batu dan bertumpu pada semak berduri. Pulang ke rumah tetapi tidak menemukan istrinya; keadaan buruk."
+      ],
+      [
+        "九四：來徐徐，困于金車，吝，有終。",
+        "Kedatangan berlangsung lambat; terhalang kereta logam. Ada kesulitan, tetapi akhirnya tercapai."
+      ],
+      [
+        "九五：劓刖，困于赤紱，乃徐有說，利用祭祀。",
+        "Hidung dan kaki terluka, terhimpit oleh pejabat berjubah merah. Perlahan keadaan menjadi lega; persembahan layak dilakukan."
+      ],
+      [
+        "上六：困于葛藟，于臲卼，曰動悔。有悔，征吉。",
+        "Terjerat tanaman merambat dan berada dalam posisi goyah. Bergerak dapat membawa penyesalan, tetapi setelah mengakui penyesalan, perjalanan dapat berakhir baik."
+      ]
+    ]
+  },
+  "48": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "井：改邑不改井，无喪无得。往來井井。汔至亦未繘井，羸其瓶，凶。",
+      "Kota dapat berubah, tetapi sumur tetap. Tidak ada kehilangan atau keuntungan pada sumur itu sendiri; orang datang dan pergi mengambil air. Bila hampir sampai tetapi belum berhasil menarik air, lalu kendi pecah, keadaan menjadi buruk."
+    ],
+    "image": [
+      "木上有水，井；君子以勞民勸相。",
+      "Air berada di atas kayu. Manusia berbudi bekerja demi masyarakat dan mendorong orang untuk saling membantu."
+    ],
+    "lines": [
+      [
+        "初六：井泥不食，舊井无禽。",
+        "Sumur berlumpur dan tidak dapat diminum; sumur tua bahkan tidak didatangi burung. Sumber daya yang terbengkalai tidak lagi berguna."
+      ],
+      [
+        "九二：井谷射鮒，甕敝漏。",
+        "Air sumur mengalir ke cekungan dan hanya mencapai ikan kecil; kendi rusak dan bocor. Sumber daya ada, tetapi penyalurannya gagal."
+      ],
+      [
+        "九三：井渫不食，為我心惻，可用汲。王明，並受其福。",
+        "Sumur telah dibersihkan tetapi belum diminum; hal itu menyedihkan, padahal airnya dapat ditimba. Bila penguasa melihat dengan jernih, semua dapat menerima manfaatnya."
+      ],
+      [
+        "六四：井甃，无咎。",
+        "Sumur diperkuat dengan susunan batu; tidak ada cela."
+      ],
+      [
+        "九五：井冽，寒泉食。",
+        "Air sumur jernih dan dingin; mata airnya dapat diminum."
+      ],
+      [
+        "上六：井收勿幕，有孚元吉。",
+        "Sumur telah selesai dan jangan ditutup. Ketulusan membawa keberuntungan besar; sumber air harus tetap dapat diakses."
+      ]
+    ]
+  }
+});
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
