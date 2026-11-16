@@ -66,3 +66,25 @@
 .source-section li { color:var(--muted); margin:9px 0; font-size:13px; line-height:1.6; }
 .source-section a { color:var(--gold); text-decoration:underline; text-underline-offset:3px; }
 @media(max-width:430px) { .line-detail { grid-template-columns:1.1fr .6fr 14px .6fr 1fr; font-size:10px; padding:7px 4px; gap:3px; } .line-detail em { font-size:9px; } }
+
+.hexagram-open { width:100%; text-align:left; color:inherit; cursor:pointer; font:inherit; }
+.hexagram-open:hover { border-color:var(--gold); }
+.hexagram-detail { margin-top:20px; padding:18px; border:1px solid var(--gold); border-radius:14px; background:var(--panel-hover); scroll-margin-top:18px; }
+.hexagram-detail[hidden] { display:none; }
+.detail-heading { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+.detail-heading small,.detail-pair small { color:var(--gold); font-size:10px; letter-spacing:1px; }
+.detail-heading h3 { color:var(--text); margin:7px 0; font-size:20px; }
+.detail-heading h3 span { color:var(--gold); font-weight:400; }
+.detail-heading p,.detail-pair p,.detail-source p { color:var(--muted); font-size:13px; line-height:1.7; }
+.detail-heading em { color:var(--soft); font-size:10px; }
+.detail-close { border:1px solid var(--gold-border); background:transparent; color:var(--gold); border-radius:7px; padding:8px 10px; }
+.detail-pair { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:18px 0; }
+.detail-pair > div { border:1px solid var(--gold-border); border-radius:9px; padding:12px; }
+.detail-pair strong { display:block; color:var(--text); margin-top:8px; }
+.hexagram-detail h4 { color:var(--gold); font-size:12px; }
+.detail-lines { display:grid; gap:6px; margin:12px 0 18px; }
+.detail-line { display:flex; justify-content:space-between; gap:12px; padding:9px 10px; border-bottom:1px solid var(--gold-border); color:var(--muted); font-size:12px; }
+.detail-line strong { color:var(--text); }
+.detail-source { padding:13px; background:rgba(0,0,0,.16); border-radius:9px; }
+.detail-source strong { color:var(--gold); font-size:12px; }
+.detail-source a { color:var(--gold); font-size:12px; text-decoration:underline; }
