@@ -2496,12 +2496,115 @@
   }
 });
 
+
+
+  // Interpretasi Viator adalah lapisan editorial tersendiri, bukan terjemahan klasik.
+  const viatorInterpretations = {
+  "1": {
+    "title": "Daya untuk Memulai dan Menggerakkan",
+    "focus": "inisiatif, kapasitas, ketekunan, dan batas penggunaan kekuatan",
+    "reading": "Keadaan menuntut kemampuan menggerakkan sesuatu. Namun, kemampuan besar belum otomatis berarti saat yang tepat untuk bertindak. Periksa kesiapan, arah, dan akibat dari setiap langkah.",
+    "risk": "Memaksakan kehendak, menganggap kapasitas sebagai hak untuk menguasai, atau terus maju setelah melewati batas.",
+    "practice": "Ukur kemampuan yang benar-benar tersedia. Mulai pada bagian yang sudah siap, evaluasi dampaknya, dan sisakan ruang bagi koreksi.",
+    "questions": [
+      "Apa yang memang berada dalam kendalimu?",
+      "Apakah kesiapan sebanding dengan ambisi tindakan?",
+      "Tanda apa yang menunjukkan bahwa dorongan untuk maju mulai berubah menjadi pemaksaan?"
+    ]
+  },
+  "2": {
+    "title": "Daya Menopang dan Menerima",
+    "focus": "dukungan, ketahanan, kesiapan mengikuti arah yang teruji, dan kemampuan menampung",
+    "reading": "Keadaan menekankan kapasitas menopang proses dan pihak lain. Mendukung bukan berarti pasif atau menyerahkan penilaian; arah yang diikuti tetap perlu diperiksa.",
+    "risk": "Mengikuti pihak lain tanpa pertimbangan, menanggung beban melebihi kemampuan, atau menghapus kebutuhan dan batas diri.",
+    "practice": "Kenali sumber daya, tanggung jawab, dan batas dukungan. Pilih kerja sama yang memiliki arah serta pembagian beban yang jelas.",
+    "questions": [
+      "Apa atau siapa yang sedang kamu topang?",
+      "Apakah arah yang diikuti sudah diperiksa secara mandiri?",
+      "Beban mana yang layak diterima dan mana yang perlu dibagi atau ditolak?"
+    ]
+  },
+  "3": {
+    "title": "Menata Permulaan yang Sulit",
+    "focus": "ketidakpastian awal, pengorganisasian, dukungan, dan penentuan langkah pertama",
+    "reading": "Sesuatu sedang terbentuk tetapi unsur-unsurnya belum tertata. Kesulitan awal tidak selalu berarti gagasan harus ditinggalkan; ia menunjukkan perlunya struktur, bantuan yang tepat, dan urutan kerja.",
+    "risk": "Bergegas menuju tujuan jauh, mengejar peluang tanpa panduan, atau mengira semua hambatan dapat diselesaikan dengan tenaga tambahan.",
+    "practice": "Pecah persoalan menjadi tahap kecil. Tentukan siapa yang bertanggung jawab, sumber daya yang dibutuhkan, dan kapan harus berhenti atau mengubah pendekatan.",
+    "questions": [
+      "Bagian mana yang belum memiliki bentuk atau aturan jelas?",
+      "Dukungan atau keahlian siapa yang benar-benar diperlukan?",
+      "Langkah mana yang aman dilakukan sekarang, dan langkah mana yang terlalu dini?"
+    ]
+  },
+  "4": {
+    "title": "Belajar di Tengah Ketidaktahuan",
+    "focus": "keterbukaan belajar, bimbingan, disiplin, dan kematangan penilaian",
+    "reading": "Keterbatasan pengetahuan perlu diakui sebelum keputusan dibuat. Belajar bukan sekadar mengumpulkan jawaban; perlu kesungguhan untuk menguji, memahami, dan menerapkan apa yang dipelajari.",
+    "risk": "Bertanya tanpa kemauan menguji jawaban, bergantung penuh pada guru atau sumber, atau menggunakan disiplin sebagai hukuman tanpa pembinaan.",
+    "practice": "Rumuskan hal yang belum diketahui. Cari sumber yang dapat diperiksa, ajukan pertanyaan yang jelas, lalu uji pemahaman melalui tindakan terbatas.",
+    "questions": [
+      "Apa yang belum kamu ketahui tetapi sudah kamu anggap pasti?",
+      "Sumber atau pembimbing mana yang layak dipercaya, dan mengapa?",
+      "Bagaimana kamu akan menguji apakah pelajaran itu benar-benar dipahami?"
+    ]
+  },
+  "5": {
+    "title": "Menunggu dengan Persiapan",
+    "focus": "waktu, kesiapan, kesabaran aktif, dan pengelolaan risiko",
+    "reading": "Tidak semua keadaan dapat dipercepat. Menunggu dapat menjadi tindakan yang bertanggung jawab apabila waktu digunakan untuk memperkuat persiapan dan membaca perubahan kondisi.",
+    "risk": "Menunggu tanpa persiapan, menunda karena takut, atau memasuki risiko besar hanya karena merasa sudah terlalu lama menunggu.",
+    "practice": "Tentukan apa yang masih dapat disiapkan, indikator kapan keadaan layak ditindaklanjuti, dan batas waktu untuk menilai ulang.",
+    "questions": [
+      "Apa yang belum tersedia untuk melangkah?",
+      "Apa yang dapat dipersiapkan selama menunggu?",
+      "Tanda nyata apa yang akan membuatmu mengubah keputusan?"
+    ]
+  },
+  "6": {
+    "title": "Mengelola Pertentangan",
+    "focus": "perbedaan kepentingan, komunikasi, batas sengketa, dan penengah",
+    "reading": "Dua arah atau kepentingan tidak berjalan sejalan. Ketulusan satu pihak tidak otomatis menghapus konflik. Tujuannya bukan selalu menang, melainkan memahami pokok sengketa dan mencegah kerugian yang tidak perlu.",
+    "risk": "Memperpanjang konflik demi pembuktian diri, mengabaikan posisi pihak lain, atau mengambil langkah besar saat fakta belum lengkap.",
+    "practice": "Pisahkan fakta dari tuduhan. Tetapkan hal yang diperselisihkan, cari ruang penyelesaian, dan gunakan penengah kompeten bila diperlukan.",
+    "questions": [
+      "Apa inti sengketa yang dapat dibuktikan?",
+      "Bagian mana merupakan kepentingan, asumsi, atau luka pribadi?",
+      "Apa biaya dan akibat jika konflik diteruskan, dihentikan, atau dimediasi?"
+    ]
+  },
+  "7": {
+    "title": "Mengatur Kekuatan Bersama",
+    "focus": "disiplin, koordinasi, mandat, kepemimpinan, dan tanggung jawab kolektif",
+    "reading": "Tindakan bersama membutuhkan aturan, pembagian peran, dan kepemimpinan yang dapat dipertanggungjawabkan. Banyaknya orang atau besarnya tenaga tidak menjamin arah yang benar.",
+    "risk": "Menggerakkan orang tanpa tujuan jelas, kepemimpinan tanpa kompetensi, atau mengorbankan anggota demi mempertahankan wibawa.",
+    "practice": "Jelaskan tujuan, aturan, wewenang, dan jalur evaluasi. Pastikan orang yang memimpin memiliki kemampuan serta bersedia menanggung akibat keputusan.",
+    "questions": [
+      "Apakah tujuan bersama dipahami oleh semua pihak?",
+      "Siapa memiliki mandat dan kemampuan untuk memimpin?",
+      "Bagaimana kesalahan, risiko, dan tanggung jawab dibagikan?"
+    ]
+  },
+  "8": {
+    "title": "Membangun Ikatan dan Kesetiaan",
+    "focus": "kepercayaan, kecocokan nilai, komitmen, dan batas keanggotaan",
+    "reading": "Persatuan dapat memberi daya tahan, tetapi ikatan yang sehat perlu dasar yang diperiksa. Kedekatan saja tidak cukup; ketulusan, tujuan, dan tanggung jawab harus tampak dalam tindakan.",
+    "risk": "Bergabung karena takut tertinggal, mengabaikan tanda ketidakcocokan, atau menuntut kesetiaan tanpa timbal balik.",
+    "practice": "Periksa tujuan bersama, perilaku nyata, dan cara kelompok menangani perbedaan. Bangun komitmen secara sadar, bukan karena tekanan.",
+    "questions": [
+      "Apa dasar kepercayaan di antara pihak-pihak ini?",
+      "Apakah tujuan bersama benar-benar disepakati?",
+      "Batas dan tanggung jawab apa yang perlu jelas sebelum berkomitmen?"
+    ]
+  }
+};
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
     yin: "0",
     trigrams,
     hexagrams,
-    classical
+    classical,
+    viatorInterpretations
   });
 })(window);
