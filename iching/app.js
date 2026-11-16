@@ -30,6 +30,14 @@
     hexagramRoot.querySelectorAll("[data-number]").forEach(button => button.addEventListener("click", () => showHexagramDetail(Number(button.dataset.number))));
   }
 
+
+  function renderClassical(h) {
+    const c=data.classical && data.classical[h.number];
+    if(!c) return '<strong>Teks klasik belum dimasukkan</strong><p>Entri ini menunggu pencocokan edisi sumber.</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Buka edisi sumber James Legge (1882)</a>';
+    const lines=c.lines.map((line,i)=>'<article class="classical-line"><strong>Garis '+(i+1)+'</strong><p class="classical-original">'+line[0]+'</p><p>'+line[1]+'</p></article>').join("");
+    return '<h4>JUDGMENT · KEPUTUSAN</h4><p class="classical-original">'+c.judgment.zh+'</p><p>'+c.judgment.id+'</p><h4>IMAGE · GAMBARAN</h4><p class="classical-original">'+c.image.zh+'</p><p>'+c.image.id+'</p><h4>ENAM PERNYATAAN GARIS</h4>'+lines+'<h4>GARIS KHUSUS</h4><p class="classical-original">'+c.changing[0]+'</p><p>'+c.changing[1]+'</p><p class="analysis-note">'+c.source+'</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Periksa teks Zhouyi dan James Legge (1882)</a>';
+  }
+
   function showHexagramDetail(number) {
     const h = data.hexagrams.find(item => item.number === number);
     if (!h) return;
@@ -37,7 +45,7 @@
     const upper = data.trigrams.find(t => t.id === h.upper);
     const lines = h.pattern.split("").map((bit,i) => '<div class="detail-line"><span>Garis ' + (i+1) + (i===0 ? ' · terbawah' : i===5 ? ' · teratas' : '') + '</span><strong>' + (bit==="1" ? 'Yang · utuh' : 'Yin · terputus') + '</strong></div>').join("");
     detail.hidden = false;
-    detail.innerHTML = '<div class="detail-heading"><div><small>HEKSAGRAM ' + String(h.number).padStart(2,"0") + ' · KING WEN</small><h3>' + h.symbol + ' ' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + ' <em>(padanan ringkas kerja)</em></p></div><button type="button" class="detail-close">Tutup ×</button></div><div class="detail-pair"><div><small>TRIGRAM BAWAH</small><strong>' + lower.symbol + ' ' + lower.pinyin + '</strong><p>' + lower.image + '</p></div><div><small>TRIGRAM ATAS</small><strong>' + upper.symbol + ' ' + upper.pinyin + '</strong><p>' + upper.image + '</p></div></div><h4>Enam garis · dibaca dari bawah ke atas</h4><div class="detail-lines">' + lines + '</div><div class="detail-source"><strong>Status teks klasik</strong><p>Teks Judgment, Image, dan enam pernyataan garis akan dimasukkan setelah pencocokan edisi sumber. Tafsir Viator akan disajikan terpisah.</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Buka teks Zhouyi dan terjemahan James Legge (1882)</a></div>';
+    detail.innerHTML = '<div class="detail-heading"><div><small>HEKSAGRAM ' + String(h.number).padStart(2,"0") + ' · KING WEN</small><h3>' + h.symbol + ' ' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + ' <em>(padanan ringkas kerja)</em></p></div><button type="button" class="detail-close">Tutup ×</button></div><div class="detail-pair"><div><small>TRIGRAM BAWAH</small><strong>' + lower.symbol + ' ' + lower.pinyin + '</strong><p>' + lower.image + '</p></div><div><small>TRIGRAM ATAS</small><strong>' + upper.symbol + ' ' + upper.pinyin + '</strong><p>' + upper.image + '</p></div></div><h4>Enam garis · dibaca dari bawah ke atas</h4><div class="detail-lines">' + lines + '</div><div class="detail-source">'+renderClassical(h)+'</div>';
     detail.scrollIntoView({behavior:"smooth",block:"start"});
     detail.querySelector(".detail-close").addEventListener("click", () => { detail.hidden = true; });
   }
