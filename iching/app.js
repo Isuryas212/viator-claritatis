@@ -5,6 +5,7 @@
   const $ = id => document.getElementById(id);
   const trigramRoot = $("trigram-list"), hexagramRoot = $("hexagram-list");
   const search = $("hexagram-search"), count = $("hexagram-count");
+  const detail = $("hexagram-detail");
   const castButton = $("cast-coins"), manualButton = $("show-manual");
   const manualPanel = $("manual-panel"), resultPanel = $("reading-result");
   const lineInputs = $("manual-lines");
@@ -24,10 +25,24 @@
     const filtered = data.hexagrams.filter(h => !q || String(h.number).includes(q) || h.pinyin.toLocaleLowerCase("id").includes(q) || h.hanzi.includes(q) || h.gloss.toLocaleLowerCase("id").includes(q));
     count.textContent = filtered.length + " dari 64 heksagram";
     hexagramRoot.innerHTML = filtered.map(h =>
-      '<article class="hexagram-card"><div class="hexagram-top"><span class="hexagram-number">' + String(h.number).padStart(2,"0") + '</span><span class="hexagram-unicode">' + h.symbol + '</span></div><h3>' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + '</p><div class="hexagram-lines">' + lineMarkup(h.pattern) + '</div><small>Trigram bawah: ' + trigramNames[h.lower] + '<br>Trigram atas: ' + trigramNames[h.upper] + '</small></article>'
+      '<button type="button" class="hexagram-card hexagram-open" data-number="' + h.number + '"><div class="hexagram-top"><span class="hexagram-number">' + String(h.number).padStart(2,"0") + '</span><span class="hexagram-unicode">' + h.symbol + '</span></div><h3>' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + '</p><div class="hexagram-lines">' + lineMarkup(h.pattern) + '</div><small>Ketuk untuk membuka detail</small></button>'
     ).join("");
+    hexagramRoot.querySelectorAll("[data-number]").forEach(button => button.addEventListener("click", () => showHexagramDetail(Number(button.dataset.number))));
   }
-  search.addEventListener("input", () => renderHexagrams(search.value));
+
+  function showHexagramDetail(number) {
+    const h = data.hexagrams.find(item => item.number === number);
+    if (!h) return;
+    const lower = data.trigrams.find(t => t.id === h.lower);
+    const upper = data.trigrams.find(t => t.id === h.upper);
+    const lines = h.pattern.split("").map((bit,i) => '<div class="detail-line"><span>Garis ' + (i+1) + (i===0 ? ' · terbawah' : i===5 ? ' · teratas' : '') + '</span><strong>' + (bit==="1" ? 'Yang · utuh' : 'Yin · terputus') + '</strong></div>').join("");
+    detail.hidden = false;
+    detail.innerHTML = '<div class="detail-heading"><div><small>HEKSAGRAM ' + String(h.number).padStart(2,"0") + ' · KING WEN</small><h3>' + h.symbol + ' ' + h.pinyin + ' <span>' + h.hanzi + '</span></h3><p>' + h.gloss + ' <em>(padanan ringkas kerja)</em></p></div><button type="button" class="detail-close">Tutup ×</button></div><div class="detail-pair"><div><small>TRIGRAM BAWAH</small><strong>' + lower.symbol + ' ' + lower.pinyin + '</strong><p>' + lower.image + '</p></div><div><small>TRIGRAM ATAS</small><strong>' + upper.symbol + ' ' + upper.pinyin + '</strong><p>' + upper.image + '</p></div></div><h4>Enam garis · dibaca dari bawah ke atas</h4><div class="detail-lines">' + lines + '</div><div class="detail-source"><strong>Status teks klasik</strong><p>Teks Judgment, Image, dan enam pernyataan garis akan dimasukkan setelah pencocokan edisi sumber. Tafsir Viator akan disajikan terpisah.</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Buka teks Zhouyi dan terjemahan James Legge (1882)</a></div>';
+    detail.scrollIntoView({behavior:"smooth",block:"start"});
+    detail.querySelector(".detail-close").addEventListener("click", () => { detail.hidden = true; });
+  }
+
+  search.addEventListener("input", () => { renderHexagrams(search.value); detail.hidden = true; });
   renderHexagrams("");
 
   const options = '<option value="6">6 · Yin berubah</option><option value="7">7 · Yang tetap</option><option value="8">8 · Yin tetap</option><option value="9">9 · Yang berubah</option>';
