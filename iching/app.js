@@ -69,6 +69,13 @@
           "Apa yang dapat dilakukan tanpa memaksakan perubahan yang belum didukung keadaan?",
           "Bukti apa yang perlu diamati sebelum mengambil keputusan?"
         ];
+
+    const lineBreakdown = values.map((v,i) => {
+      const original = (v===7 || v===9) ? "Yang" : "Yin";
+      const after = (v===6 || v===9) ? (original==="Yang" ? "Yin" : "Yang") : original;
+      const status = (v===6 || v===9) ? "Berubah" : "Tetap";
+      return '<div class="line-detail"><span>Garis ' + (i+1) + (i===0 ? ' · bawah' : i===5 ? ' · atas' : '') + '</span><strong>' + original + '</strong><span class="line-arrow">→</span><strong>' + after + '</strong><em>' + status + ' · nilai ' + v + '</em></div>';
+    }).join("");
     const analysis = $("viator-analysis");
     analysis.innerHTML =
       '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>' +
@@ -76,7 +83,8 @@
       '<div class="analysis-block"><strong>1 · KEADAAN AWAL</strong><p>Trigram bawah: ' + lowerName + '. Trigram atas: ' + upperName + '.</p><p>Perhatikan hubungan antara dasar keadaan dan lingkungan atau kondisi yang menaunginya. Ini adalah titik awal pemeriksaan, bukan kesimpulan tentang situasimu.</p></div>' +
       '<div class="analysis-block"><strong>2 · TITIK PERUBAHAN</strong><p>' + movementText + '</p><p>' + (moving.length ? "Posisi garis menunjukkan bagian struktur yang berubah dalam hasil ini. Maknanya perlu diuji terhadap konteks nyata yang kamu tuliskan." : "Karena tidak ada garis berubah, instrumen tidak menunjukkan pergeseran struktur melalui lemparan ini.") + '</p></div>' +
       '<div class="analysis-block"><strong>3 · POLA BERIKUTNYA</strong><p>Trigram bawah: ' + nextLower + '. Trigram atas: ' + nextUpper + '.</p><p>Bandingkan dengan keadaan awal. Apa yang bergeser pada dasar keadaan, lingkungan, atau hubungan keduanya?</p></div>' +
-      '<div class="analysis-block"><strong>4 · PERTANYAAN UNTUK DIPERIKSA</strong><ol>' + prompts.map(q => '<li>' + q + '</li>').join("") + '</ol></div>' +
+      '<div class="analysis-block"><strong>4 · RINCIAN ENAM GARIS</strong><div class="line-breakdown">' + lineBreakdown + '</div></div>' +
+      '<div class="analysis-block"><strong>5 · PERTANYAAN UNTUK DIPERIKSA</strong><ol>' + prompts.map(q => '<li>' + q + '</li>').join("") + '</ol></div>' +
       '<div class="analysis-block"><strong>CATATAN KONTEKS</strong><p id="context-echo"></p></div>' +
       '<p class="analysis-note">Jangan perlakukan hasil sebagai bukti atau instruksi. Cocokkan setiap dugaan dengan fakta, batas, pilihan, dan konsekuensi di dunia nyata.</p>';
     $("context-echo").textContent = context || "Belum ada konteks yang dituliskan. Hasil hanya dapat dibaca sebagai struktur garis.";
