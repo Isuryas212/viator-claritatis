@@ -93,3 +93,10 @@
 .moving-line-note strong { display:block; margin-bottom:6px; color:var(--gold); }
 .moving-line-note p { margin:5px 0; }
 .moving-line-note .classical-original { color:var(--text); font-size:14px; }
+
+.viator-card { margin:12px 0 18px; padding:15px; border:1px solid var(--gold-border); border-radius:10px; background:rgba(190,150,70,.045); }
+.viator-card .viator-kicker { color:var(--gold); font-size:10px; letter-spacing:1px; margin:0 0 8px; }
+.viator-card h4 { margin:5px 0 10px; color:var(--text); font-size:16px; }
+.viator-card p,.viator-card li { color:var(--muted); font-size:13px; line-height:1.75; }
+.viator-card strong { color:var(--gold); }
+.viator-card ol { padding-left:20px; margin-bottom:0; }
