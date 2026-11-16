@@ -75,45 +75,51 @@
     $("changed-result").innerHTML = '<div class="result-symbol">' + changed.symbol + '</div><div><small>HEKSAGRAM PERUBAHAN · ' + changed.number + '</small><h3>' + changed.pinyin + ' ' + changed.hanzi + '</h3><p>' + changed.gloss + '</p></div><div class="result-lines">' + lineMarkup(changed.pattern) + '</div>';
 
     const context = $("question-context").value.trim();
-    const lowerName = trigramNames[primary.lower];
-    const upperName = trigramNames[primary.upper];
-    const nextLower = trigramNames[changed.lower];
-    const nextUpper = trigramNames[changed.upper];
-    const movementText = moving.length
-      ? "Ada " + moving.length + " garis berubah pada posisi " + moving.join(", ") + " (dihitung dari bawah)."
-      : "Tidak ada garis berubah; pola awal dan pola hasil tetap sama.";
-    const prompts = moving.length
-      ? [
-          "Apa yang sedang berlangsung pada bagian keadaan yang kamu hubungkan dengan garis " + moving.join(", ") + "?",
-          "Faktor apa yang berubah, dan faktor apa yang tetap bertahan?",
-          "Perubahan apa yang benar-benar didukung oleh fakta, bukan sekadar dugaan?",
-          "Apa konsekuensi yang mungkin muncul jika keadaan bergerak ke pola berikutnya?"
-        ]
-      : [
-          "Apa yang membuat keadaan saat ini bertahan?",
-          "Faktor apa yang menjaga keseimbangan atau kebuntuan?",
-          "Apa yang dapat dilakukan tanpa memaksakan perubahan yang belum didukung keadaan?",
-          "Bukti apa yang perlu diamati sebelum mengambil keputusan?"
-        ];
-
-    const lineBreakdown = values.map((v,i) => {
-      const original = (v===7 || v===9) ? "Yang" : "Yin";
-      const after = (v===6 || v===9) ? (original==="Yang" ? "Yin" : "Yang") : original;
-      const status = (v===6 || v===9) ? "Berubah" : "Tetap";
-      return '<div class="line-detail"><span>Garis ' + (i+1) + (i===0 ? ' · bawah' : i===5 ? ' · atas' : '') + '</span><strong>' + original + '</strong><span class="line-arrow">→</span><strong>' + after + '</strong><em>' + status + ' · nilai ' + v + '</em></div>';
+    const lowerName = trigramNames[primary.lower], upperName = trigramNames[primary.upper];
+    const nextLower = trigramNames[changed.lower], nextUpper = trigramNames[changed.upper];
+    const lenses = {
+      qian:["arah, kapasitas, dan penggunaan daya","Apakah arah dan kapasitas yang tersedia benar-benar sejalan?"],
+      dui:["pertukaran, keterbukaan, dan batas kesepakatan","Apakah pertukaran berlangsung seimbang dan dipahami semua pihak?"],
+      li:["kejelasan, informasi, dan hal yang terlihat","Informasi apa yang sudah terang, dan apa yang masih tersembunyi?"],
+      zhen:["pemicu, respons, dan tindakan awal","Peristiwa apa yang memicu keadaan, dan bagaimana respons pertama terbentuk?"],
+      xun:["pengaruh bertahap, kebiasaan, dan penyebaran","Pengaruh kecil atau kebiasaan apa yang perlahan membentuk keadaan?"],
+      kan:["risiko, kedalaman masalah, dan jalur yang aman","Risiko apa yang nyata, dan jalur mana yang masih dapat ditempuh dengan aman?"],
+      gen:["batas, jeda, dan hal yang perlu dihentikan","Batas apa yang perlu dihormati, atau tindakan apa yang sebaiknya ditunda?"],
+      kun:["dukungan, penerimaan, dan daya tampung","Sumber daya, dukungan, atau kapasitas apa yang menopang keadaan ini?"]
+    };
+    const lowerLens=lenses[primary.lower], upperLens=lenses[primary.upper], nextLowerLens=lenses[changed.lower], nextUpperLens=lenses[changed.upper];
+    const movementText=moving.length ? "Ada "+moving.length+" garis berubah pada posisi "+moving.join(", ")+" (dihitung dari bawah)." : "Tidak ada garis berubah; pola awal dan pola hasil tetap sama.";
+    const classical=data.classical||{}, primaryText=classical[primary.number];
+    const movingNotes=moving.map(pos=>{
+      const line=primaryText&&primaryText.lines&&primaryText.lines[pos-1];
+      return '<article class="moving-line-note"><strong>Garis '+pos+(pos===1?' · terbawah':pos===6?' · teratas':'')+'</strong>'+
+        (line?'<p class="classical-original">'+line[0]+'</p><p>'+line[1]+'</p>':'<p>Teks garis belum tersedia untuk posisi ini.</p>')+
+        '<p class="analysis-note">Gunakan teks ini sebagai bahan pemeriksaan konteks, bukan instruksi otomatis.</p></article>';
     }).join("");
-    const analysis = $("viator-analysis");
-    analysis.innerHTML =
-      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>' +
-      '<p class="analysis-note">Bagian ini membaca hubungan pola, bukan meramalkan kejadian. Nama dan citra trigram berasal dari referensi klasik; pertanyaan telaah adalah kerangka refleksi Viator.</p>' +
-      '<div class="analysis-block"><strong>1 · KEADAAN AWAL</strong><p>Trigram bawah: ' + lowerName + '. Trigram atas: ' + upperName + '.</p><p>Perhatikan hubungan antara dasar keadaan dan lingkungan atau kondisi yang menaunginya. Ini adalah titik awal pemeriksaan, bukan kesimpulan tentang situasimu.</p></div>' +
-      '<div class="analysis-block"><strong>2 · TITIK PERUBAHAN</strong><p>' + movementText + '</p><p>' + (moving.length ? "Posisi garis menunjukkan bagian struktur yang berubah dalam hasil ini. Maknanya perlu diuji terhadap konteks nyata yang kamu tuliskan." : "Karena tidak ada garis berubah, instrumen tidak menunjukkan pergeseran struktur melalui lemparan ini.") + '</p></div>' +
-      '<div class="analysis-block"><strong>3 · POLA BERIKUTNYA</strong><p>Trigram bawah: ' + nextLower + '. Trigram atas: ' + nextUpper + '.</p><p>Bandingkan dengan keadaan awal. Apa yang bergeser pada dasar keadaan, lingkungan, atau hubungan keduanya?</p></div>' +
-      '<div class="analysis-block"><strong>4 · RINCIAN ENAM GARIS</strong><div class="line-breakdown">' + lineBreakdown + '</div></div>' +
-      '<div class="analysis-block"><strong>5 · PERTANYAAN UNTUK DIPERIKSA</strong><ol>' + prompts.map(q => '<li>' + q + '</li>').join("") + '</ol></div>' +
-      '<div class="analysis-block"><strong>CATATAN KONTEKS</strong><p id="context-echo"></p></div>' +
-      '<p class="analysis-note">Jangan perlakukan hasil sebagai bukti atau instruksi. Cocokkan setiap dugaan dengan fakta, batas, pilihan, dan konsekuensi di dunia nyata.</p>';
-    $("context-echo").textContent = context || "Belum ada konteks yang dituliskan. Hasil hanya dapat dibaca sebagai struktur garis.";
+    const prompts=[
+      "Fakta apa yang paling kuat menggambarkan keadaan yang sedang dihadapi?",
+      lowerLens[1],upperLens[1],
+      moving.length?"Apa yang sedang berubah pada bagian yang ditandai garis "+moving.join(", ")+", dan bukti apa yang mendukung pembacaan itu?":"Apa yang membuat pola sekarang bertahan, dan bukti apa yang menunjukkan hal tersebut?",
+      "Jika pola hasil mulai terbentuk, konsekuensi konkret apa yang mungkin muncul bagi pihak-pihak terkait?",
+      "Pilihan apa yang masih berada dalam kendali, dan batas apa yang tidak boleh diabaikan?"
+    ];
+    const lineBreakdown=values.map((v,i)=>{
+      const original=(v===7||v===9)?"Yang":"Yin", after=(v===6||v===9)?(original==="Yang"?"Yin":"Yang"):original, status=(v===6||v===9)?"Berubah":"Tetap";
+      return '<div class="line-detail"><span>Garis '+(i+1)+(i===0?' · bawah':i===5?' · atas':'')+'</span><strong>'+original+'</strong><span class="line-arrow">→</span><strong>'+after+'</strong><em>'+status+' · nilai '+v+'</em></div>';
+    }).join("");
+    const analysis=$("viator-analysis");
+    analysis.innerHTML=
+      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+
+      '<p class="analysis-note">Kerangka ini adalah lensa pengamatan Viator yang disusun dari citra trigram. Ia bukan terjemahan makna klasik, diagnosis keadaan, atau ramalan masa depan.</p>'+
+      '<div class="analysis-block"><strong>1 · DASAR KEADAAN</strong><p>Trigram bawah: '+lowerName+'.</p><p>Lensa pengamatan: '+lowerLens[0]+'.</p><p>'+lowerLens[1]+'</p></div>'+
+      '<div class="analysis-block"><strong>2 · KONDISI YANG MENAUNGI</strong><p>Trigram atas: '+upperName+'.</p><p>Lensa pengamatan: '+upperLens[0]+'.</p><p>'+upperLens[1]+'</p></div>'+
+      '<div class="analysis-block"><strong>3 · TITIK PERUBAHAN</strong><p>'+movementText+'</p>'+(movingNotes||'<p>Tidak ada teks garis berubah. Periksa faktor yang mempertahankan keadaan, bukan memaksakan adanya perubahan.</p>')+'</div>'+
+      '<div class="analysis-block"><strong>4 · POLA HASIL</strong><p>Trigram bawah: '+nextLower+' — lensa: '+nextLowerLens[0]+'.</p><p>Trigram atas: '+nextUpper+' — lensa: '+nextUpperLens[0]+'.</p><p>Bandingkan lensa awal dan hasil. Perubahan pola adalah kemungkinan struktural dari susunan garis, bukan kepastian bahwa peristiwa tersebut akan terjadi.</p></div>'+
+      '<div class="analysis-block"><strong>5 · RINCIAN ENAM GARIS</strong><div class="line-breakdown">'+lineBreakdown+'</div></div>'+
+      '<div class="analysis-block"><strong>6 · PERTANYAAN UNTUK DIPERIKSA</strong><ol>'+prompts.map(q=>'<li>'+q+'</li>').join("")+'</ol></div>'+
+      '<div class="analysis-block"><strong>CATATAN KONTEKS</strong><p id="context-echo"></p></div>'+
+      '<p class="analysis-note">Pisahkan fakta, tafsir, dan dugaan. Jangan mengambil keputusan besar hanya berdasarkan hasil instrumen. Pertimbangkan konsekuensi nyata dan, bila perlu, mintalah pandangan pihak yang kompeten.</p>';
+    $("context-echo").textContent=context||"Belum ada konteks yang dituliskan. Pembacaan ini hanya menunjukkan struktur garis dan lensa pengamatan umum.";
     resultPanel.scrollIntoView({behavior:"smooth",block:"start"});
   }
   castButton.addEventListener("click", () => {
