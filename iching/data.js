@@ -1001,6 +1001,305 @@
   }
 });
 
+  Object.assign(classical, {
+  "25": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "无妄：元亨利貞。其匪正有眚。不利有攸往。",
+      "Ketulusan tanpa kepura-puraan membawa kelancaran dan keteguhan. Bila tindakan menyimpang dari kebenaran, bencana muncul; tidak menguntungkan untuk memaksakan langkah."
+    ],
+    "image": [
+      "天下雷行，物與无妄；先王以茂對時育萬物。",
+      "Guntur bergerak di bawah langit dan segala sesuatu tumbuh tanpa dibuat-buat. Para penguasa terdahulu menyelaraskan tindakan dengan musim dan memelihara kehidupan."
+    ],
+    "lines": [
+      [
+        "初九：无妄，往吉。",
+        "Tanpa kepura-puraan; melangkah membawa keberuntungan."
+      ],
+      [
+        "六二：不耕穫，不菑畬，則利有攸往。",
+        "Tidak mengejar hasil sebelum mengolah tanah, tidak mengharapkan panen tanpa persiapan. Menguntungkan untuk bergerak tanpa memaksakan hasil."
+      ],
+      [
+        "六三：无妄之災，或繫之牛，行人之得，邑人之災。",
+        "Bencana datang tanpa diduga: sapi yang diikat dapat diambil orang lewat, sementara penduduk setempat menanggung akibatnya. Tidak semua kejadian buruk berasal dari kesalahan sendiri."
+      ],
+      [
+        "九四：可貞，无咎。",
+        "Keteguhan dapat dijaga; tidak ada cela."
+      ],
+      [
+        "九五：无妄之疾，勿藥有喜。",
+        "Penyakit datang tanpa sebab yang jelas. Tidak perlu tergesa menggunakan tindakan yang tidak diperlukan; keadaan dapat membaik."
+      ],
+      [
+        "上九：无妄，行有眚，无攸利。",
+        "Bertindak tanpa membaca keadaan dapat mendatangkan bencana; tidak ada manfaat dalam memaksakan langkah."
+      ]
+    ]
+  },
+  "26": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "大畜：利貞。不家食吉。利涉大川。",
+      "Pengumpulan daya besar menguntungkan bila dijalankan dengan benar. Tidak hanya menikmati hasil sendiri; mengambil tanggung jawab di ruang publik membawa keberuntungan. Baik untuk menyeberangi kesulitan besar."
+    ],
+    "image": [
+      "天在山中，大畜；君子以多識前言往行，以畜其德。",
+      "Langit tersimpan di dalam gunung. Manusia berbudi mempelajari perkataan dan tindakan masa lalu untuk memperkaya wataknya."
+    ],
+    "lines": [
+      [
+        "初九：有厲利已。",
+        "Ada bahaya; lebih baik menghentikan langkah untuk sementara."
+      ],
+      [
+        "九二：輿說輹。",
+        "Kereta kehilangan pengikat porosnya. Gerak tertahan; jangan memaksa perjalanan."
+      ],
+      [
+        "九三：良馬逐，利艱貞。曰閑輿衛，利有攸往。",
+        "Kuda baik berlari. Keteguhan dalam kesulitan menguntungkan; latih kendaraan dan perlindungan sebelum melanjutkan."
+      ],
+      [
+        "六四：童牛之牿，元吉。",
+        "Anak sapi diberi pelindung tanduk sejak awal. Pencegahan dini membawa keberuntungan besar."
+      ],
+      [
+        "六五：豶豕之牙，吉。",
+        "Taring babi jantan yang dikebiri tidak lagi berbahaya. Mengendalikan sumber kekuatan sebelum meledak membawa keberuntungan."
+      ],
+      [
+        "上九：何天之衢，亨。",
+        "Jalan terbuka luas di bawah langit. Kelancaran datang ketika daya yang terkumpul digunakan pada waktunya."
+      ]
+    ]
+  },
+  "27": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "頤：貞吉。觀頤，自求口實。",
+      "Pemeliharaan membawa keberuntungan bila benar. Amati apa yang memberi makan dan menopang kehidupan; periksa bagaimana seseorang memenuhi kebutuhannya sendiri."
+    ],
+    "image": [
+      "山下有雷，頤；君子以慎言語，節飲食。",
+      "Guntur berada di kaki gunung. Manusia berbudi berhati-hati dalam berbicara dan membatasi makan-minum."
+    ],
+    "lines": [
+      [
+        "初九：舍爾靈龜，觀我朵頤，凶。",
+        "Meninggalkan kebijaksanaan diri lalu hanya memandang makanan orang lain. Ketergantungan dan iri membawa bahaya."
+      ],
+      [
+        "六二：顛頤，拂經于丘頤，征凶。",
+        "Mencari pemeliharaan dengan cara terbalik dan menyimpang dari jalan yang semestinya. Memaksakan langkah membawa bahaya."
+      ],
+      [
+        "六三：拂頤，貞凶。十年勿用，无攸利。",
+        "Cara memenuhi kebutuhan menyimpang dari prinsip. Bertahan pada jalan itu membawa bahaya; untuk waktu lama tidak ada manfaat."
+      ],
+      [
+        "六四：顛頤，吉。虎視眈眈，其欲逐逐，无咎。",
+        "Menerima dukungan dari arah yang tidak biasa dapat membawa keberuntungan. Waspada dan mengenali kebutuhan dengan jelas; tidak ada cela."
+      ],
+      [
+        "六五：拂經，居貞吉。不可涉大川。",
+        "Jalan biasa tidak dapat diikuti. Menetap dan menjaga keteguhan membawa keberuntungan; jangan mengambil risiko besar."
+      ],
+      [
+        "上九：由頤，厲吉。利涉大川。",
+        "Menjadi sumber pemeliharaan bagi orang lain. Keadaan mengandung tanggung jawab besar, tetapi dapat membawa keberuntungan; baik untuk menghadapi kesulitan besar."
+      ]
+    ]
+  },
+  "28": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "大過：棟橈。利有攸往，亨。",
+      "Beban terlalu besar hingga balok utama melengkung. Meski keadaan tidak biasa dan berat, tindakan yang tepat masih dapat membuka jalan menuju kelancaran."
+    ],
+    "image": [
+      "澤滅木，大過；君子以獨立不懼，遯世无悶。",
+      "Danau menenggelamkan pepohonan. Manusia berbudi mampu berdiri sendiri tanpa takut dan tidak larut dalam kegelisahan ketika menjauh dari keramaian."
+    ],
+    "lines": [
+      [
+        "初六：藉用白茅，无咎。",
+        "Meletakkan alas dari rumput putih sebelum menaruh sesuatu. Kehati-hatian ekstra membuat tindakan tidak tercela."
+      ],
+      [
+        "九二：枯楊生稊，老夫得其女妻，无不利。",
+        "Pohon willow tua menumbuhkan tunas; lelaki tua memperoleh istri muda. Pembaruan dapat muncul dari keadaan yang tampak telah usang."
+      ],
+      [
+        "九三：棟橈，凶。",
+        "Balok utama melengkung karena beban. Bahaya muncul ketika penyangga tidak lagi mampu menanggung tekanan."
+      ],
+      [
+        "九四：棟隆，吉。有它吝。",
+        "Balok utama kembali kokoh; keberuntungan. Namun, bila muncul maksud lain yang mengganggu, kesulitan datang."
+      ],
+      [
+        "九五：枯楊生華，老婦得其士夫，无咎无譽。",
+        "Pohon willow tua berbunga; perempuan tua memperoleh suami muda. Ada tanda kehidupan, tetapi hasilnya tidak mendatangkan cela maupun pujian."
+      ],
+      [
+        "上六：過涉滅頂，凶，无咎。",
+        "Menyeberang terlalu jauh hingga air menenggelamkan kepala. Hasilnya buruk, meski tindakan itu bukan karena niat yang tercela."
+      ]
+    ]
+  },
+  "29": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "習坎：有孚，維心亨，行有尚。",
+      "Bahaya datang berulang. Ketulusan dan kejernihan hati membuka jalan; tindakan yang dijalankan dengan teguh patut dihargai."
+    ],
+    "image": [
+      "水洊至，習坎；君子以常德行，習教事。",
+      "Air datang berturut-turut dan membentuk jurang. Manusia berbudi menjaga kebajikan secara konsisten dan mengulang pelajaran hingga menjadi kecakapan."
+    ],
+    "lines": [
+      [
+        "初六：習坎，入于坎窞，凶。",
+        "Terperosok ke lubang terdalam dalam rangkaian bahaya. Keadaan buruk; jangan melangkah tanpa pijakan."
+      ],
+      [
+        "九二：坎有險，求小得。",
+        "Di dalam jurang masih ada bahaya. Hanya hasil kecil yang dapat diperoleh untuk sementara."
+      ],
+      [
+        "六三：來之坎坎，險且枕，入于坎窞，勿用。",
+        "Bahaya datang dari segala arah; keadaan semakin sulit dan mengarah ke jurang. Jangan bertindak gegabah."
+      ],
+      [
+        "六四：樽酒簋貳，用缶，納約自牖，終无咎。",
+        "Persembahan sederhana dibawa melalui jendela. Ketulusan yang sederhana dan langsung dapat menghindarkan cela."
+      ],
+      [
+        "九五：坎不盈，祗既平，无咎。",
+        "Jurang belum penuh; air baru mencapai permukaan yang rata. Tidak ada cela bila keadaan ditangani tanpa berlebihan."
+      ],
+      [
+        "上六：係用徽纆，寘于叢棘，三歲不得，凶。",
+        "Terikat dan ditempatkan di antara duri selama tiga tahun tanpa jalan keluar. Bahaya besar akibat terperangkap dalam keadaan yang tidak diselesaikan."
+      ]
+    ]
+  },
+  "30": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "離：利貞，亨。畜牝牛，吉。",
+      "Keterikatan dan kejernihan menguntungkan bila dijalankan dengan keteguhan. Memelihara sifat lembut, tekun, dan dapat diarahkan membawa keberuntungan."
+    ],
+    "image": [
+      "明兩作，離；大人以繼明照于四方。",
+      "Dua cahaya saling menerangi. Pribadi besar meneruskan kejernihan agar menerangi segala penjuru."
+    ],
+    "lines": [
+      [
+        "初九：履錯然，敬之，无咎。",
+        "Langkah tampak kacau dan bersilang. Sikap hormat serta kewaspadaan mencegah cela."
+      ],
+      [
+        "六二：黃離，元吉。",
+        "Cahaya kuning yang seimbang. Keberuntungan besar."
+      ],
+      [
+        "九三：日昃之離，不鼓缶而歌，則大耋之嗟，凶。",
+        "Matahari condong ke barat. Bila tidak mampu menerima perubahan waktu dengan wajar, yang tersisa hanya ratapan usia tua; keadaan buruk."
+      ],
+      [
+        "九四：突如其來如，焚如，死如，棄如。",
+        "Sesuatu datang tiba-tiba seperti api yang membakar, mematikan, lalu ditinggalkan. Perubahan yang meledak tanpa kendali membawa kehancuran."
+      ],
+      [
+        "六五：出涕沱若，戚嗟若，吉。",
+        "Air mata mengalir dan kesedihan terasa dalam. Mengakui keadaan dengan jujur dapat membuka jalan menuju kebaikan."
+      ],
+      [
+        "上九：王用出征，有嘉折首，獲匪其醜，无咎。",
+        "Penguasa mengirim pasukan; pemimpin gangguan ditangani, tetapi mereka yang tidak terlibat tidak dihukum. Ketegasan yang terarah tidak tercela."
+      ]
+    ]
+  },
+  "31": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "咸：亨，利貞。取女吉。",
+      "Saling memengaruhi membawa kelancaran. Keteguhan yang tepat menguntungkan; membangun ikatan yang selaras membawa keberuntungan."
+    ],
+    "image": [
+      "山上有澤，咸；君子以虛受人。",
+      "Danau berada di atas gunung. Manusia berbudi mengosongkan diri agar mampu menerima orang lain."
+    ],
+    "lines": [
+      [
+        "初六：咸其拇。",
+        "Pengaruh baru terasa pada ibu jari kaki; gerak masih sangat awal."
+      ],
+      [
+        "六二：咸其腓，凶，居吉。",
+        "Pengaruh terasa pada betis dan mendorong gerak tergesa; itu berbahaya. Tetap tenang membawa keberuntungan."
+      ],
+      [
+        "九三：咸其股，執其隨，往吝。",
+        "Pengaruh mencapai paha dan seseorang mengikuti dorongan tanpa kendali. Memaksakan langkah membawa kesulitan."
+      ],
+      [
+        "九四：貞吉悔亡。憧憧往來，朋從爾思。",
+        "Keteguhan membawa keberuntungan dan menghapus penyesalan. Bila pikiran terus gelisah, hanya orang-orang yang sepemikiran yang akan mengikuti."
+      ],
+      [
+        "九五：咸其脢，无悔。",
+        "Pengaruh terasa pada punggung bagian atas. Tidak ada penyesalan bila respons tidak berlebihan."
+      ],
+      [
+        "上六：咸其輔頰舌。",
+        "Pengaruh hanya tampak pada pipi, rahang, dan lidah: banyak kata, tetapi belum tentu menyentuh tindakan."
+      ]
+    ]
+  },
+  "32": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia adalah terjemahan kerja ringkas.",
+    "judgment": [
+      "恆：亨，无咎，利貞。利有攸往。",
+      "Keberlangsungan membawa kelancaran dan tidak tercela bila dijaga dengan keteguhan. Menguntungkan untuk melanjutkan perjalanan atau pekerjaan."
+    ],
+    "image": [
+      "雷風，恆；君子以立不易方。",
+      "Guntur dan angin hadir bersama. Manusia berbudi berdiri teguh tanpa mudah mengubah prinsip dan arah yang benar."
+    ],
+    "lines": [
+      [
+        "初六：浚恆，貞凶，无攸利。",
+        "Memaksakan keberlangsungan terlalu dalam sejak awal. Keteguhan yang tidak membaca keadaan membawa bahaya."
+      ],
+      [
+        "九二：悔亡。",
+        "Penyesalan menghilang."
+      ],
+      [
+        "九三：不恆其德，或承之羞，貞吝。",
+        "Tidak konsisten dalam kebajikan dapat mendatangkan rasa malu. Mempertahankan ketidakkonsistenan membawa kesulitan."
+      ],
+      [
+        "九四：田无禽。",
+        "Berburu di ladang tanpa memperoleh buruan. Usaha tidak menghasilkan karena arah atau waktunya tidak tepat."
+      ],
+      [
+        "六五：恆其德，貞，婦人吉，夫子凶。",
+        "Mempertahankan kebajikan dan keteguhan. Teks membedakan peran tradisional perempuan dan laki-laki; padanan ini mempertahankan isi historisnya, bukan menetapkannya sebagai norma masa kini."
+      ],
+      [
+        "上六：振恆，凶。",
+        "Mengguncang dan mengubah-ubah keberlangsungan secara terus-menerus membawa bahaya."
+      ]
+    ]
+  }
+});
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
