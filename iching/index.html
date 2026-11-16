@@ -5,7 +5,7 @@
 <title>VIATOR I-CHING | The Art of Reading Change</title>
 <meta name="description" content="Instrumen Viator Claritatis untuk membaca perubahan dan memahami keadaan.">
 <meta name="theme-color" content="#080706">
-<link rel="stylesheet" href="../style.css?v=2"><link rel="stylesheet" href="iching.css?v=3">
+<link rel="stylesheet" href="../style.css?v=2"><link rel="stylesheet" href="iching.css?v=4">
 </head>
 <body class="home-page">
 <main class="home-shell iching-shell">
@@ -19,14 +19,14 @@
 <section class="iching-section" id="casting">
 <h2 class="section-label">BENTUK HEKSAGRAM</h2>
 <p class="cast-intro">Bentuk enam garis melalui simulasi tiga koin atau masukkan nilai garis secara manual. Urutan dimulai dari garis terbawah.</p>
-<div class="cast-actions"><button id="cast-coins" class="cast-button" type="button">Lempar tiga koin</button><button id="show-manual" class="cast-button secondary" type="button">Input manual</button></div>
+<label class="context-label" for="question-context">KONTEKS YANG INGIN DITELAAH</label><textarea id="question-context" class="question-context" rows="3" placeholder="Tuliskan keadaan atau persoalan yang sedang dihadapi. Hindari hanya menulis pertanyaan ya/tidak."></textarea>\n<div class="cast-actions"><button id="cast-coins" class="cast-button" type="button">Lempar tiga koin</button><button id="show-manual" class="cast-button secondary" type="button">Input manual</button></div>
 <div id="manual-panel" class="manual-panel" hidden><p class="cast-intro">Pilih nilai untuk setiap garis. Nilai 6 dan 9 menandai garis yang berubah.</p><div id="manual-lines" class="manual-lines"></div><button id="manual-submit" class="cast-button manual-submit" type="button">Bentuk heksagram</button></div>
 <div id="reading-result" class="reading-result" hidden aria-live="polite">
 <p id="result-origin" class="cast-intro"></p>
 <div id="primary-result" class="result-entry"></div>
 <p id="changing-result" class="changing-result"></p>
 <div id="changed-result" class="result-entry"></div>
-<p class="cast-intro">Hasil ini menunjukkan struktur heksagram. Penafsiran konteks dan konsekuensi akan menjadi tahap berikutnya; hasil bukan kepastian nasib.</p>
+<section id="viator-analysis" class="viator-analysis"></section>
 </div>
 </section>
 <section class="iching-section"><h2 class="section-label">DELAPAN TRIGRAM · BA GUA</h2><p class="section-intro">Delapan pola dasar yang membentuk struktur heksagram. Susunan garis ditampilkan dari bawah ke atas.</p><div id="trigram-list" class="trigram-grid"></div></section>
@@ -34,5 +34,5 @@
 <div class="iching-notice"><strong>CATATAN</strong><p>Simulasi menggunakan angka acak pada perangkat, bukan lemparan koin fisik. Sistem tidak mengubah hasil berdasarkan pertanyaan. Pembacaan tidak menggantikan penilaian dan keputusan manusia.</p></div>
 <a class="iching-back" href="../">← Kembali ke Ruang Gagasan</a>
 </main>
-<script src="data.js?v=3"></script><script src="app.js?v=3"></script>
+<script src="data.js?v=4"></script><script src="app.js?v=4"></script>
 </body></html>
