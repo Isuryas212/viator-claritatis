@@ -103,7 +103,7 @@
       '<div class="analysis-block"><strong>CATATAN KONTEKS</strong><p id="context-echo"></p></div>' +
       '<p class="analysis-note">Jangan perlakukan hasil sebagai bukti atau instruksi. Cocokkan setiap dugaan dengan fakta, batas, pilihan, dan konsekuensi di dunia nyata.</p>';
     $("context-echo").textContent = context || "Belum ada konteks yang dituliskan. Hasil hanya dapat dibaca sebagai struktur garis.";
-\n    resultPanel.scrollIntoView({behavior:"smooth",block:"start"});
+    resultPanel.scrollIntoView({behavior:"smooth",block:"start"});
   }
   castButton.addEventListener("click", () => {
     const values = Array.from({length:6}, () => {
