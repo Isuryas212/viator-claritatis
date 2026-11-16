@@ -41,6 +41,15 @@
     return '<h4>JUDGMENT · KEPUTUSAN</h4><p class="classical-original">'+judgment.zh+'</p><p>'+judgment.id+'</p><h4>IMAGE · GAMBARAN</h4><p class="classical-original">'+image.zh+'</p><p>'+image.id+'</p><h4>ENAM PERNYATAAN GARIS</h4>'+lines+changing+'<p class="analysis-note">'+c.source+'</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Periksa teks Zhouyi dan James Legge (1882)</a>';
   }
 
+  function renderViator(h) {
+    const v=data.viatorInterpretations && data.viatorInterpretations[h.number];
+    if(!v) return '<p class="analysis-note">Interpretasi Viator khusus untuk heksagram ini sedang disusun. Untuk sementara, gunakan pembacaan trigram dan teks klasik secara terpisah.</p>';
+    return '<div class="viator-card"><p class="viator-kicker">LAPISAN INTERPRETASI VIATOR · BUKAN TEKS KLASIK</p><h4>'+v.title+'</h4>'+
+      '<p><strong>Fokus pemeriksaan:</strong> '+v.focus+'.</p><p>'+v.reading+'</p>'+
+      '<p><strong>Risiko yang perlu diawasi:</strong> '+v.risk+'</p><p><strong>Langkah telaah:</strong> '+v.practice+'</p>'+
+      '<strong>Pertanyaan reflektif</strong><ol>'+v.questions.map(q=>'<li>'+q+'</li>').join('')+'</ol></div>';
+  }
+
   function showHexagramDetail(number) {
     const h = data.hexagrams.find(item => item.number === number);
     if (!h) return;
@@ -109,7 +118,7 @@
     }).join("");
     const analysis=$("viator-analysis");
     analysis.innerHTML=
-      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+
+      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+renderViator(primary)+'+'
       '<p class="analysis-note">Kerangka ini adalah lensa pengamatan Viator yang disusun dari citra trigram. Ia bukan terjemahan makna klasik, diagnosis keadaan, atau ramalan masa depan.</p>'+
       '<div class="analysis-block"><strong>1 · DASAR KEADAAN</strong><p>Trigram bawah: '+lowerName+'.</p><p>Lensa pengamatan: '+lowerLens[0]+'.</p><p>'+lowerLens[1]+'</p></div>'+
       '<div class="analysis-block"><strong>2 · KONDISI YANG MENAUNGI</strong><p>Trigram atas: '+upperName+'.</p><p>Lensa pengamatan: '+upperLens[0]+'.</p><p>'+upperLens[1]+'</p></div>'+
