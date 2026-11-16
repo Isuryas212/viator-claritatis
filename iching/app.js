@@ -47,7 +47,40 @@
     $("primary-result").innerHTML = '<div class="result-symbol">' + primary.symbol + '</div><div><small>HEKSAGRAM AWAL · ' + primary.number + '</small><h3>' + primary.pinyin + ' ' + primary.hanzi + '</h3><p>' + primary.gloss + '</p></div><div class="result-lines">' + lineMarkup(primary.pattern) + '</div>';
     $("changing-result").textContent = moving.length ? "Garis berubah: " + moving.join(", ") : "Tidak ada garis berubah.";
     $("changed-result").innerHTML = '<div class="result-symbol">' + changed.symbol + '</div><div><small>HEKSAGRAM PERUBAHAN · ' + changed.number + '</small><h3>' + changed.pinyin + ' ' + changed.hanzi + '</h3><p>' + changed.gloss + '</p></div><div class="result-lines">' + lineMarkup(changed.pattern) + '</div>';
-    resultPanel.scrollIntoView({behavior:"smooth",block:"start"});
+
+    const context = $("question-context").value.trim();
+    const lowerName = trigramNames[primary.lower];
+    const upperName = trigramNames[primary.upper];
+    const nextLower = trigramNames[changed.lower];
+    const nextUpper = trigramNames[changed.upper];
+    const movementText = moving.length
+      ? "Ada " + moving.length + " garis berubah pada posisi " + moving.join(", ") + " (dihitung dari bawah)."
+      : "Tidak ada garis berubah; pola awal dan pola hasil tetap sama.";
+    const prompts = moving.length
+      ? [
+          "Apa yang sedang berlangsung pada bagian keadaan yang kamu hubungkan dengan garis " + moving.join(", ") + "?",
+          "Faktor apa yang berubah, dan faktor apa yang tetap bertahan?",
+          "Perubahan apa yang benar-benar didukung oleh fakta, bukan sekadar dugaan?",
+          "Apa konsekuensi yang mungkin muncul jika keadaan bergerak ke pola berikutnya?"
+        ]
+      : [
+          "Apa yang membuat keadaan saat ini bertahan?",
+          "Faktor apa yang menjaga keseimbangan atau kebuntuan?",
+          "Apa yang dapat dilakukan tanpa memaksakan perubahan yang belum didukung keadaan?",
+          "Bukti apa yang perlu diamati sebelum mengambil keputusan?"
+        ];
+    const analysis = $("viator-analysis");
+    analysis.innerHTML =
+      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>' +
+      '<p class="analysis-note">Bagian ini membaca hubungan pola, bukan meramalkan kejadian. Nama dan citra trigram berasal dari referensi klasik; pertanyaan telaah adalah kerangka refleksi Viator.</p>' +
+      '<div class="analysis-block"><strong>1 · KEADAAN AWAL</strong><p>Trigram bawah: ' + lowerName + '. Trigram atas: ' + upperName + '.</p><p>Perhatikan hubungan antara dasar keadaan dan lingkungan atau kondisi yang menaunginya. Ini adalah titik awal pemeriksaan, bukan kesimpulan tentang situasimu.</p></div>' +
+      '<div class="analysis-block"><strong>2 · TITIK PERUBAHAN</strong><p>' + movementText + '</p><p>' + (moving.length ? "Posisi garis menunjukkan bagian struktur yang berubah dalam hasil ini. Maknanya perlu diuji terhadap konteks nyata yang kamu tuliskan." : "Karena tidak ada garis berubah, instrumen tidak menunjukkan pergeseran struktur melalui lemparan ini.") + '</p></div>' +
+      '<div class="analysis-block"><strong>3 · POLA BERIKUTNYA</strong><p>Trigram bawah: ' + nextLower + '. Trigram atas: ' + nextUpper + '.</p><p>Bandingkan dengan keadaan awal. Apa yang bergeser pada dasar keadaan, lingkungan, atau hubungan keduanya?</p></div>' +
+      '<div class="analysis-block"><strong>4 · PERTANYAAN UNTUK DIPERIKSA</strong><ol>' + prompts.map(q => '<li>' + q + '</li>').join("") + '</ol></div>' +
+      '<div class="analysis-block"><strong>CATATAN KONTEKS</strong><p id="context-echo"></p></div>' +
+      '<p class="analysis-note">Jangan perlakukan hasil sebagai bukti atau instruksi. Cocokkan setiap dugaan dengan fakta, batas, pilihan, dan konsekuensi di dunia nyata.</p>';
+    $("context-echo").textContent = context || "Belum ada konteks yang dituliskan. Hasil hanya dapat dibaca sebagai struktur garis.";
+\n    resultPanel.scrollIntoView({behavior:"smooth",block:"start"});
   }
   castButton.addEventListener("click", () => {
     const values = Array.from({length:6}, () => {
