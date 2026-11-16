@@ -34,8 +34,11 @@
   function renderClassical(h) {
     const c=data.classical && data.classical[h.number];
     if(!c) return '<strong>Teks klasik belum dimasukkan</strong><p>Entri ini menunggu pencocokan edisi sumber.</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Buka edisi sumber James Legge (1882)</a>';
+    const judgment=Array.isArray(c.judgment)?{zh:c.judgment[0],id:c.judgment[1]}:c.judgment;
+    const image=Array.isArray(c.image)?{zh:c.image[0],id:c.image[1]}:c.image;
     const lines=c.lines.map((line,i)=>'<article class="classical-line"><strong>Garis '+(i+1)+'</strong><p class="classical-original">'+line[0]+'</p><p>'+line[1]+'</p></article>').join("");
-    return '<h4>JUDGMENT · KEPUTUSAN</h4><p class="classical-original">'+c.judgment.zh+'</p><p>'+c.judgment.id+'</p><h4>IMAGE · GAMBARAN</h4><p class="classical-original">'+c.image.zh+'</p><p>'+c.image.id+'</p><h4>ENAM PERNYATAAN GARIS</h4>'+lines+'<h4>GARIS KHUSUS</h4><p class="classical-original">'+c.changing[0]+'</p><p>'+c.changing[1]+'</p><p class="analysis-note">'+c.source+'</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Periksa teks Zhouyi dan James Legge (1882)</a>';
+    const changing=c.changing?'<h4>GARIS KHUSUS</h4><p class="classical-original">'+c.changing[0]+'</p><p>'+c.changing[1]+'</p>':'';
+    return '<h4>JUDGMENT · KEPUTUSAN</h4><p class="classical-original">'+judgment.zh+'</p><p>'+judgment.id+'</p><h4>IMAGE · GAMBARAN</h4><p class="classical-original">'+image.zh+'</p><p>'+image.id+'</p><h4>ENAM PERNYATAAN GARIS</h4>'+lines+changing+'<p class="analysis-note">'+c.source+'</p><a href="https://kingskungfu.com/classics/i-ching/" target="_blank" rel="noopener">Periksa teks Zhouyi dan James Legge (1882)</a>';
   }
 
   function showHexagramDetail(number) {
