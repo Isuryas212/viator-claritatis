@@ -1,0 +1,25 @@
+.iching-shell { max-width: 1050px; }
+.iching-section { margin-top: 48px; }
+.iching-copy,.section-intro { color: var(--muted); font-size: 16px; line-height: 1.9; max-width: 850px; }
+.section-intro { margin: -12px 0 22px; font-size: 14px; }
+.trigram-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.trigram-card,.hexagram-card { background:var(--panel-hover); border:1px solid var(--gold-border); border-radius:14px; padding:17px; }
+.trigram-card { display:flex; align-items:center; gap:17px; }
+.trigram-symbol { color:var(--gold); font-size:38px; min-width:48px; text-align:center; }
+.trigram-card h3,.hexagram-card h3 { color:var(--text); font-size:17px; }
+.trigram-card h3 span,.hexagram-card h3 span { color:var(--gold); font-weight:400; }
+.trigram-card p,.hexagram-card p { color:var(--muted); font-size:14px; }
+.trigram-card small,.hexagram-card small { display:block; color:var(--soft); font-size:11px; margin-top:8px; }
+.search-label { display:block; color:var(--gold); font-size:13px; margin-bottom:8px; }
+.hexagram-search { width:100%; padding:14px 16px; border:1px solid var(--gold-border); border-radius:10px; background:#0d0b09; color:var(--text); font-size:16px; outline:none; }
+.hexagram-search:focus { border-color:var(--gold); }
+.result-count { color:var(--soft); font-size:12px; margin:12px 0; }
+.hexagram-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.hexagram-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.hexagram-number { color:var(--gold); font-size:12px; letter-spacing:1px; }
+.hexagram-unicode { color:var(--gold); font-size:28px; }
+.hexagram-lines { display:flex; flex-direction:column; gap:4px; width:58px; margin-top:13px; }
+.hex-line { height:5px; width:100%; display:block; background:var(--gold); }
+.hex-line.yin { background:linear-gradient(to right,var(--gold) 0 42%,transparent 42% 58%,var(--gold) 58% 100%); }
+@media(max-width:700px) { .trigram-grid { grid-template-columns:1fr; } .hexagram-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; } .hexagram-card { padding:13px; } .hexagram-card h3 { font-size:14px; } }
+@media(max-width:380px) { .hexagram-grid { grid-template-columns:1fr; } }
