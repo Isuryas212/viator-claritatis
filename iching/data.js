@@ -2197,6 +2197,305 @@
   }
 });
 
+  Object.assign(classical, {
+  "57": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "巽：小亨，利有攸往，利見大人。",
+      "Penetrasi atau pengaruh yang lembut membawa kelancaran kecil. Ada manfaat dalam bergerak dan bertemu orang besar."
+    ],
+    "image": [
+      "隨風，巽；君子以申命行事。",
+      "Angin mengikuti angin. Manusia berbudi mengulang dan memperjelas perintah sebelum menjalankan pekerjaan."
+    ],
+    "lines": [
+      [
+        "初六：進退，利武人之貞。",
+        "Maju dan mundur dalam keraguan. Keteguhan seorang yang tegas dan disiplin menguntungkan."
+      ],
+      [
+        "九二：巽在床下，用史巫紛若，吉，无咎。",
+        "Merendahkan diri hingga berada di bawah tempat tidur. Meminta bantuan para pejabat ritual dan peramal dengan sungguh-sungguh; keberuntungan dan tidak ada cela."
+      ],
+      [
+        "九三：頻巽，吝。",
+        "Terlalu sering mengalah atau tunduk; keadaan menjadi sulit."
+      ],
+      [
+        "六四：悔亡，田獲三品。",
+        "Penyesalan lenyap; dalam perburuan diperoleh tiga jenis hasil."
+      ],
+      [
+        "九五：貞吉，悔亡，无不利。无初有終，先庚三日，後庚三日，吉。",
+        "Keteguhan membawa keberuntungan dan penyesalan lenyap; tidak ada yang tidak menguntungkan. Awalnya tidak baik tetapi akhirnya tercapai. Tiga hari sebelum dan sesudah hari perubahan: keberuntungan."
+      ],
+      [
+        "上九：巽在床下，喪其資斧，貞凶。",
+        "Merendahkan diri hingga di bawah tempat tidur dan kehilangan bekal serta kapak. Bertahan dalam keadaan ini membawa bahaya."
+      ]
+    ]
+  },
+  "58": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "兌：亨，利貞。",
+      "Kegembiraan dan pertukaran membawa kelancaran; keteguhan menguntungkan."
+    ],
+    "image": [
+      "麗澤，兌；君子以朋友講習。",
+      "Danau-danau saling menyambung. Manusia berbudi berdiskusi dan belajar bersama teman."
+    ],
+    "lines": [
+      [
+        "初九：和兌，吉。",
+        "Kegembiraan yang harmonis; keberuntungan."
+      ],
+      [
+        "九二：孚兌，吉，悔亡。",
+        "Kegembiraan yang tulus; keberuntungan dan penyesalan lenyap."
+      ],
+      [
+        "六三：來兌，凶。",
+        "Mengejar kegembiraan dari luar; bahaya."
+      ],
+      [
+        "九四：商兌未寧，介疾有喜。",
+        "Menimbang kegembiraan tetapi belum tenteram. Ketegasan menghadapi gangguan membawa kegembiraan."
+      ],
+      [
+        "九五：孚于剝，有厲。",
+        "Mempercayai sesuatu yang merusak; ada bahaya."
+      ],
+      [
+        "上六：引兌。",
+        "Terus menarik atau membujuk menuju kegembiraan."
+      ]
+    ]
+  },
+  "59": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "渙：亨。王假有廟，利涉大川，利貞。",
+      "Penyebaran atau pencairan membawa kelancaran. Raja datang ke kuil leluhur. Menyeberangi sungai besar menguntungkan; keteguhan juga menguntungkan."
+    ],
+    "image": [
+      "風行水上，渙；先王以享于帝立廟。",
+      "Angin bergerak di atas air. Para raja terdahulu mempersembahkan korban kepada Yang Mahatinggi dan mendirikan kuil leluhur."
+    ],
+    "lines": [
+      [
+        "初六：用拯馬壯，吉。",
+        "Gunakan kuda yang kuat untuk menyelamatkan; keberuntungan."
+      ],
+      [
+        "九二：渙奔其机，悔亡。",
+        "Dalam keadaan tercerai-berai, bergegas menuju tempat berpijak atau sandaran; penyesalan lenyap."
+      ],
+      [
+        "六三：渙其躬，无悔。",
+        "Melepaskan kepentingan diri sendiri; tidak ada penyesalan."
+      ],
+      [
+        "六四：渙其群，元吉。渙有丘，匪夷所思。",
+        "Melepaskan kelompok atau sekat-sekat; keberuntungan besar. Ketika yang tercerai berkumpul menjadi bukit, hasilnya melampaui perkiraan biasa."
+      ],
+      [
+        "九五：渙汗其大號，渙王居，无咎。",
+        "Pengumuman besar disebarkan seperti keringat yang keluar dari tubuh; kediaman atau pusat kekuasaan dibuka dan dibagikan. Tidak ada cela."
+      ],
+      [
+        "上九：渙其血，去逖出，无咎。",
+        "Menjauh dari pertumpahan darah dan keluar dari bahaya yang jauh; tidak ada cela."
+      ]
+    ]
+  },
+  "60": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "節：亨。苦節不可貞。",
+      "Pembatasan membawa kelancaran. Pembatasan yang pahit dan berlebihan tidak dapat dipertahankan sebagai jalan yang benar."
+    ],
+    "image": [
+      "澤上有水，節；君子以制數度，議德行。",
+      "Air berada di atas danau. Manusia berbudi menetapkan ukuran dan batas, serta mempertimbangkan perilaku dan kebajikan."
+    ],
+    "lines": [
+      [
+        "初九：不出戶庭，无咎。",
+        "Tidak keluar dari halaman rumah; tidak ada cela."
+      ],
+      [
+        "九二：不出門庭，凶。",
+        "Tidak keluar dari gerbang rumah; bahaya. Menahan diri terlalu lama dapat membuat kesempatan terlewat."
+      ],
+      [
+        "六三：不節若，則嗟若，无咎。",
+        "Tidak mampu membatasi diri akan berakhir dengan keluhan; cela dapat dihindari bila keadaan disadari."
+      ],
+      [
+        "六四：安節，亨。",
+        "Menjalankan batas dengan tenang dan tepat; kelancaran."
+      ],
+      [
+        "九五：甘節，吉，往有尚。",
+        "Pembatasan yang terasa wajar dan tidak pahit; keberuntungan. Bergerak mendapat penghargaan."
+      ],
+      [
+        "上六：苦節，貞凶，悔亡。",
+        "Pembatasan yang pahit; bertahan di dalamnya membawa bahaya, meski penyesalan dapat lenyap."
+      ]
+    ]
+  },
+  "61": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "中孚：豚魚吉，利涉大川，利貞。",
+      "Ketulusan batin membawa keberuntungan bahkan terhadap babi dan ikan. Menyeberangi sungai besar menguntungkan; keteguhan menguntungkan."
+    ],
+    "image": [
+      "澤上有風，中孚；君子以議獄緩死。",
+      "Angin bergerak di atas danau. Manusia berbudi mempertimbangkan perkara hukum dan menunda pelaksanaan hukuman mati."
+    ],
+    "lines": [
+      [
+        "初九：虞吉，有他不燕。",
+        "Bersiap dan mempertimbangkan membawa keberuntungan. Bila perhatian terpecah ke hal lain, ketenteraman hilang."
+      ],
+      [
+        "九二：鳴鶴在陰，其子和之。我有好爵，吾與爾靡之。",
+        "Bangau bersuara di tempat teduh dan anaknya menyahut. Aku memiliki cawan yang baik dan akan berbagi dengannya."
+      ],
+      [
+        "六三：得敵，或鼓或罷，或泣或歌。",
+        "Bertemu lawan atau pasangan tanding; kadang menabuh genderang, kadang berhenti, kadang menangis, kadang bernyanyi. Keadaan berubah-ubah."
+      ],
+      [
+        "六四：月幾望，馬匹亡，无咎。",
+        "Bulan hampir purnama; pasangan kuda terpisah atau hilang. Tidak ada cela."
+      ],
+      [
+        "九五：有孚攣如，无咎。",
+        "Kepercayaan mengikat erat; tidak ada cela."
+      ],
+      [
+        "上九：翰音登于天，貞凶。",
+        "Suara ayam jantan membumbung ke langit. Bertahan dalam keadaan ini membawa bahaya; gema atau pernyataan yang terlalu tinggi tidak sama dengan kenyataan."
+      ]
+    ]
+  },
+  "62": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "小過：亨，利貞。可小事，不可大事。飛鳥遺之音，不宜上宜下，大吉。",
+      "Hal kecil yang melampaui batas membawa kelancaran bila tetap teguh. Cocok untuk perkara kecil, bukan perkara besar. Burung terbang meninggalkan suara; lebih baik turun daripada naik. Keberuntungan besar."
+    ],
+    "image": [
+      "山上有雷，小過；君子以行過乎恭，喪過乎哀，用過乎儉。",
+      "Guntur berada di atas gunung. Manusia berbudi sedikit melebihkan kesantunan dalam tindakan, kesedihan dalam berkabung, dan kesederhanaan dalam pengeluaran."
+    ],
+    "lines": [
+      [
+        "初六：飛鳥以凶。",
+        "Burung terbang ke atas; bahaya."
+      ],
+      [
+        "六二：過其祖，遇其妣；不及其君，遇其臣，无咎。",
+        "Melewati kakek dan bertemu nenek; tidak mencapai penguasa tetapi bertemu pejabatnya. Tidak ada cela."
+      ],
+      [
+        "九三：弗過防之，從或戕之，凶。",
+        "Tidak melampaui batas untuk berjaga-jaga; bila mengikuti keadaan begitu saja, seseorang dapat terluka. Bahaya."
+      ],
+      [
+        "九四：无咎，弗過遇之。往厲必戒，勿用永貞。",
+        "Tidak ada cela; tidak melampaui batas dan dapat bertemu keadaan yang tepat. Bergerak berbahaya dan perlu waspada; jangan memaksakan keteguhan terus-menerus."
+      ],
+      [
+        "六五：密雲不雨，自我西郊，公弋取彼在穴。",
+        "Awan tebal tidak menurunkan hujan, datang dari pinggiran barat. Penguasa memanah dan menangkap sesuatu yang berada di lubangnya."
+      ],
+      [
+        "上六：弗遇過之，飛鳥離之，凶，是謂災眚。",
+        "Tidak bertemu dan justru melampaui batas; burung terbang menjauh. Bahaya, inilah yang disebut bencana."
+      ]
+    ]
+  },
+  "63": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "既濟：亨小，利貞。初吉終亂。",
+      "Setelah menyeberang atau menyelesaikan sesuatu, kelancaran hanya kecil; keteguhan menguntungkan. Awalnya baik, akhirnya dapat menjadi kacau."
+    ],
+    "image": [
+      "水在火上，既濟；君子以思患而豫防之。",
+      "Air berada di atas api. Manusia berbudi memikirkan bahaya dan melakukan pencegahan sebelumnya."
+    ],
+    "lines": [
+      [
+        "初九：曳其輪，濡其尾，无咎。",
+        "Menahan roda kereta dan membasahi ekor saat menyeberang; tidak ada cela."
+      ],
+      [
+        "六二：婦喪其茀，勿逐，七日得。",
+        "Perempuan kehilangan tirai keretanya. Jangan mengejar; dalam tujuh hari akan ditemukan kembali."
+      ],
+      [
+        "九三：高宗伐鬼方，三年克之，小人勿用。",
+        "Raja Gaozong menyerang wilayah Guifang dan menaklukkannya setelah tiga tahun. Jangan menggunakan orang yang tidak cakap untuk tugas ini."
+      ],
+      [
+        "六四：繻有衣袽，終日戒。",
+        "Perahu memiliki kain untuk menambal kebocoran; waspada sepanjang hari."
+      ],
+      [
+        "九五：東鄰殺牛，不如西鄰之禴祭，實受其福。",
+        "Tetangga timur menyembelih sapi, tetapi persembahan sederhana tetangga barat lebih baik; yang terakhir sungguh menerima berkah."
+      ],
+      [
+        "上六：濡其首，厲。",
+        "Kepala ikut terendam saat menyeberang; bahaya."
+      ]
+    ]
+  },
+  "64": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "未濟：亨。小狐汔濟，濡其尾，无攸利。",
+      "Belum menyeberang membawa kelancaran. Anak rubah hampir berhasil menyeberang tetapi membasahi ekornya; tidak ada yang menguntungkan. Penyelesaian belum benar-benar tercapai."
+    ],
+    "image": [
+      "火在水上，未濟；君子以慎辨物居方。",
+      "Api berada di atas air. Manusia berbudi membedakan segala sesuatu dengan hati-hati dan menempatkannya sesuai kedudukannya."
+    ],
+    "lines": [
+      [
+        "初六：濡其尾，吝。",
+        "Ekornya basah saat menyeberang; keadaan sulit."
+      ],
+      [
+        "九二：曳其輪，貞吉。",
+        "Menahan roda kereta; keteguhan membawa keberuntungan."
+      ],
+      [
+        "六三：未濟，征凶，利涉大川。",
+        "Belum menyeberang; memaksakan langkah membawa bahaya. Namun menyeberangi sungai besar dapat menguntungkan bila dilakukan dengan tepat."
+      ],
+      [
+        "九四：貞吉，悔亡，震用伐鬼方，三年有賞于大國。",
+        "Keteguhan membawa keberuntungan dan penyesalan lenyap. Dengan kekuatan besar menyerang Guifang; setelah tiga tahun mendapat penghargaan dari negara besar."
+      ],
+      [
+        "六五：貞吉，无悔，君子之光，有孚，吉。",
+        "Keteguhan membawa keberuntungan tanpa penyesalan. Cahaya manusia berbudi disertai ketulusan; keberuntungan."
+      ],
+      [
+        "上九：有孚于飲酒，无咎。濡其首，有孚失是。",
+        "Dengan ketulusan menikmati anggur, tidak ada cela. Bila kepala ikut terendam, ketulusan kehilangan arah yang benar."
+      ]
+    ]
+  }
+});
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
