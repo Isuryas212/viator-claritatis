@@ -728,3 +728,20 @@ footer {
     }
 }
 
+
+
+/* INTERACTIVE INSTRUMENTS */
+.interactive-section {
+    margin-top: 55px;
+}
+.interactive-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+}
+.interactive-description {
+    max-width: 780px;
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.8;
+}
