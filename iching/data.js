@@ -2595,6 +2595,678 @@
       "Apakah tujuan bersama benar-benar disepakati?",
       "Batas dan tanggung jawab apa yang perlu jelas sebelum berkomitmen?"
     ]
+  },
+  "9": {
+    "title": "Menghimpun Daya Kecil",
+    "focus": "kemajuan bertahap, pengaruh terbatas, pengendalian tenaga",
+    "reading": "Kemajuan dibangun melalui pengaruh kecil yang konsisten. Periksa apa yang belum dapat dikendalikan sebelum memaksakan terobosan.",
+    "risk": "Jangan menyamakan menghimpun daya kecil dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kemajuan bertahap, pengaruh terbatas, pengendalian tenaga. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "10": {
+    "title": "Melangkah di Wilayah Berisiko",
+    "focus": "tata krama, kehati-hatian, posisi, konsekuensi",
+    "reading": "Cara bertindak menentukan apakah ketegangan dapat dilalui tanpa memperbesar bahaya. Keberanian tetap perlu membaca batas dan posisi pihak lain.",
+    "risk": "Jangan menyamakan melangkah di wilayah berisiko dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait tata krama, kehati-hatian, posisi, konsekuensi. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "11": {
+    "title": "Masa Selaras dan Terbuka",
+    "focus": "arus komunikasi, pertukaran, keseimbangan, kerja sama",
+    "reading": "Keterbukaan memungkinkan hubungan saling mendukung. Keadaan baik perlu dirawat melalui pembagian manfaat dan mekanisme koreksi.",
+    "risk": "Jangan menyamakan masa selaras dan terbuka dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait arus komunikasi, pertukaran, keseimbangan, kerja sama. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "12": {
+    "title": "Masa Tersumbat",
+    "focus": "komunikasi terputus, kepentingan menjauh, integritas",
+    "reading": "Tidak semua kebuntuan dapat ditembus dengan usaha lebih keras. Kenali sumber sumbatan dan pertahankan hal yang tidak boleh dikorbankan.",
+    "risk": "Jangan menyamakan masa tersumbat dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait komunikasi terputus, kepentingan menjauh, integritas. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "13": {
+    "title": "Bekerja Melampaui Lingkaran Sendiri",
+    "focus": "tujuan bersama, perbedaan, solidaritas, kepentingan publik",
+    "reading": "Kerja bersama membutuhkan tujuan yang melampaui kedekatan pribadi. Perbedaan tidak harus dihapus, tetapi perlu dikelola secara terbuka.",
+    "risk": "Jangan menyamakan bekerja melampaui lingkaran sendiri dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait tujuan bersama, perbedaan, solidaritas, kepentingan publik. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "14": {
+    "title": "Memegang Sumber Daya dengan Tanggung Jawab",
+    "focus": "kelimpahan, pengelolaan, kemurahan, akuntabilitas",
+    "reading": "Sumber daya dan pengaruh yang besar memperluas pilihan sekaligus tanggung jawab. Nilainya terlihat dari cara mengelola dan membagikannya.",
+    "risk": "Jangan menyamakan memegang sumber daya dengan tanggung jawab dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kelimpahan, pengelolaan, kemurahan, akuntabilitas. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "15": {
+    "title": "Menjaga Ukuran dan Kerendahan Hati",
+    "focus": "proporsi, batas, kecukupan, keseimbangan",
+    "reading": "Keadaan meminta ukuran yang tepat. Kemampuan perlu digunakan tanpa membesarkan diri, sementara keterbatasan diakui tanpa merendahkan diri.",
+    "risk": "Jangan menyamakan menjaga ukuran dan kerendahan hati dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait proporsi, batas, kecukupan, keseimbangan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "16": {
+    "title": "Menggerakkan Semangat Bersama",
+    "focus": "motivasi, kesiapan kolektif, irama, koordinasi",
+    "reading": "Semangat dapat mengumpulkan orang, tetapi baru berguna bila memiliki arah, persiapan, dan pengendalian.",
+    "risk": "Jangan menyamakan menggerakkan semangat bersama dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait motivasi, kesiapan kolektif, irama, koordinasi. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "17": {
+    "title": "Mengikuti dengan Kesadaran",
+    "focus": "pengaruh, keteladanan, penyesuaian, pilihan",
+    "reading": "Mengikuti dapat menjadi cara belajar, tetapi pilihan itu harus sadar. Periksa apakah arah yang diikuti sesuai fakta dan nilai.",
+    "risk": "Jangan menyamakan mengikuti dengan kesadaran dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pengaruh, keteladanan, penyesuaian, pilihan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "18": {
+    "title": "Memperbaiki Kerusakan Warisan",
+    "focus": "akar masalah, kebiasaan lama, tanggung jawab, pemulihan",
+    "reading": "Masalah sekarang mungkin tumbuh dari kebiasaan sebelumnya. Perbaikan menuntut penelusuran akar, bukan sekadar menutupi gejala.",
+    "risk": "Jangan menyamakan memperbaiki kerusakan warisan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait akar masalah, kebiasaan lama, tanggung jawab, pemulihan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "19": {
+    "title": "Mendekat dan Mengawasi Perkembangan",
+    "focus": "pendekatan, tanggung jawab, pembinaan, kewenangan",
+    "reading": "Kedekatan membuka kesempatan memahami keadaan langsung. Posisi dekat membawa tanggung jawab untuk mendengar dan tidak menyalahgunakan pengaruh.",
+    "risk": "Jangan menyamakan mendekat dan mengawasi perkembangan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pendekatan, tanggung jawab, pembinaan, kewenangan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "20": {
+    "title": "Mengamati Sebelum Menilai",
+    "focus": "jarak pandang, keteladanan, fakta, refleksi",
+    "reading": "Sebelum bertindak, lihat keadaan dari posisi yang cukup luas. Pengamatan perlu memeriksa konteks dan dampak, bukan potongan peristiwa.",
+    "risk": "Jangan menyamakan mengamati sebelum menilai dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait jarak pandang, keteladanan, fakta, refleksi. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "21": {
+    "title": "Memutus Hambatan dengan Tepat",
+    "focus": "penegakan batas, bukti, penyelesaian hambatan",
+    "reading": "Ada saat ketika hambatan harus ditangani secara tegas. Ketegasan perlu mengikuti bukti dan aturan agar tidak berubah menjadi pelampiasan.",
+    "risk": "Jangan menyamakan memutus hambatan dengan tepat dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait penegakan batas, bukti, penyelesaian hambatan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "22": {
+    "title": "Menata Penampilan dan Substansi",
+    "focus": "bentuk, kesan, nilai inti, simbol",
+    "reading": "Bentuk membantu sesuatu dipahami, tetapi penampilan tidak boleh menggantikan isi. Keindahan berguna bila melayani substansi.",
+    "risk": "Jangan menyamakan menata penampilan dan substansi dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait bentuk, kesan, nilai inti, simbol. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "23": {
+    "title": "Menghadapi Pengikisan Struktur",
+    "focus": "kerapuhan, kehilangan penopang, penyederhanaan, perlindungan",
+    "reading": "Struktur penopang sedang melemah. Kenali bagian yang masih dapat dipertahankan dan cegah kerusakan meluas.",
+    "risk": "Jangan menyamakan menghadapi pengikisan struktur dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kerapuhan, kehilangan penopang, penyederhanaan, perlindungan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "24": {
+    "title": "Kembali ke Titik Dasar",
+    "focus": "pemulihan, siklus, koreksi arah, awal sederhana",
+    "reading": "Setelah penyimpangan, muncul kesempatan kembali ke dasar. Pemulihan biasanya dimulai kecil dan membutuhkan pembelajaran dari pola lama.",
+    "risk": "Jangan menyamakan kembali ke titik dasar dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pemulihan, siklus, koreksi arah, awal sederhana. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "25": {
+    "title": "Bertindak Tanpa Rekayasa Tersembunyi",
+    "focus": "ketulusan, spontanitas bertanggung jawab, kesesuaian tindakan",
+    "reading": "Tindakan jernih berangkat dari keadaan sebenarnya, bukan manipulasi hasil. Ketulusan tetap perlu disertai pengetahuan dan pertimbangan akibat.",
+    "risk": "Jangan menyamakan bertindak tanpa rekayasa tersembunyi dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait ketulusan, spontanitas bertanggung jawab, kesesuaian tindakan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "26": {
+    "title": "Menahan dan Mengarahkan Kekuatan",
+    "focus": "pengendalian kapasitas, pembelajaran, penyimpanan tenaga",
+    "reading": "Kemampuan besar perlu ditahan, dibina, dan diarahkan. Menunda penggunaan tenaga dapat menjadi cara memastikan penggunaannya bertanggung jawab.",
+    "risk": "Jangan menyamakan menahan dan mengarahkan kekuatan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pengendalian kapasitas, pembelajaran, penyimpanan tenaga. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "27": {
+    "title": "Memeriksa Apa yang Memberi Makan",
+    "focus": "kebutuhan, konsumsi, ucapan, penghidupan",
+    "reading": "Periksa apa yang masuk dan keluar dari kehidupan: makanan, informasi, kata-kata, dan perhatian. Hal yang dipelihara membentuk keadaan berikutnya.",
+    "risk": "Jangan menyamakan memeriksa apa yang memberi makan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kebutuhan, konsumsi, ucapan, penghidupan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "28": {
+    "title": "Menanggung Beban yang Melampaui Penopang",
+    "focus": "tekanan berlebih, struktur penyangga, keputusan darurat",
+    "reading": "Beban telah melampaui kapasitas penopang. Keadaan membutuhkan tindakan sadar untuk mengurangi beban dan memperkuat titik rentan.",
+    "risk": "Jangan menyamakan menanggung beban yang melampaui penopang dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait tekanan berlebih, struktur penyangga, keputusan darurat. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "29": {
+    "title": "Menavigasi Bahaya Berulang",
+    "focus": "risiko, pola ancaman, disiplin, kejujuran",
+    "reading": "Bahaya dapat muncul berulang dan tidak selesai hanya dengan keberanian. Keselamatan bergantung pada pemahaman pola dan disiplin.",
+    "risk": "Jangan menyamakan menavigasi bahaya berulang dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait risiko, pola ancaman, disiplin, kejujuran. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "30": {
+    "title": "Menjaga Kejernihan dan Keterikatan",
+    "focus": "kejelasan, ketergantungan, perhatian, tanggung jawab",
+    "reading": "Kejelasan membantu melihat, tetapi sumber terang juga dapat menjadi objek ketergantungan. Periksa sumber yang menerangi keputusan.",
+    "risk": "Jangan menyamakan menjaga kejernihan dan keterikatan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kejelasan, ketergantungan, perhatian, tanggung jawab. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "31": {
+    "title": "Membangun Pengaruh Timbal Balik",
+    "focus": "ketertarikan, kepekaan, respons, persetujuan",
+    "reading": "Pengaruh bekerja melalui kepekaan dua arah. Hubungan sehat memberi ruang bagi pilihan dan tidak menggunakan tekanan tersembunyi.",
+    "risk": "Jangan menyamakan membangun pengaruh timbal balik dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait ketertarikan, kepekaan, respons, persetujuan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "32": {
+    "title": "Menjaga Keberlanjutan",
+    "focus": "konsistensi, perubahan wajar, komitmen, daya tahan",
+    "reading": "Keberlanjutan bukan berarti tidak berubah. Prinsip dapat stabil sementara cara pelaksanaan menyesuaikan kenyataan.",
+    "risk": "Jangan menyamakan menjaga keberlanjutan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait konsistensi, perubahan wajar, komitmen, daya tahan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "33": {
+    "title": "Menarik Diri dengan Pertimbangan",
+    "focus": "jarak, perlindungan, prioritas, waktu",
+    "reading": "Mundur dapat menjadi keputusan aktif ketika keadaan tidak mendukung tindakan sehat. Jarak memberi ruang menjaga sumber daya dan menilai ulang posisi.",
+    "risk": "Jangan menyamakan menarik diri dengan pertimbangan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait jarak, perlindungan, prioritas, waktu. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "34": {
+    "title": "Menggunakan Kekuatan Secara Bertanggung Jawab",
+    "focus": "kapasitas, dorongan, pengaruh, pengendalian diri",
+    "reading": "Daya untuk bertindak tersedia, tetapi kekuatan tanpa kendali dapat melukai. Ukuran kekuatan terlihat dari kemampuan mengarahkannya.",
+    "risk": "Jangan menyamakan menggunakan kekuatan secara bertanggung jawab dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kapasitas, dorongan, pengaruh, pengendalian diri. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "35": {
+    "title": "Maju melalui Kejelasan",
+    "focus": "kemajuan, pengakuan, keterbukaan, tanggung jawab",
+    "reading": "Kesempatan untuk maju dapat terbuka. Pengakuan bernilai bila disertai hasil nyata dan tanggung jawab yang meningkat.",
+    "risk": "Jangan menyamakan maju melalui kejelasan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kemajuan, pengakuan, keterbukaan, tanggung jawab. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "36": {
+    "title": "Melindungi Kejernihan di Masa Gelap",
+    "focus": "tekanan, penyamaran, keselamatan, nilai inti",
+    "reading": "Dalam keadaan tidak aman, keterbukaan penuh mungkin membahayakan. Kejernihan perlu dijaga tanpa tindakan gegabah.",
+    "risk": "Jangan menyamakan melindungi kejernihan di masa gelap dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait tekanan, penyamaran, keselamatan, nilai inti. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "37": {
+    "title": "Menata Kehidupan dalam Lingkaran Dekat",
+    "focus": "peran, kebiasaan, tanggung jawab, relasi sehari-hari",
+    "reading": "Keteraturan dalam lingkaran dekat dibangun melalui peran yang jelas dan tindakan berulang. Setiap pihak tetap perlu dihormati dan didengar.",
+    "risk": "Jangan menyamakan menata kehidupan dalam lingkaran dekat dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait peran, kebiasaan, tanggung jawab, relasi sehari-hari. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "38": {
+    "title": "Mengelola Perbedaan Arah",
+    "focus": "perbedaan, jarak, kesepakatan terbatas, ruang bersama",
+    "reading": "Tidak semua perbedaan harus menjadi keseragaman. Kerja sama masih mungkin pada bagian yang disepakati dengan batas jelas.",
+    "risk": "Jangan menyamakan mengelola perbedaan arah dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait perbedaan, jarak, kesepakatan terbatas, ruang bersama. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "39": {
+    "title": "Menghadapi Jalan Terhalang",
+    "focus": "hambatan, ketergantungan, bantuan, perubahan rute",
+    "reading": "Jalur yang dipilih sedang terhalang. Hambatan dapat menunjukkan pendekatan perlu diubah atau bantuan diperlukan.",
+    "risk": "Jangan menyamakan menghadapi jalan terhalang dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait hambatan, ketergantungan, bantuan, perubahan rute. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "40": {
+    "title": "Melepaskan Ketegangan dan Menyelesaikan",
+    "focus": "pembebasan, penyelesaian, pemulihan, kewajiban",
+    "reading": "Tekanan dapat dilepaskan setelah sumber masalah ditangani. Penyelesaian tetap perlu mengurus kewajiban dan kerusakan yang tersisa.",
+    "risk": "Jangan menyamakan melepaskan ketegangan dan menyelesaikan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pembebasan, penyelesaian, pemulihan, kewajiban. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "41": {
+    "title": "Mengurangi untuk Memulihkan Keseimbangan",
+    "focus": "pengurangan, prioritas, pengorbanan terukur, pertukaran",
+    "reading": "Mengurangi sesuatu dapat membuka ruang bagi hal lebih penting. Periksa siapa yang menanggung pengurangan dan apakah itu adil.",
+    "risk": "Jangan menyamakan mengurangi untuk memulihkan keseimbangan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pengurangan, prioritas, pengorbanan terukur, pertukaran. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "42": {
+    "title": "Menambah untuk Memperluas Manfaat",
+    "focus": "pertumbuhan, kontribusi, distribusi, tanggung jawab",
+    "reading": "Penambahan sumber daya bernilai ketika memperkuat kapasitas bersama. Pertumbuhan perlu mekanisme agar manfaat tidak terkumpul pada satu pihak.",
+    "risk": "Jangan menyamakan menambah untuk memperluas manfaat dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pertumbuhan, kontribusi, distribusi, tanggung jawab. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "43": {
+    "title": "Menyatakan Batas dan Menghadapi Masalah",
+    "focus": "keputusan tegas, keterbukaan, bukti, eskalasi",
+    "reading": "Masalah perlu dinyatakan dan batas ditegaskan ketika waktunya tepat. Ketegasan efektif bila didasarkan bukti dan tidak berubah menjadi ancaman.",
+    "risk": "Jangan menyamakan menyatakan batas dan menghadapi masalah dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait keputusan tegas, keterbukaan, bukti, eskalasi. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "44": {
+    "title": "Menguji Kedatangan Pengaruh Baru",
+    "focus": "godaan, pertemuan tak terduga, daya tarik, kewaspadaan",
+    "reading": "Pengaruh baru dapat membawa peluang sekaligus risiko. Jangan menyerahkan kendali hanya karena kesan awal begitu kuat.",
+    "risk": "Jangan menyamakan menguji kedatangan pengaruh baru dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait godaan, pertemuan tak terduga, daya tarik, kewaspadaan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "45": {
+    "title": "Menghimpun Orang dan Sumber Daya",
+    "focus": "konsolidasi, tujuan bersama, kepemimpinan, kesiapan",
+    "reading": "Orang dan sumber daya sedang berkumpul. Konsolidasi memperbesar kemampuan, tetapi membutuhkan tata kelola dan komunikasi.",
+    "risk": "Jangan menyamakan menghimpun orang dan sumber daya dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait konsolidasi, tujuan bersama, kepemimpinan, kesiapan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "46": {
+    "title": "Naik melalui Proses Bertahap",
+    "focus": "pertumbuhan, pembelajaran, ketekunan, dukungan",
+    "reading": "Kemajuan kokoh mengikuti tahapan. Kenaikan membutuhkan pembelajaran, hubungan pendukung, dan evaluasi berkala.",
+    "risk": "Jangan menyamakan naik melalui proses bertahap dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pertumbuhan, pembelajaran, ketekunan, dukungan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "47": {
+    "title": "Bertahan dalam Keterbatasan",
+    "focus": "sumber daya, tekanan, komunikasi, daya tahan",
+    "reading": "Keadaan membatasi pilihan dan saluran komunikasi. Akui keterbatasan sebelum memutuskan; ketahanan bukan kewajiban menanggung kerusakan.",
+    "risk": "Jangan menyamakan bertahan dalam keterbatasan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait sumber daya, tekanan, komunikasi, daya tahan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "48": {
+    "title": "Merawat Sumber Bersama",
+    "focus": "infrastruktur, pengetahuan, akses, pemeliharaan",
+    "reading": "Sumber yang menopang banyak orang perlu dirawat dan diakses secara bertanggung jawab. Periksa pemeliharaan serta pembagiannya.",
+    "risk": "Jangan menyamakan merawat sumber bersama dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait infrastruktur, pengetahuan, akses, pemeliharaan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "49": {
+    "title": "Mengubah Tatanan yang Usang",
+    "focus": "reformasi, legitimasi, waktu, dampak transisi",
+    "reading": "Perubahan besar diperlukan ketika tatanan lama gagal menjawab keadaan. Perubahan perlu alasan yang teruji dan rencana transisi.",
+    "risk": "Jangan menyamakan mengubah tatanan yang usang dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait reformasi, legitimasi, waktu, dampak transisi. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "50": {
+    "title": "Mengolah Kapasitas Menjadi Manfaat",
+    "focus": "pembinaan, wadah, tata kelola, pematangan",
+    "reading": "Kemampuan dan sumber daya membutuhkan wadah agar menjadi manfaat. Potensi perlu proses, aturan, dan pengelolaan yang tepat.",
+    "risk": "Jangan menyamakan mengolah kapasitas menjadi manfaat dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pembinaan, wadah, tata kelola, pematangan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "51": {
+    "title": "Merespons Guncangan",
+    "focus": "kejutan, reaksi awal, kewaspadaan, pemulihan kendali",
+    "reading": "Guncangan dapat mengacaukan penilaian. Amankan keadaan, pahami apa yang terjadi, lalu tentukan respons setelah informasi cukup.",
+    "risk": "Jangan menyamakan merespons guncangan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kejutan, reaksi awal, kewaspadaan, pemulihan kendali. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "52": {
+    "title": "Berhenti dan Menenangkan Gerak",
+    "focus": "jeda, batas tindakan, perhatian, kejernihan",
+    "reading": "Tidak setiap keadaan membutuhkan gerakan tambahan. Berhenti dapat membedakan dorongan sesaat dari kebutuhan nyata.",
+    "risk": "Jangan menyamakan berhenti dan menenangkan gerak dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait jeda, batas tindakan, perhatian, kejernihan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "53": {
+    "title": "Berkembang secara Bertahap",
+    "focus": "kematangan, urutan, hubungan jangka panjang, kesabaran",
+    "reading": "Perkembangan tahan lama mengikuti tahap. Hubungan, kemampuan, dan kepercayaan tidak dapat dipercepat tanpa risiko.",
+    "risk": "Jangan menyamakan berkembang secara bertahap dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kematangan, urutan, hubungan jangka panjang, kesabaran. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "54": {
+    "title": "Memahami Posisi yang Tidak Setara",
+    "focus": "ketimpangan posisi, komitmen, ekspektasi, martabat",
+    "reading": "Hubungan dapat terbentuk dalam posisi tidak setara. Kesadaran atas batas dan ekspektasi mencegah pihak rentan kehilangan suara.",
+    "risk": "Jangan menyamakan memahami posisi yang tidak setara dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait ketimpangan posisi, komitmen, ekspektasi, martabat. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "55": {
+    "title": "Mengelola Puncak Kelimpahan",
+    "focus": "puncak aktivitas, kapasitas, keterbukaan, sifat sementara",
+    "reading": "Keadaan berada pada intensitas tinggi. Puncak aktivitas tidak berlangsung selamanya dan memerlukan pengelolaan cermat.",
+    "risk": "Jangan menyamakan mengelola puncak kelimpahan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait puncak aktivitas, kapasitas, keterbukaan, sifat sementara. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "56": {
+    "title": "Berjalan sebagai Pendatang",
+    "focus": "ketidakmenetapan, adaptasi, kehati-hatian, penghormatan",
+    "reading": "Di lingkungan yang bukan milik sendiri, tindakan perlu rendah hati dan peka terhadap aturan setempat.",
+    "risk": "Jangan menyamakan berjalan sebagai pendatang dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait ketidakmenetapan, adaptasi, kehati-hatian, penghormatan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "57": {
+    "title": "Memengaruhi melalui Langkah Kecil",
+    "focus": "pengaruh halus, konsistensi, komunikasi, penyesuaian",
+    "reading": "Perubahan dapat meresap melalui tindakan kecil berulang. Pengaruh semacam ini membutuhkan konsistensi dan kejelasan, bukan manipulasi.",
+    "risk": "Jangan menyamakan memengaruhi melalui langkah kecil dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pengaruh halus, konsistensi, komunikasi, penyesuaian. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "58": {
+    "title": "Membangun Kegembiraan yang Terbuka",
+    "focus": "komunikasi, pertukaran sukarela, kegembiraan, kejujuran",
+    "reading": "Kegembiraan memperkuat hubungan bila lahir dari keterbukaan. Suasana menyenangkan tidak boleh menutupi masalah.",
+    "risk": "Jangan menyamakan membangun kegembiraan yang terbuka dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait komunikasi, pertukaran sukarela, kegembiraan, kejujuran. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "59": {
+    "title": "Mengurai Sekat dan Keterpisahan",
+    "focus": "pembubaran hambatan, pemulihan hubungan, pusat bersama",
+    "reading": "Sekat dapat diurai ketika sumber keterpisahan dipahami. Pemulihan membutuhkan tujuan bersama dan tindakan yang dapat dipercaya.",
+    "risk": "Jangan menyamakan mengurai sekat dan keterpisahan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait pembubaran hambatan, pemulihan hubungan, pusat bersama. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "60": {
+    "title": "Menetapkan Batas yang Layak",
+    "focus": "aturan, ukuran, pembatasan, keseimbangan kebebasan",
+    "reading": "Batas membantu sumber daya dan perilaku terkelola. Aturan yang terlalu kaku dapat menutup kehidupan; batas perlu proporsional.",
+    "risk": "Jangan menyamakan menetapkan batas yang layak dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait aturan, ukuran, pembatasan, keseimbangan kebebasan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "61": {
+    "title": "Menguji Ketulusan dan Kepercayaan",
+    "focus": "kejujuran, bukti perilaku, komunikasi, saling percaya",
+    "reading": "Kepercayaan tumbuh ketika kata, tindakan, dan tanggung jawab sesuai. Ketulusan terlihat melalui konsistensi, bukan pernyataan saja.",
+    "risk": "Jangan menyamakan menguji ketulusan dan kepercayaan dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait kejujuran, bukti perilaku, komunikasi, saling percaya. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "62": {
+    "title": "Memperhatikan Hal Kecil",
+    "focus": "detail, proporsi, kehati-hatian, batas ambisi",
+    "reading": "Keadaan meminta perhatian pada rincian dan ukuran tindakan. Langkah kecil yang tepat dapat lebih bertanggung jawab daripada ambisi berlebihan.",
+    "risk": "Jangan menyamakan memperhatikan hal kecil dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait detail, proporsi, kehati-hatian, batas ambisi. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "63": {
+    "title": "Mengelola Keadaan Setelah Tercapai",
+    "focus": "penyelesaian, pemeliharaan, risiko sisa, kewaspadaan",
+    "reading": "Keadaan tampak tertata, tetapi penyelesaian bukan akhir tanggung jawab. Sistem stabil perlu dirawat dan diuji.",
+    "risk": "Jangan menyamakan mengelola keadaan setelah tercapai dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait penyelesaian, pemeliharaan, risiko sisa, kewaspadaan. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
+  },
+  "64": {
+    "title": "Berada di Ambang Penyelesaian",
+    "focus": "transisi, ketidakpastian akhir, kesiapan, kehati-hatian",
+    "reading": "Keadaan dekat penyelesaian tetapi belum menyeberang. Tahap akhir membutuhkan ketelitian; keberhasilan belum boleh diasumsikan.",
+    "risk": "Jangan menyamakan berada di ambang penyelesaian dengan jawaban otomatis. Waspadai tindakan yang mengabaikan batas, bukti, dan pihak yang ikut menanggung akibat.",
+    "practice": "Periksa keadaan nyata terkait transisi, ketidakpastian akhir, kesiapan, kehati-hatian. Tentukan langkah yang proporsional, siapa yang terdampak, dan bagaimana hasilnya dapat dievaluasi.",
+    "questions": [
+      "Fakta apa yang paling penting dalam keadaan ini?",
+      "Batas, risiko, atau kepentingan siapa yang belum diperhitungkan?",
+      "Langkah apa yang dapat diuji tanpa mengunci pilihan berikutnya?"
+    ]
   }
 };
 
