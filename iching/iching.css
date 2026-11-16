@@ -23,3 +23,26 @@
 .hex-line.yin { background:linear-gradient(to right,var(--gold) 0 42%,transparent 42% 58%,var(--gold) 58% 100%); }
 @media(max-width:700px) { .trigram-grid { grid-template-columns:1fr; } .hexagram-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; } .hexagram-card { padding:13px; } .hexagram-card h3 { font-size:14px; } }
 @media(max-width:380px) { .hexagram-grid { grid-template-columns:1fr; } }
+
+/* Hexagram casting interface */
+.cast-intro { color:var(--muted); line-height:1.8; font-size:14px; }
+.cast-actions { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0; }
+.cast-button { border:1px solid var(--gold); border-radius:9px; padding:13px 17px; background:var(--gold); color:#17110a; font-weight:700; font-size:14px; }
+.cast-button.secondary { background:transparent; color:var(--gold); }
+.manual-panel,.reading-result { margin-top:18px; padding:18px; border:1px solid var(--gold-border); border-radius:14px; background:var(--panel-hover); }
+.manual-panel[hidden],.reading-result[hidden] { display:none; }
+.manual-lines { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.manual-line span { display:block; color:var(--muted); font-size:12px; margin-bottom:6px; }
+.manual-line select { width:100%; padding:11px; color:var(--text); background:#0d0b09; border:1px solid var(--gold-border); border-radius:8px; font-size:14px; }
+.manual-submit { margin-top:14px; }
+.reading-result { scroll-margin-top:15px; }
+.result-entry { display:flex; align-items:center; gap:14px; padding:13px 0; }
+.result-entry + .result-entry { border-top:1px solid var(--gold-border); }
+.result-symbol { color:var(--gold); font-size:42px; min-width:48px; }
+.result-entry small { color:var(--gold); font-size:10px; letter-spacing:1px; }
+.result-entry h3 { color:var(--text); font-size:17px; margin:4px 0; }
+.result-entry p { color:var(--muted); font-size:13px; }
+.result-lines { display:flex; flex-direction:column; gap:4px; width:45px; margin-left:auto; flex-shrink:0; }
+.result-lines .hex-line { height:4px; }
+.changing-result { color:var(--gold); font-size:13px; padding:10px 0; }
+@media(max-width:430px) { .manual-lines { grid-template-columns:1fr 1fr; } .result-entry { gap:9px; } .result-symbol { min-width:36px; font-size:34px; } .result-entry h3 { font-size:14px; } }
