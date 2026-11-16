@@ -7,48 +7,41 @@
     <meta name="description" content="Instrumen Viator Claritatis untuk membaca perubahan, memahami keadaan, dan menimbang kemungkinan.">
     <meta name="theme-color" content="#080706">
     <link rel="stylesheet" href="../style.css?v=2">
+    <link rel="stylesheet" href="iching.css?v=1">
 </head>
 <body class="home-page">
-<main class="home-shell">
+<main class="home-shell iching-shell">
     <header class="home-header">
         <p class="eyebrow">VIATOR CLARITATIS · INSTRUMEN INTERAKTIF</p>
-        <h1>
-            <span>VIATOR</span>
-            <span class="gold">I-CHING</span>
-        </h1>
+        <h1><span>VIATOR</span><span class="gold">I-CHING</span></h1>
         <h2>The Art of Reading Change</h2>
-        <p class="intro">
-            Instrumen untuk membaca keadaan, mengenali pola perubahan,
-            dan mempertimbangkan kemungkinan. Bukan alat untuk memastikan
-            nasib atau menggantikan keputusan manusia.
-        </p>
+        <p class="intro">Instrumen untuk membaca keadaan, mengenali pola perubahan, dan mempertimbangkan kemungkinan. Bukan alat untuk memastikan nasib atau menggantikan keputusan manusia.</p>
     </header>
-
     <div class="gold-divider"></div>
-
-    <section>
+    <section class="iching-section">
         <h2 class="section-label">MEMBACA PERUBAHAN</h2>
-        <p class="iching-copy">
-            VIATOR I-CHING menggunakan struktur klasik 64 heksagram sebagai
-            peta referensi. Pembacaannya dikembangkan melalui pendekatan
-            Viator Claritatis: memperhatikan keadaan, hubungan, sebab,
-            perubahan, pilihan, dan konsekuensi.
-        </p>
-        <div class="iching-notice">
-            <strong>TAHAP PENGEMBANGAN</strong>
-            <p>Fondasi sistem sedang disusun. Fitur pembentukan heksagram dan
-            interpretasi belum diaktifkan.</p>
-        </div>
+        <p class="iching-copy">VIATOR I-CHING menggunakan struktur klasik 64 heksagram sebagai peta referensi. Pembacaannya dikembangkan melalui pendekatan Viator Claritatis: memperhatikan keadaan, hubungan, sebab, perubahan, pilihan, dan konsekuensi.</p>
     </section>
-
+    <section class="iching-section">
+        <h2 class="section-label">DELAPAN TRIGRAM · BA GUA</h2>
+        <p class="section-intro">Delapan pola dasar yang membentuk struktur heksagram. Susunan garis ditampilkan dari bawah ke atas.</p>
+        <div id="trigram-list" class="trigram-grid"></div>
+    </section>
+    <section class="iching-section">
+        <h2 class="section-label">64 HEKSAGRAM · URUTAN KING WEN</h2>
+        <p class="section-intro">Katalog struktur klasik. Pencarian dapat menggunakan nomor, nama pinyin, aksara Han, atau padanan ringkas.</p>
+        <label class="search-label" for="hexagram-search">Cari heksagram</label>
+        <input id="hexagram-search" class="hexagram-search" type="search" placeholder="Contoh: 1, Qián, Langit..." autocomplete="off">
+        <p id="hexagram-count" class="result-count" aria-live="polite"></p>
+        <div id="hexagram-list" class="hexagram-grid"></div>
+    </section>
+    <div class="iching-notice">
+        <strong>CATATAN</strong>
+        <p>Bagian ini adalah katalog struktur, bukan hasil ramalan atau interpretasi personal. Sistem pembentukan heksagram dan pembacaan Viator akan dikembangkan setelah data dasarnya divalidasi.</p>
+    </div>
     <a class="iching-back" href="../">← Kembali ke Ruang Gagasan</a>
 </main>
-<style>
-.iching-copy { color: var(--muted); font-size: 17px; line-height: 1.9; }
-.iching-notice { margin-top: 28px; padding: 22px; border: 1px solid var(--gold-border); border-radius: 16px; background: var(--panel-hover); }
-.iching-notice strong { color: var(--gold); font-size: 13px; letter-spacing: 1px; }
-.iching-notice p { color: var(--muted); margin-top: 8px; }
-.iching-back { display: inline-block; margin-top: 35px; color: var(--gold); text-decoration: none; }
-</style>
+<script src="data.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
