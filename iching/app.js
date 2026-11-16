@@ -118,7 +118,7 @@
     }).join("");
     const analysis=$("viator-analysis");
     analysis.innerHTML=
-      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+renderViator(primary)+'
+      '<h3 class="section-label">PEMBACAAN STRUKTURAL VIATOR</h3>'+renderViator(primary)+
       '<p class="analysis-note">Kerangka ini adalah lensa pengamatan Viator yang disusun dari citra trigram. Ia bukan terjemahan makna klasik, diagnosis keadaan, atau ramalan masa depan.</p>'+
       '<div class="analysis-block"><strong>1 · DASAR KEADAAN</strong><p>Trigram bawah: '+lowerName+'.</p><p>Lensa pengamatan: '+lowerLens[0]+'.</p><p>'+lowerLens[1]+'</p></div>'+
       '<div class="analysis-block"><strong>2 · KONDISI YANG MENAUNGI</strong><p>Trigram atas: '+upperName+'.</p><p>Lensa pengamatan: '+upperLens[0]+'.</p><p>'+upperLens[1]+'</p></div>'+
