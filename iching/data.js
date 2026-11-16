@@ -1898,6 +1898,305 @@
   }
 });
 
+  Object.assign(classical, {
+  "49": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "革：己日乃孚，元亨利貞，悔亡。",
+      "Perubahan besar memperoleh kepercayaan setelah waktunya tiba. Kelancaran besar dan keteguhan menguntungkan; penyesalan lenyap."
+    ],
+    "image": [
+      "澤中有火，革；君子以治曆明時。",
+      "Api berada di dalam danau. Manusia berbudi menata penanggalan dan memperjelas waktu."
+    ],
+    "lines": [
+      [
+        "初九：鞏用黃牛之革。",
+        "Mengikat dengan kulit sapi kuning. Persiapan dan penahanan diri diperlukan sebelum perubahan."
+      ],
+      [
+        "六二：己日乃革之，征吉，无咎。",
+        "Pada hari yang tepat perubahan dilakukan. Bergerak membawa keberuntungan dan tidak bercela."
+      ],
+      [
+        "九三：征凶，貞厲。革言三就，有孚。",
+        "Memaksakan gerak membawa bahaya; keteguhan pun berada dalam keadaan rawan. Pembicaraan tentang perubahan harus matang melalui tiga kali pembahasan sebelum dipercaya."
+      ],
+      [
+        "九四：悔亡，有孚改命，吉。",
+        "Penyesalan lenyap. Dengan kepercayaan, mandat atau ketetapan diubah; keberuntungan."
+      ],
+      [
+        "九五：大人虎變，未占有孚。",
+        "Orang besar berubah seperti harimau: perubahan tampak jelas dan mengesankan. Kepercayaan hadir bahkan sebelum ditanyakan."
+      ],
+      [
+        "上六：君子豹變，小人革面，征凶，居貞吉。",
+        "Orang berbudi berubah seperti macan tutul; orang kecil mengubah penampilan luarnya. Memaksakan langkah membawa bahaya; menetap dalam keteguhan membawa keberuntungan."
+      ]
+    ]
+  },
+  "50": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "鼎：元吉，亨。",
+      "Bejana upacara: keberuntungan besar dan kelancaran."
+    ],
+    "image": [
+      "木上有火，鼎；君子以正位凝命。",
+      "Api berada di atas kayu. Manusia berbudi menempatkan diri dengan benar dan memantapkan tugas atau mandat."
+    ],
+    "lines": [
+      [
+        "初六：鼎顛趾，利出否，得妾以其子，无咎。",
+        "Bejana terbalik sehingga kakinya menghadap ke atas. Baik untuk mengeluarkan hal yang buruk. Gambaran historis tentang memperoleh selir karena anaknya; tidak ada cela."
+      ],
+      [
+        "九二：鼎有實，我仇有疾，不我能即，吉。",
+        "Bejana berisi makanan. Pihak yang bermusuhan mengalami gangguan dan tidak dapat mendekat; keberuntungan."
+      ],
+      [
+        "九三：鼎耳革，其行塞，雉膏不食。方雨虧悔，終吉。",
+        "Pegangan bejana berubah sehingga tidak dapat diangkat; daging burung pegar tidak termakan. Ketika hujan datang, penyesalan berkurang; akhirnya baik."
+      ],
+      [
+        "九四：鼎折足，覆公餗，其形渥，凶。",
+        "Kaki bejana patah, makanan penguasa tumpah dan bejana menjadi kotor; bahaya."
+      ],
+      [
+        "六五：鼎黃耳金鉉，利貞。",
+        "Bejana memiliki pegangan kuning dan palang pengangkat dari logam; keteguhan menguntungkan."
+      ],
+      [
+        "上九：鼎玉鉉，大吉，无不利。",
+        "Bejana memiliki palang pengangkat dari giok; keberuntungan besar, tidak ada yang tidak menguntungkan."
+      ]
+    ]
+  },
+  "51": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "震：亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。",
+      "Guntur membawa kelancaran. Ketika guntur datang, orang terkejut dan waspada, lalu kembali tertawa dan berbicara. Guncangannya terdengar jauh, tetapi alat dan minuman upacara tidak terlepas."
+    ],
+    "image": [
+      "洊雷，震；君子以恐懼修省。",
+      "Guntur datang berulang. Manusia berbudi diliputi kewaspadaan, lalu memeriksa dan memperbaiki dirinya."
+    ],
+    "lines": [
+      [
+        "初九：震來虩虩，後笑言啞啞，吉。",
+        "Guntur datang dan mengejutkan; kemudian tawa dan percakapan kembali. Keberuntungan."
+      ],
+      [
+        "六二：震來厲，億喪貝，跻于九陵，勿逐，七日得。",
+        "Guncangan datang dan keadaan berbahaya; harta seolah hilang. Naik ke bukit-bukit tinggi; jangan mengejar, dalam tujuh hari akan ditemukan kembali."
+      ],
+      [
+        "六三：震蘇蘇，震行无眚。",
+        "Guncangan membuat gentar dan bingung. Bergerak setelah guncangan tidak mendatangkan bencana."
+      ],
+      [
+        "九四：震遂泥。",
+        "Guncangan membuat seseorang terperosok ke lumpur; gerak tertahan."
+      ],
+      [
+        "六五：震往來厲，億无喪，有事。",
+        "Guncangan datang dan pergi, tetap berbahaya. Tidak ada kehilangan besar, tetapi masih ada urusan yang harus ditangani."
+      ],
+      [
+        "上六：震索索，視矍矍，征凶。震不于其躬，于其鄰，无咎。婚媾有言。",
+        "Guncangan membuat tubuh gemetar dan pandangan gelisah; maju membawa bahaya. Bila guncangan belum menimpa diri tetapi terjadi pada tetangga, tidak ada cela. Hubungan pernikahan menimbulkan pembicaraan."
+      ]
+    ]
+  },
+  "52": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "艮：艮其背，不獲其身；行其庭，不見其人，无咎。",
+      "Berhenti pada punggung sehingga diri sendiri tidak lagi menjadi pusat perhatian. Berjalan di halaman tanpa memperhatikan orang lain; tidak ada cela. Gambaran tentang ketenangan dan penghentian gerak."
+    ],
+    "image": [
+      "兼山，艮；君子以思不出其位。",
+      "Dua gunung bertumpuk. Manusia berbudi menjaga pikirannya agar tidak melampaui tempat dan tanggung jawabnya."
+    ],
+    "lines": [
+      [
+        "初六：艮其趾，无咎，利永貞。",
+        "Menghentikan langkah pada kaki; tidak ada cela. Keteguhan jangka panjang menguntungkan."
+      ],
+      [
+        "六二：艮其腓，不拯其隨，其心不快。",
+        "Menghentikan betis, tetapi tidak dapat menolong gerakan yang mengikutinya; hati tidak tenteram."
+      ],
+      [
+        "九三：艮其限，列其夤，厲薰心。",
+        "Menghentikan pinggang; punggung terbelah dan keadaan berbahaya menekan hati."
+      ],
+      [
+        "六四：艮其身，无咎。",
+        "Menghentikan tubuh; tidak ada cela."
+      ],
+      [
+        "六五：艮其輔，言有序，悔亡。",
+        "Menahan rahang dan ucapan; kata-kata menjadi teratur dan penyesalan lenyap."
+      ],
+      [
+        "上九：敦艮，吉。",
+        "Berhenti dengan mantap dan tulus; keberuntungan."
+      ]
+    ]
+  },
+  "53": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "漸：女歸吉，利貞。",
+      "Perkawinan perempuan membawa keberuntungan; keteguhan menguntungkan. Gambaran klasik menekankan proses bertahap dan tertib."
+    ],
+    "image": [
+      "山上有木，漸；君子以居賢德善俗。",
+      "Pohon tumbuh di atas gunung. Manusia berbudi membangun kebajikan dan memperbaiki kebiasaan masyarakat secara bertahap."
+    ],
+    "lines": [
+      [
+        "初六：鴻漸于干，小子厲，有言，无咎。",
+        "Angsa liar bergerak bertahap ke tepi air. Orang muda menghadapi bahaya dan celaan; tidak ada cela."
+      ],
+      [
+        "六二：鴻漸于磐，飲食衎衎，吉。",
+        "Angsa liar bergerak ke batu datar; makan dan minum dengan tenteram. Keberuntungan."
+      ],
+      [
+        "九三：鴻漸于陸，夫征不復，婦孕不育，凶。利禦寇。",
+        "Angsa liar bergerak ke daratan. Suami pergi dan tidak kembali; istri mengandung tetapi tidak melahirkan; bahaya. Baik untuk menghadapi penyerang."
+      ],
+      [
+        "六四：鴻漸于木，或得其桷，无咎。",
+        "Angsa liar bergerak ke pohon dan mungkin menemukan dahan yang datar; tidak ada cela."
+      ],
+      [
+        "九五：鴻漸于陵，婦三歲不孕，終莫之勝，吉。",
+        "Angsa liar bergerak ke bukit. Istri tidak mengandung selama tiga tahun; pada akhirnya tidak ada yang dapat menghalangi, dan keberuntungan."
+      ],
+      [
+        "上九：鴻漸于陸，其羽可用為儀，吉。",
+        "Angsa liar bergerak ke dataran tinggi; bulunya dapat digunakan dalam upacara. Keberuntungan."
+      ]
+    ]
+  },
+  "54": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "歸妹：征凶，无攸利。",
+      "Gadis yang dinikahkan sebagai pasangan sekunder. Memaksakan langkah membawa bahaya; tidak ada arah yang menguntungkan. Istilah dan tata perkawinan mencerminkan struktur sosial kuno."
+    ],
+    "image": [
+      "澤上有雷，歸妹；君子以永終知敝。",
+      "Guntur berada di atas danau. Manusia berbudi memahami sejak awal bagaimana suatu hubungan dapat bertahan hingga akhir dan di mana kerusakannya mungkin muncul."
+    ],
+    "lines": [
+      [
+        "初九：歸妹以娣，跛能履，征吉。",
+        "Gadis dinikahkan sebagai pendamping. Meski pincang, ia masih dapat berjalan; bergerak membawa keberuntungan."
+      ],
+      [
+        "九二：眇能視，利幽人之貞。",
+        "Mata rabun masih dapat melihat. Keteguhan orang yang hidup tersembunyi menguntungkan."
+      ],
+      [
+        "六三：歸妹以須，反歸以娣。",
+        "Gadis dinikahkan sebagai pelayan pendamping; kembali dan menjadi pendamping sekunder."
+      ],
+      [
+        "九四：歸妹愆期，遲歸有時。",
+        "Pernikahan gadis itu melewati waktunya; penundaan memiliki saat yang tepat."
+      ],
+      [
+        "六五：帝乙歸妹，其君之袂，不如其娣之袂良。月幾望，吉。",
+        "Raja Di Yi menikahkan adiknya. Lengan pakaian pengantin utama tidak seindah milik pendampingnya. Bulan hampir purnama; keberuntungan."
+      ],
+      [
+        "上六：女承筐无實，士刲羊无血，无攸利。",
+        "Perempuan membawa keranjang tanpa isi; laki-laki menyembelih domba tanpa darah. Tidak ada yang menguntungkan."
+      ]
+    ]
+  },
+  "55": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "豐：亨，王假之，勿憂，宜日中。",
+      "Kelimpahan membawa kelancaran. Raja mencapai keadaan ini; jangan cemas, keadaan ideal seperti matahari tepat di tengah hari."
+    ],
+    "image": [
+      "雷電皆至，豐；君子以折獄致刑。",
+      "Guntur dan kilat datang bersama. Manusia berbudi memutus perkara dan menjatuhkan hukuman dengan jelas dan tegas."
+    ],
+    "lines": [
+      [
+        "初九：遇其配主，雖旬无咎，往有尚。",
+        "Bertemu pasangan atau pihak yang sepadan. Meski berlangsung sepuluh hari, tidak ada cela; bergerak membawa penghargaan."
+      ],
+      [
+        "六二：豐其蔀，日中見斗。往得疑疾，有孚發若，吉。",
+        "Kelimpahan tertutup tirai tebal; pada tengah hari bintang Biduk terlihat. Bergerak menimbulkan kecurigaan dan penyakit. Ketulusan yang dinyatakan dengan jelas membawa keberuntungan."
+      ],
+      [
+        "九三：豐其沛，日中見沬，折其右肱，无咎。",
+        "Tirai semakin tebal; pada tengah hari bintang kecil terlihat. Lengan kanan patah; tidak ada cela."
+      ],
+      [
+        "九四：豐其蔀，日中見斗，遇其夷主，吉。",
+        "Kelimpahan tertutup tirai; bintang Biduk terlihat pada tengah hari. Bertemu pihak yang sepadan; keberuntungan."
+      ],
+      [
+        "六五：來章，有慶譽，吉。",
+        "Datanglah kecemerlangan; ada perayaan dan pujian. Keberuntungan."
+      ],
+      [
+        "上六：豐其屋，蔀其家，闚其戶，闃其无人，三歲不覿，凶。",
+        "Rumah dibesarkan tetapi seluruh rumah tertutup; mengintip melalui pintu dan tidak menemukan siapa pun. Selama tiga tahun tidak terlihat; bahaya."
+      ]
+    ]
+  },
+  "56": {
+    "source": "Zhouyi (周易); dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "旅：小亨，旅貞吉。",
+      "Perjalanan atau keadaan sebagai orang asing membawa kelancaran kecil. Keteguhan dalam perjalanan membawa keberuntungan."
+    ],
+    "image": [
+      "山上有火，旅；君子以明慎用刑，而不留獄。",
+      "Api berada di atas gunung. Manusia berbudi menjatuhkan hukuman dengan jelas dan hati-hati, serta tidak menahan perkara terlalu lama."
+    ],
+    "lines": [
+      [
+        "初六：旅瑣瑣，斯其所取災。",
+        "Pengembara bertindak remeh dan gelisah; sikap itu mendatangkan bencana."
+      ],
+      [
+        "六二：旅即次，懷其資，得童僕貞。",
+        "Pengembara tiba di penginapan, membawa bekalnya, dan memperoleh pelayan muda yang setia."
+      ],
+      [
+        "九三：旅焚其次，喪其童僕，貞厲。",
+        "Penginapan pengembara terbakar dan pelayannya hilang; keteguhan berada dalam bahaya."
+      ],
+      [
+        "九四：旅于處，得其資斧，我心不快。",
+        "Pengembara menemukan tempat tinggal serta bekal dan kapak, tetapi hatinya tidak tenteram."
+      ],
+      [
+        "六五：射雉一矢亡，終以譽命。",
+        "Menembak burung pegar dan kehilangan satu anak panah; pada akhirnya memperoleh pujian dan tugas."
+      ],
+      [
+        "上九：鳥焚其巢，旅人先笑後號咷。喪牛于易，凶。",
+        "Sarang burung terbakar. Pengembara mula-mula tertawa lalu menangis keras. Kehilangan sapi karena kecerobohan; bahaya."
+      ]
+    ]
+  }
+});
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
