@@ -178,6 +178,231 @@
   }
 };
 
+  Object.assign(classical, {
+  "3": {
+    "source": "Teks Zhouyi dan Great Image; dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "元亨利貞。勿用有攸往。利建侯。",
+      "Ada potensi untuk berkembang dan berhasil, tetapi jangan tergesa mengambil langkah jauh. Menguntungkan untuk membangun kepemimpinan dan dukungan yang tepat."
+    ],
+    "image": [
+      "雲雷，屯；君子以經綸。",
+      "Awan dan guntur membentuk keadaan awal yang penuh kesulitan. Manusia berbudi menata dan mengurai keadaan agar memiliki arah."
+    ],
+    "lines": [
+      [
+        "初九：磐桓。利居貞。利建侯。",
+        "Langkah tertahan. Lebih baik menetap teguh dan membangun dasar kepemimpinan."
+      ],
+      [
+        "六二：屯如邅如。乘馬班如。匪寇婚媾。女子貞不字。十年乃字。",
+        "Kemajuan tersendat dan arah belum jelas. Jangan salah mengira maksud pihak lain; keteguhan dan waktu diperlukan sebelum ikatan yang tepat terbentuk."
+      ],
+      [
+        "六三：即鹿无虞。惟入于林中。君子幾不如舍。往吝。",
+        "Mengejar rusa tanpa pemandu membuat orang tersesat di hutan. Orang bijak mengenali tanda bahaya dan memilih berhenti."
+      ],
+      [
+        "六四：乘馬班如。求婚媾。往吉。无不利。",
+        "Kuda-kuda bergerak maju-mundur. Mencari hubungan atau kerja sama yang tepat lalu melangkah membawa keberuntungan."
+      ],
+      [
+        "九五：屯其膏。小貞吉。大貞凶。",
+        "Sumber daya atau kemurahan tertahan. Keteguhan dalam urusan kecil menguntungkan; memaksakan perkara besar membawa risiko."
+      ],
+      [
+        "上六：乘馬班如。泣血漣如。",
+        "Kuda-kuda terpaksa mundur; kesedihan mendalam mengalir. Keadaan ini tidak dapat dipertahankan lama."
+      ]
+    ]
+  },
+  "4": {
+    "source": "Teks Zhouyi dan Great Image; dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "亨。匪我求童蒙。童蒙求我。初筮告。再三瀆。瀆則不告。利貞。",
+      "Ada jalan menuju kemajuan. Pengajar tidak mengejar murid; murid datang mencari pengetahuan. Pertanyaan yang tulus layak dijawab, tetapi pengulangan tanpa kesungguhan mengaburkan proses belajar. Keteguhan membawa manfaat."
+    ],
+    "image": [
+      "山下出泉，蒙；君子以果行育德。",
+      "Mata air keluar dari kaki gunung. Manusia berbudi menumbuhkan watak melalui tindakan yang tegas dan pembinaan diri."
+    ],
+    "lines": [
+      [
+        "初六：發蒙。利用刑人。用說桎梏。以往吝。",
+        "Membuka ketidaktahuan memerlukan batas dan disiplin. Namun, bila tindakan hanya menjadi hukuman tanpa tujuan pembinaan, hasilnya buruk."
+      ],
+      [
+        "九二：包蒙吉。納婦吉。子克家。",
+        "Menerima orang yang belum matang dengan lapang membawa keberuntungan. Tanggung jawab dapat dijalankan dan rumah tangga tertata."
+      ],
+      [
+        "六三：勿用取女。見金夫。不有躬。无攸利。",
+        "Jangan membangun ikatan dengan orang yang mudah meninggalkan prinsip demi daya tarik atau keuntungan sesaat; tidak ada manfaat di sana."
+      ],
+      [
+        "六四：困蒙。吝。",
+        "Terjebak dalam ketidaktahuan dan menutup diri dari bimbingan membawa kesulitan."
+      ],
+      [
+        "六五：童蒙。吉。",
+        "Sikap seorang pemula yang mau belajar membawa keberuntungan."
+      ],
+      [
+        "上九：擊蒙。不利為寇。利禦寇。",
+        "Mengatasi ketidaktahuan perlu ketegasan, bukan penindasan. Tepat untuk menahan gangguan, bukan menjadi penyerang."
+      ]
+    ]
+  },
+  "5": {
+    "source": "Teks Zhouyi dan Great Image; dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "有孚。光亨。貞吉。利涉大川。",
+      "Ketulusan memberi kejernihan dan kelancaran. Keteguhan membawa keberuntungan; menyeberangi arus besar dapat dilakukan bila persiapan memadai."
+    ],
+    "image": [
+      "雲上於天，需；君子以飲食宴樂。",
+      "Awan berkumpul di langit sebelum hujan. Manusia berbudi menjaga tenaga dan ketenangan sambil menunggu saat yang tepat."
+    ],
+    "lines": [
+      [
+        "初九：需于郊。利用恆。无咎。",
+        "Menunggu di pinggiran. Ketekunan yang stabil membawa keadaan tanpa cela."
+      ],
+      [
+        "九二：需于沙。小有言。終吉。",
+        "Menunggu di pasir dekat bahaya. Mungkin ada teguran kecil, tetapi akhirnya baik."
+      ],
+      [
+        "九三：需于泥。致寇至。",
+        "Menunggu di lumpur membuat seseorang rentan mengundang gangguan."
+      ],
+      [
+        "六四：需于血。出自穴。",
+        "Berada di tengah luka dan bahaya; jalan keluar perlu dicari dengan hati-hati."
+      ],
+      [
+        "九五：需于酒食。貞吉。",
+        "Menunggu dalam keadaan cukup dan tenteram. Keteguhan membawa keberuntungan."
+      ],
+      [
+        "上六：入于穴。有不速之客三人來。敬之終吉。",
+        "Masuk ke tempat berlindung, lalu tiga tamu datang tanpa diundang. Sambut dengan hormat; akhirnya baik."
+      ]
+    ]
+  },
+  "6": {
+    "source": "Teks Zhouyi dan Great Image; dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "有孚。窒惕。中吉。終凶。利見大人。不利涉大川。",
+      "Ada ketulusan, tetapi juga hambatan dan kecemasan. Menahan diri dan mencari penyelesaian yang seimbang membawa hasil lebih baik; memaksakan sengketa sampai akhir berbahaya. Baik mencari penengah yang bijak; tidak baik menerjang risiko besar."
+    ],
+    "image": [
+      "天與水違行，訟；君子以作事謀始。",
+      "Langit dan air bergerak berlawanan. Manusia berbudi merencanakan awal suatu urusan dengan cermat agar sengketa tidak tumbuh."
+    ],
+    "lines": [
+      [
+        "初六：不永所事。小有言。終吉。",
+        "Jangan memperpanjang perkara. Meski ada celaan kecil, akhirnya baik."
+      ],
+      [
+        "九二：不克訟。歸而逋。其邑人三百戶。无眚。",
+        "Tidak mampu memenangkan sengketa; mundur dan kembali ke tempat sendiri. Dengan menghindari eskalasi, bahaya dapat dicegah."
+      ],
+      [
+        "六三：食舊德。貞厲。終吉。或從王事。无成。",
+        "Bertahan pada sumber penghidupan dan nilai lama. Keadaan genting, tetapi akhirnya baik; bila melayani urusan besar, jangan mengklaim hasil sebagai milik sendiri."
+      ],
+      [
+        "九四：不克訟。復即命。渝。安貞吉。",
+        "Tidak mampu memenangkan sengketa. Kembali pada ketentuan yang benar, ubah sikap, dan terima batas; keteguhan membawa keberuntungan."
+      ],
+      [
+        "九五：訟。元吉。",
+        "Menyelesaikan sengketa dengan kewenangan dan keadilan yang tepat membawa keberuntungan besar."
+      ],
+      [
+        "上九：或錫之鞶帶。終朝三褫之。",
+        "Kemenangan mungkin memberi kehormatan, tetapi kehormatan itu dapat dicabut berulang kali. Jangan menganggap kemenangan sengketa sebagai kemuliaan tetap."
+      ]
+    ]
+  },
+  "7": {
+    "source": "Teks Zhouyi dan Great Image; dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "貞丈人吉。无咎。",
+      "Keteguhan, disiplin, dan kepemimpinan orang yang matang membawa keberuntungan tanpa cela."
+    ],
+    "image": [
+      "地中有水，師；君子以容民畜衆。",
+      "Air tersimpan di dalam bumi. Manusia berbudi merawat masyarakat dan menghimpun orang dengan tanggung jawab."
+    ],
+    "lines": [
+      [
+        "初六：師出以律。否臧凶。",
+        "Pasukan bergerak dengan aturan. Bila disiplin tidak baik, hasilnya buruk."
+      ],
+      [
+        "九二：在師中吉。无咎。王三錫命。",
+        "Pemimpin berada di tengah pasukan; keberuntungan dan tidak ada cela. Raja berulang kali memberikan kepercayaan dan mandat."
+      ],
+      [
+        "六三：師或輿尸。凶。",
+        "Pasukan mungkin pulang membawa jenazah. Kepemimpinan yang buruk membawa akibat fatal."
+      ],
+      [
+        "六四：師左次。无咎。",
+        "Pasukan mundur dan berkemah di sisi yang aman. Tidak ada cela bila mundur adalah keputusan tepat."
+      ],
+      [
+        "六五：田有禽。利執言。无咎。長子帥師。弟子輿尸。貞凶。",
+        "Ada sasaran di ladang; tindakan tegas dapat dibenarkan. Namun, bila komando utama diberikan kepada orang yang tepat dan orang yang tidak cakap ikut mengendalikan, hasilnya buruk."
+      ],
+      [
+        "上六：大君有命。開國承家。小人勿用。",
+        "Penguasa membagikan tugas dan tanggung jawab setelah perjuangan. Jangan menempatkan orang yang tidak layak pada jabatan penting."
+      ]
+    ]
+  },
+  "8": {
+    "source": "Teks Zhouyi dan Great Image; dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "吉。原筮元永貞。无咎。不寧方來。後夫凶。",
+      "Keadaan dapat membawa keberuntungan, tetapi dasar persatuan harus diperiksa: apakah ketulusan, kelapangan, dan keteguhan dapat dipertahankan? Mereka yang gelisah akan datang mencari ikatan; yang terlambat bergabung dapat kehilangan kesempatan."
+    ],
+    "image": [
+      "地上有水，比；先王以建萬國，親諸侯。",
+      "Air berada di atas bumi dan menyatukannya. Para penguasa terdahulu membangun negeri-negeri dan menjalin kedekatan dengan para pemimpin."
+    ],
+    "lines": [
+      [
+        "初六：有孚比之。无咎。有孚盈缶。終來有它吉。",
+        "Membangun persatuan dengan tulus tidak membawa cela. Ketulusan yang penuh seperti isi bejana akan mendatangkan kebaikan."
+      ],
+      [
+        "六二：比之自內。貞吉。",
+        "Persatuan dimulai dari dalam diri dan lingkaran terdekat. Keteguhan membawa keberuntungan."
+      ],
+      [
+        "六三：比之匪人。",
+        "Membangun ikatan dengan orang yang tidak tepat membawa masalah."
+      ],
+      [
+        "六四：外比之。貞吉。",
+        "Menjalin hubungan ke luar dengan dasar yang benar membawa keberuntungan."
+      ],
+      [
+        "九五：顯比。王用三驅。失前禽。邑人不誡。吉。",
+        "Persatuan dijalankan secara terbuka dan tidak memaksa. Raja membiarkan sebagian buruan lolos; rakyat tidak perlu hidup dalam ketakutan. Ini membawa keberuntungan."
+      ],
+      [
+        "上六：比之无首。凶。",
+        "Mencari persatuan tanpa memulai dengan dasar dan arah yang benar membawa hasil buruk."
+      ]
+    ]
+  }
+});
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
