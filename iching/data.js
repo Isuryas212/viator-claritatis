@@ -403,6 +403,305 @@
   }
 });
 
+  Object.assign(classical, {
+  "9": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "小畜：亨。密雲不雨，自我西郊。",
+      "Ada kelancaran dalam penahanan kecil. Awan tebal belum menurunkan hujan; tenaga sedang terkumpul tetapi belum mencapai pelepasan."
+    ],
+    "image": [
+      "風行天上，小畜；君子以懿文德。",
+      "Angin bergerak di atas langit. Manusia berbudi memperhalus watak dan kebajikan melalui pembinaan diri."
+    ],
+    "lines": [
+      [
+        "初九：復自道，何其咎？吉。",
+        "Kembali ke jalan sendiri. Tidak ada alasan untuk cela; hasilnya baik."
+      ],
+      [
+        "九二：牽復，吉。",
+        "Tertarik kembali ke jalan yang benar; membawa keberuntungan."
+      ],
+      [
+        "九三：輿說輻，夫妻反目。",
+        "Roda kereta terlepas dari poros; pasangan saling berpaling. Ketegangan muncul ketika dorongan maju tidak sejalan."
+      ],
+      [
+        "六四：有孚，血去惕出，无咎。",
+        "Ketulusan menghilangkan pertumpahan darah dan mengusir kecemasan. Tidak ada cela."
+      ],
+      [
+        "九五：有孚攣如，富以其鄰。",
+        "Ketulusan mengikat hubungan erat; kelimpahan dibagikan bersama tetangga."
+      ],
+      [
+        "上九：既雨既處，尚德載。婦貞厲。月幾望，君子征凶。",
+        "Hujan telah turun dan keadaan berhenti. Akumulasi telah mencapai puncak; bahkan keteguhan dapat berbahaya bila diteruskan tanpa membaca batas."
+      ]
+    ]
+  },
+  "10": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "履虎尾，不咥人，亨。",
+      "Menginjak ekor harimau tetapi tidak digigit. Keadaan berisiko dapat dilalui bila perilaku dan langkah dijaga dengan tepat."
+    ],
+    "image": [
+      "上天下澤，履；君子以辨上下，定民志。",
+      "Langit berada di atas dan danau di bawah. Manusia berbudi membedakan kedudukan dan tanggung jawab agar kehidupan bersama tertata."
+    ],
+    "lines": [
+      [
+        "初九：素履，往无咎。",
+        "Melangkah sederhana tanpa kepura-puraan; maju tanpa cela."
+      ],
+      [
+        "九二：履道坦坦，幽人貞吉。",
+        "Menempuh jalan yang lapang. Sikap tenang dan teguh membawa keberuntungan."
+      ],
+      [
+        "六三：眇能視，跛能履。履虎尾，咥人，凶。武人為于大君。",
+        "Orang yang penglihatannya terbatas merasa mampu melihat, yang pincang merasa mampu berjalan; ia menginjak ekor harimau dan digigit. Kesombongan kemampuan membawa bahaya."
+      ],
+      [
+        "九四：履虎尾，愬愬，終吉。",
+        "Menginjak ekor harimau dengan kewaspadaan dan rasa gentar; akhirnya baik."
+      ],
+      [
+        "九五：夬履，貞厲。",
+        "Melangkah dengan tegas, tetapi keteguhan yang kaku tetap mengandung bahaya."
+      ],
+      [
+        "上九：視履考祥，其旋元吉。",
+        "Meninjau kembali langkah dan akibatnya. Bila perjalanan diperiksa dengan baik, hasilnya sangat baik."
+      ]
+    ]
+  },
+  "11": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "泰：小往大來，吉亨。",
+      "Yang kecil pergi dan yang besar datang. Keadaan terbuka bagi hubungan yang lancar dan membawa keberuntungan."
+    ],
+    "image": [
+      "天地交，泰；后以財成天地之道，輔相天地之宜，以左右民。",
+      "Langit dan bumi saling berhubungan. Pemimpin menata sumber daya dan membantu keselarasan alam demi menopang kehidupan masyarakat."
+    ],
+    "lines": [
+      [
+        "初九：拔茅茹，以其彙，征吉。",
+        "Mencabut rumput beserta akar dan rumpunnya. Bergerak bersama kelompok yang sejalan membawa keberuntungan."
+      ],
+      [
+        "九二：包荒，用馮河，不遐遺，朋亡，得尚于中行。",
+        "Menerima yang belum sempurna, berani menyeberangi sungai, tidak mengabaikan yang jauh, dan tidak terikat kepentingan kelompok; jalan tengah dihormati."
+      ],
+      [
+        "九三：无平不陂，无往不復。艱貞无咎。勿恤其孚，于食有福。",
+        "Tidak ada dataran tanpa lereng, tidak ada kepergian tanpa kepulangan. Keteguhan dalam masa sulit mencegah cela; jangan kehilangan kepercayaan, sebab ada berkah dalam kecukupan."
+      ],
+      [
+        "六四：翩翩，不富以其鄰，不戒以孚。",
+        "Bergerak turun bersama tetangga, bukan karena kekayaan, melainkan karena kepercayaan yang tidak dipaksakan."
+      ],
+      [
+        "六五：帝乙歸妹，以祉元吉。",
+        "Pernikahan putri Kaisar Yi membawa berkah dan keberuntungan besar."
+      ],
+      [
+        "上六：城復于隍，勿用師。自邑告命，貞吝。",
+        "Tembok kota runtuh kembali ke paritnya. Jangan mengerahkan pasukan; cukup umumkan keadaan dari dalam wilayah sendiri. Memaksakan keadaan membawa kesulitan."
+      ]
+    ]
+  },
+  "12": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "否之匪人，不利君子貞。大往小來。",
+      "Keadaan tidak mendukung hubungan manusia yang semestinya. Keteguhan orang berbudi menghadapi hambatan; yang besar menjauh dan yang kecil datang."
+    ],
+    "image": [
+      "天地不交，否；君子以儉德辟難，不可榮以祿。",
+      "Langit dan bumi tidak saling berhubungan. Manusia berbudi menjaga kebajikan secara sederhana dan menghindari bahaya, bukan mengejar kehormatan atau upah."
+    ],
+    "lines": [
+      [
+        "初六：拔茅茹，以其彙，貞吉亨。",
+        "Mencabut rumput beserta rumpunnya. Tetap teguh bersama orang-orang yang sejalan membawa kelancaran."
+      ],
+      [
+        "六二：包承。小人吉，大人否亨。",
+        "Menerima dan melayani keadaan. Bagi orang kecil ini mungkin menguntungkan; orang besar sebaiknya tidak larut dan tetap menjaga jalannya."
+      ],
+      [
+        "六三：包羞。",
+        "Menanggung rasa malu; keadaan memperlihatkan sesuatu yang patut disadari."
+      ],
+      [
+        "九四：有命无咎，疇離祉。",
+        "Bila ada mandat yang benar, tidak ada cela; orang-orang yang sejalan dapat menerima berkah."
+      ],
+      [
+        "九五：休否，大人吉。其亡其亡，繫于苞桑。",
+        "Kebuntuan mulai diakhiri. Orang besar memperoleh keberuntungan, tetapi tetap waspada seolah bahaya dapat datang kapan saja; kuatkan dasar seperti akar murbei."
+      ],
+      [
+        "上九：傾否，先否後喜。",
+        "Kebuntuan berbalik dan runtuh. Setelah masa tertutup, kegembiraan datang."
+      ]
+    ]
+  },
+  "13": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "同人于野，亨。利涉大川。利君子貞。",
+      "Bersatu dengan orang lain secara terbuka membawa kelancaran. Menguntungkan untuk menyeberangi kesulitan besar dan menjaga keteguhan orang berbudi."
+    ],
+    "image": [
+      "天與火，同人；君子以類族辨物。",
+      "Langit dan api bergerak searah. Manusia berbudi memahami persamaan dan perbedaan kelompok serta membedakan berbagai hal dengan jernih."
+    ],
+    "lines": [
+      [
+        "初九：同人于門，无咎。",
+        "Bertemu dan bekerja sama di pintu terbuka; tidak ada cela."
+      ],
+      [
+        "六二：同人于宗，吝。",
+        "Persatuan hanya di dalam klan sendiri membawa keterbatasan dan kesulitan."
+      ],
+      [
+        "九三：伏戎于莽，升其高陵，三歲不興。",
+        "Pasukan bersembunyi di semak dan mengawasi dari bukit; selama tiga tahun tidak berani bergerak. Kecurigaan dan konflik tersembunyi menghambat."
+      ],
+      [
+        "九四：乘其墉，弗克攻，吉。",
+        "Sudah berada di atas tembok lawan, tetapi tidak menyerang. Menahan diri membawa keberuntungan."
+      ],
+      [
+        "九五：同人，先號咷而後笑。大師克相遇。",
+        "Persatuan diawali tangis lalu berakhir dengan tawa. Setelah perjuangan besar, pihak-pihak akhirnya bertemu."
+      ],
+      [
+        "上九：同人于郊，无悔。",
+        "Menjalin hubungan di luar pusat keramaian. Tidak ada penyesalan."
+      ]
+    ]
+  },
+  "14": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "大有：元亨。",
+      "Kepemilikan dalam ukuran besar membawa potensi kelancaran yang besar."
+    ],
+    "image": [
+      "火在天上，大有；君子以遏惡揚善，順天休命。",
+      "Api berada tinggi di langit dan menerangi segala sesuatu. Manusia berbudi menahan keburukan, mengembangkan kebaikan, dan mengikuti ketetapan yang benar."
+    ],
+    "lines": [
+      [
+        "初九：无交害，匪咎。艱則无咎。",
+        "Tidak berhubungan dengan hal yang merusak; bukan cela. Kewaspadaan dalam keadaan sulit menjaga agar tidak terjadi kesalahan."
+      ],
+      [
+        "九二：大車以載，有攸往，无咎。",
+        "Kereta besar mampu memikul muatan. Ada tujuan yang dapat ditempuh tanpa cela."
+      ],
+      [
+        "九三：公用亨于天子，小人弗克。",
+        "Seorang pejabat mempersembahkan hasil kepada penguasa. Orang yang tidak matang tidak mampu memikul tanggung jawab semacam itu."
+      ],
+      [
+        "九四：匪其彭，无咎。",
+        "Tidak membesarkan diri atau memamerkan kemegahan; dengan demikian tidak ada cela."
+      ],
+      [
+        "六五：厥孚交如，威如，吉。",
+        "Ketulusan yang membangun hubungan disertai wibawa yang tepat membawa keberuntungan."
+      ],
+      [
+        "上九：自天祐之，吉无不利。",
+        "Pertolongan datang dari langit; keberuntungan dan tidak ada yang tidak menguntungkan."
+      ]
+    ]
+  },
+  "15": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "謙：亨。君子有終。",
+      "Kerendahan hati membawa kelancaran. Manusia berbudi mampu menjaga sikap itu sampai akhir."
+    ],
+    "image": [
+      "地中有山，謙；君子以裒多益寡，稱物平施。",
+      "Gunung berada di dalam bumi. Manusia berbudi mengurangi yang berlebihan, menambah yang kurang, dan menimbang pembagian secara adil."
+    ],
+    "lines": [
+      [
+        "初六：謙謙君子，用涉大川，吉。",
+        "Orang berbudi yang rendah hati dapat menyeberangi kesulitan besar; membawa keberuntungan."
+      ],
+      [
+        "六二：鳴謙，貞吉。",
+        "Kerendahan hati yang tampak dan terdengar, bila tulus dan teguh, membawa keberuntungan."
+      ],
+      [
+        "九三：勞謙君子，有終吉。",
+        "Orang berbudi bekerja keras dan tetap rendah hati; hasil akhirnya baik."
+      ],
+      [
+        "六四：无不利，撝謙。",
+        "Tidak ada yang merugikan bila kerendahan hati diwujudkan dalam tindakan yang tepat."
+      ],
+      [
+        "六五：不富以其鄰，利用侵伐，无不利。",
+        "Tidak mengandalkan kekayaan untuk memengaruhi tetangga. Ketegasan terhadap gangguan dapat dibenarkan bila perlu."
+      ],
+      [
+        "上六：鳴謙，利用行師，征邑國。",
+        "Kerendahan hati telah dikenal luas. Bila perlu, tindakan tegas dapat digunakan untuk menertibkan wilayah sendiri."
+      ]
+    ]
+  },
+  "16": {
+    "source": "Zhouyi, dibandingkan dengan James Legge, The Yî King (1882). Padanan Indonesia merupakan terjemahan kerja ringkas.",
+    "judgment": [
+      "豫：利建侯行師。",
+      "Menguntungkan untuk mengangkat pemimpin dan menggerakkan kekuatan bersama, asalkan ada dasar yang tepat."
+    ],
+    "image": [
+      "雷出地奮，豫；先王以作樂崇德，殷薦之上帝，以配祖考。",
+      "Guntur muncul dari bumi dan menggerakkan segala sesuatu. Para penguasa terdahulu menciptakan musik untuk memuliakan kebajikan dan menghormati leluhur."
+    ],
+    "lines": [
+      [
+        "初六：鳴豫，凶。",
+        "Memamerkan kegembiraan dan kepuasan diri membawa bahaya."
+      ],
+      [
+        "六二：介于石，不終日，貞吉。",
+        "Teguh seperti batu; mengenali keadaan tanpa menunggu lama. Ketepatan dan keteguhan membawa keberuntungan."
+      ],
+      [
+        "六三：盱豫，悔。遲有悔。",
+        "Memandang ke atas demi kesenangan atau pujian membawa penyesalan. Terlambat menyadarinya menambah penyesalan."
+      ],
+      [
+        "九四：由豫，大有得。勿疑。朋盍簪。",
+        "Sumber kegembiraan dan keselarasan memperoleh hasil besar. Jangan biarkan kecurigaan memecah hubungan; orang-orang akan berkumpul."
+      ],
+      [
+        "六五：貞疾，恆不死。",
+        "Penyakit atau kelemahan berlangsung lama. Bertahan saja bukan berarti keadaan telah pulih."
+      ],
+      [
+        "上六：冥豫，成有渝，无咎。",
+        "Terlarut dalam kesenangan hingga tidak lagi melihat keadaan. Bila pada akhirnya berubah, cela masih dapat dihindari."
+      ]
+    ]
+  }
+});
+
   root.VIATOR_ICHING_DATA = Object.freeze({
     lineOrder: "bottom-to-top",
     yang: "1",
