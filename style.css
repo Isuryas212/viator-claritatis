@@ -948,3 +948,12 @@ footer {
   .language-tools{top:8px;right:8px;left:auto;width:auto;padding:4px 6px}
   .language-tools select{width:132px;max-width:132px;font-size:10px}
 }
+
+
+/* CREATOR SUPPORT LINK */
+.support-cta{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:28px 0;padding:22px 24px;border:1px solid var(--gold-border);border-radius:14px;background:linear-gradient(120deg,rgba(215,181,111,.09),rgba(23,18,15,.8))}
+.support-cta h2,.support-cta h3{margin:0 0 7px;color:var(--gold)}
+.support-cta p{margin:0;color:var(--muted);font-size:14px;max-width:620px}
+.support-cta a{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:11px 18px;border:1px solid var(--gold);border-radius:7px;background:var(--gold);color:#17120f;font-weight:700;text-decoration:none}
+.support-cta a:hover{filter:brightness(1.08);transform:translateY(-1px)}
+@media(max-width:600px){.support-cta{align-items:flex-start;flex-direction:column;padding:18px}.support-cta a{width:100%}}
