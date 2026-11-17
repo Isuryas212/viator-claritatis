@@ -959,3 +959,43 @@ footer {
 .support-actions{display:flex;flex-wrap:wrap;gap:10px}
 .support-cta a.support-secondary{background:transparent;color:var(--gold)}
 @media(max-width:600px){.support-cta{align-items:flex-start;flex-direction:column;padding:18px}.support-actions{width:100%;flex-direction:column}.support-cta a{width:100%}}
+
+
+/* ===== SITE-WIDE USABILITY PASS ===== */
+:where(a,button,input,select,textarea):focus-visible{
+  outline:2px solid #e4c783;
+  outline-offset:4px;
+}
+.catalog-nav{
+  position:sticky;
+  top:0;
+}
+.catalog-nav a{
+  display:inline-flex;
+  align-items:center;
+  min-height:36px;
+  padding:5px 2px;
+}
+.catalog-card,.work-card,.relation-node{
+  overflow-wrap:anywhere;
+}
+.catalog-card a,.catalog-row a,.catalog-footer a{
+  text-underline-offset:4px;
+}
+.catalog-page [hidden]{
+  display:none !important;
+}
+@media(max-width:600px){
+  .catalog-nav{
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    scrollbar-width:thin;
+    padding-inline:16px;
+  }
+  .catalog-nav a{flex:0 0 auto;white-space:nowrap}
+  .catalog-wrap{padding-bottom:52px}
+  .catalog-card{padding:19px}
+  .catalog-section{scroll-margin-top:72px}
+}
