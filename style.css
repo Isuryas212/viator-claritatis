@@ -1018,3 +1018,59 @@ footer {
 .catalog-art.has-cover:before,.catalog-art.has-cover:after{display:none}
 .catalog-art img{width:100%;height:100%;position:absolute;inset:0;object-fit:contain;object-position:center;display:block}
 @media(max-width:600px){.catalog-art{aspect-ratio:2/3;min-height:190px;max-height:360px}.catalog-card>.catalog-kicker,.catalog-card>h3,.catalog-card>p,.catalog-card>.catalog-meta,.catalog-card>.catalog-link{margin-left:15px;margin-right:15px}}
+
+
+/* ===== VIATOR CLARITATIS IDENTITY MASTHEAD ===== */
+.identity-masthead{
+  width:min(1360px,calc(100% - 56px));
+  margin:28px auto 0;
+  display:grid;
+  grid-template-columns:minmax(220px,.42fr) minmax(0,1.58fr);
+  align-items:center;
+  gap:clamp(18px,3vw,38px);
+  padding:18px;
+  border:1px solid rgba(215,181,111,.22);
+  background:linear-gradient(110deg,rgba(22,17,12,.94),rgba(7,6,5,.96));
+  box-shadow:0 16px 40px rgba(0,0,0,.24);
+}
+.identity-seal{
+  width:min(100%,270px);
+  aspect-ratio:1;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+  border:3px double #cda64f;
+  border-radius:50%;
+  outline:1px solid rgba(215,181,111,.42);
+  outline-offset:6px;
+  background:radial-gradient(circle,rgba(197,145,48,.18),#080706 68%);
+  color:#e8c66f;
+  text-align:center;
+  box-shadow:inset 0 0 35px rgba(215,181,111,.12),0 0 24px rgba(0,0,0,.35);
+}
+.seal-name{max-width:90%;font:600 clamp(11px,1.15vw,15px) Georgia,serif;letter-spacing:2px}
+.seal-compass{
+  width:46%;aspect-ratio:1;display:grid;place-items:center;
+  border:2px solid #d5ad58;border-radius:50%;
+  color:#ffe19a;font-size:clamp(42px,6vw,68px);
+  text-shadow:0 0 16px #e5b64f,0 0 30px rgba(229,182,79,.65);
+  background:radial-gradient(circle,#5a3a12 0,#080706 68%);
+}
+.seal-motto{max-width:90%;font:11px Georgia,serif;letter-spacing:1.5px}
+.identity-banner{
+  display:block;width:100%;height:auto;max-height:390px;object-fit:cover;
+  border:1px solid rgba(215,181,111,.38);
+}
+@media(max-width:700px){
+  .identity-masthead{
+    width:calc(100% - 28px);margin-top:16px;padding:15px;
+    grid-template-columns:1fr;gap:18px;
+  }
+  .identity-seal{width:min(58vw,220px);gap:10px}
+  .seal-name{font-size:11px}
+  .seal-motto{font-size:9px}
+  .identity-banner{max-height:none}
+}
