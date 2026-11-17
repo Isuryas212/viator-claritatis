@@ -931,3 +931,20 @@ footer {
 .vc-music-select{max-width:120px;padding:7px 22px 7px 8px;background:#100d0b;border:1px solid rgba(215,181,111,.35);color:#eee4d2;font-size:11px}
 .vc-music-player.is-playing .vc-music-toggle{box-shadow:0 0 0 3px rgba(215,181,111,.12)}
 @media(max-width:480px){.vc-music-player{right:10px;bottom:10px;gap:7px;padding:8px}.vc-music-meta{min-width:70px}.vc-music-status{max-width:95px}.vc-music-select{max-width:105px;font-size:10px}}
+
+
+/* Compact language switcher: keep it in one corner, not a full-width band. */
+.language-tools{
+  position:fixed;top:10px;right:10px;z-index:1100;
+  display:flex;align-items:center;justify-content:flex-end;
+  width:auto;max-width:calc(100vw - 20px);padding:5px 7px;
+  gap:0;background:rgba(13,11,9,.94);
+  border:1px solid rgba(121,100,66,.55);border-radius:8px;
+  box-shadow:0 5px 18px rgba(0,0,0,.28);backdrop-filter:blur(10px)
+}
+.language-tools label,.language-tools span{display:none}
+.language-tools select{width:148px;min-width:0;max-width:148px;padding:6px 24px 6px 8px;font-size:11px;border-radius:5px}
+@media(max-width:480px){
+  .language-tools{top:8px;right:8px;left:auto;width:auto;padding:4px 6px}
+  .language-tools select{width:132px;max-width:132px;font-size:10px}
+}
