@@ -1290,3 +1290,8 @@ footer {
   .vc-home .identity-masthead{gap:7px;padding:8px}
   .vc-home .identity-masthead .identity-seal{flex-basis:26%;width:26%;max-width:26%}
 }
+
+
+/* Persistent floating music control on every screen size */
+.vc-music-player{position:fixed!important;right:16px!important;bottom:16px!important;left:auto!important;top:auto!important;margin:0!important;z-index:1200!important;width:max-content;max-width:calc(100vw - 20px)}
+@media(max-width:480px){.vc-music-player{right:10px!important;bottom:10px!important;gap:7px;padding:8px}}
