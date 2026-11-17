@@ -31,6 +31,16 @@
   audio.preload = "none";
   audio.loop = true;
   audio.volume = 0.18;
+  const savedTime = Number(localStorage.getItem("vc-music-time") || 0);
+  audio.addEventListener("loadedmetadata", () => {
+    if (Number.isFinite(savedTime) && savedTime > 0 && savedTime < audio.duration) audio.currentTime = savedTime;
+  }, { once: true });
+  audio.addEventListener("timeupdate", () => {
+    if (Number.isFinite(audio.currentTime)) localStorage.setItem("vc-music-time", String(audio.currentTime));
+  });
+  window.addEventListener("pagehide", () => {
+    if (Number.isFinite(audio.currentTime)) localStorage.setItem("vc-music-time", String(audio.currentTime));
+  });
   document.body.appendChild(audio);
 
   const toggle = player.querySelector(".vc-music-toggle");
