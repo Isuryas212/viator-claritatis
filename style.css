@@ -956,4 +956,6 @@ footer {
 .support-cta p{margin:0;color:var(--muted);font-size:14px;max-width:620px}
 .support-cta a{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:11px 18px;border:1px solid var(--gold);border-radius:7px;background:var(--gold);color:#17120f;font-weight:700;text-decoration:none}
 .support-cta a:hover{filter:brightness(1.08);transform:translateY(-1px)}
-@media(max-width:600px){.support-cta{align-items:flex-start;flex-direction:column;padding:18px}.support-cta a{width:100%}}
+.support-actions{display:flex;flex-wrap:wrap;gap:10px}
+.support-cta a.support-secondary{background:transparent;color:var(--gold)}
+@media(max-width:600px){.support-cta{align-items:flex-start;flex-direction:column;padding:18px}.support-actions{width:100%;flex-direction:column}.support-cta a{width:100%}}
