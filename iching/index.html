@@ -1047,6 +1047,12 @@ footer {
 .viator-card ol { padding-left:20px; margin-bottom:0; }
 
 </style>
+<style id="compact-language-switcher">
+  .language-tools{position:fixed;top:10px;right:10px;left:auto;z-index:1100;display:flex;align-items:center;justify-content:flex-end;width:auto;max-width:calc(100vw - 20px);padding:5px 7px;gap:0;background:rgba(13,11,9,.94);border:1px solid rgba(121,100,66,.55);border-radius:8px;box-shadow:0 5px 18px rgba(0,0,0,.28);backdrop-filter:blur(10px)}
+  .language-tools label,.language-tools span{display:none}
+  .language-tools select{width:148px;min-width:0;max-width:148px;padding:6px 24px 6px 8px;font-size:11px;border-radius:5px}
+  @media(max-width:480px){.language-tools{top:8px;right:8px;padding:4px 6px}.language-tools select{width:132px;max-width:132px;font-size:10px}}
+  </style>
 </head>
 <body class="home-page">
 <div class="language-tools" aria-label="Language options">
