@@ -43,5 +43,5 @@
 (()=>{const covers={"Via Silentii et Claritatis":"assets/images/via_silentii_front.jpg","Arsitektur Realitas":"assets/images/arsitektur-realitas-front.jpg"};document.querySelectorAll(".catalog-grid .catalog-card").forEach(card=>{const title=card.querySelector("h3")?.textContent?.trim()||"Karya";const src=covers[title];const art=document.createElement("div");art.className="catalog-art"+(src?" has-cover":"");if(src){const img=document.createElement("img");img.src=src;img.alt="Sampul "+title;img.loading="lazy";img.decoding="async";art.append(img)}else{art.innerHTML='<span>VIATOR CLARITATIS</span><strong></strong><small>SAMPUL MENYUSUL</small>';art.querySelector("strong").textContent=title}card.prepend(art)})})();
 </script>
 </main><script src="language.js?v=1"></script>
-<script src="music.js?v=1"></script>
+<script src="music.js?v=2"></script>
 </body></html>
