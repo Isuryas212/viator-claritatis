@@ -1138,3 +1138,32 @@ footer {
   .vc-home .language-tools select{width:124px;max-width:124px}
   .vc-home .main-nav{gap:15px}
 }
+
+
+/* ===== MOBILE HEADER AND HOMEPAGE SPACING REFINEMENT ===== */
+@media(max-width:700px){
+  .vc-home .site-header{width:calc(100% - 28px);min-height:0;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;padding:12px 0 10px}
+  .vc-home .brand{grid-column:1;grid-row:1;min-width:0}
+  .vc-home .brand-name{font-size:10px;letter-spacing:1.5px}
+  .vc-home .main-nav{grid-column:1 / -1;grid-row:2;display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:20px;overflow-x:auto;white-space:nowrap;padding:10px 2px 8px;scrollbar-width:thin;overscroll-behavior-x:contain}
+  .vc-home .main-nav a{flex:0 0 auto;font-size:12px}
+  .vc-home .language-tools{position:static;grid-column:2;grid-row:1;width:auto;max-width:154px;margin:0;padding:4px;background:transparent;border:0;box-shadow:none;backdrop-filter:none}
+  .vc-home .language-tools select{width:145px;min-width:0;max-width:145px;font-size:10px;padding:7px 20px 7px 7px}
+  .identity-masthead{width:calc(100% - 28px);margin:14px auto 0;padding:13px;gap:14px}
+  .identity-seal{width:min(43vw,168px);gap:8px}
+  .seal-name{font-size:10px;letter-spacing:1.4px}.seal-compass{font-size:42px}.seal-motto{font-size:8px;letter-spacing:1px}
+  .identity-banner{width:100%;aspect-ratio:2.1/1;object-fit:cover}
+  .home-hero{width:calc(100% - 36px);min-height:0;padding:48px 0 44px;grid-template-columns:1fr;gap:28px}
+  .home-hero h1{font-size:clamp(36px,10vw,52px)}
+  .hero-aside{padding:20px 0 0;border-left:0;border-top:1px solid var(--home-line)}
+  .hero-aside p{max-width:none;margin:13px 0}
+  .vc-music-player{position:relative;right:auto;bottom:auto;width:max-content;max-width:calc(100% - 24px);margin:18px auto 24px}
+}
+@media(max-width:360px){
+  .vc-home .site-header{width:calc(100% - 20px)}
+  .vc-home .brand-mark{width:32px;height:32px}
+  .vc-home .brand-name{font-size:9px}
+  .vc-home .language-tools{max-width:128px}
+  .vc-home .language-tools select{width:124px;max-width:124px}
+  .vc-home .main-nav{gap:15px}
+}
