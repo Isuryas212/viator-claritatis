@@ -909,3 +909,13 @@ footer {
 .relation-node .node-no{font-size:10px;letter-spacing:1.5px;color:var(--soft)}
 .relation-connector{text-align:center;color:var(--gold);font-size:12px;letter-spacing:1px;padding:12px}
 @media(max-width:700px){.catalog-wrap{width:calc(100% - 34px);padding-top:28px}.catalog-hero{padding-top:38px}.catalog-grid,.relation-map{grid-template-columns:1fr}.catalog-section-head{display:block}.catalog-section-head p{margin-top:8px}.catalog-row{grid-template-columns:38px 1fr}.catalog-row small{grid-column:2}.catalog-nav{gap:7px 14px}.catalog-nav a{font-size:12px}}
+
+
+/* ===== MULTILINGUAL ACCESS ===== */
+.language-tools{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:7px 10px;padding:10px 16px;background:rgba(18,14,10,.96);border-bottom:1px solid rgba(121,100,66,.42);color:var(--muted);font-size:12px}
+.language-tools label{color:var(--gold);font-weight:700;letter-spacing:.35px}
+.language-tools select{max-width:100%;min-width:190px;padding:7px 30px 7px 10px;background:#100d0b;border:1px solid var(--gold-border);border-radius:2px;color:var(--text);font:inherit}
+.language-tools select:focus{outline:2px solid var(--gold);outline-offset:2px}
+.language-tools span{color:var(--soft);font-size:11px}
+.vc-home .language-tools{border-top:1px solid rgba(121,100,66,.25)}
+@media(max-width:480px){.language-tools{gap:6px 8px;padding:9px 12px}.language-tools label{width:100%;text-align:center}.language-tools select{width:min(100%,290px)}}
