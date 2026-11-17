@@ -45,6 +45,10 @@
 <section class="catalog-section"><div class="catalog-callout"><strong>Catatan katalog.</strong> Status publikasi dan tautan platform akan ditambahkan hanya setelah alamat dan ketersediaannya diverifikasi. Katalog ini memisahkan status penulisan dari status penerbitan.</div></section>
 <script>
 (()=>{const cards=[...document.querySelectorAll("#novel-grid .catalog-card")],q=document.getElementById("novel-search"),buttons=[...document.querySelectorAll("[data-filter]")],empty=document.getElementById("novel-empty");let filter="all";function apply(){let count=0;cards.forEach(c=>{const ok=(filter==="all"||c.dataset.status===filter)&&((c.dataset.search+" "+c.innerText).toLowerCase().includes(q.value.toLowerCase()));c.hidden=!ok;if(ok)count++});empty.hidden=count>0}buttons.forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.filter;buttons.forEach(x=>x.setAttribute("aria-pressed",String(x===b)));apply()}));q.addEventListener("input",apply)})();
-</script><footer class="catalog-footer"><p><strong>VIATOR CLARITATIS</strong> · Via Silentii et Claritatis</p><p>© 2026 Iwan Surya</p><p><a href="index.html">Kembali ke beranda ↑</a></p></footer></main><script src="language.js?v=1"></script>
+</script><footer class="catalog-footer"><p><strong>VIATOR CLARITATIS</strong> · Via Silentii et Claritatis</p><p>© 2026 Iwan Surya</p><p><a href="index.html">Kembali ke beranda ↑</a></p></footer>
+<script>
+(()=>{const covers={"Via Silentii":"assets/images/via_silentii_front.jpg"};document.querySelectorAll(".catalog-grid .catalog-card").forEach(card=>{const title=card.querySelector("h3")?.textContent?.trim()||"Karya";const src=covers[title];const art=document.createElement("div");art.className="catalog-art"+(src?" has-cover":"");if(src){const img=document.createElement("img");img.src=src;img.alt="Sampul "+title;img.loading="lazy";img.decoding="async";art.append(img)}else{art.innerHTML='<span>VIATOR CLARITATIS</span><strong></strong><small>SAMPUL MENYUSUL</small>';art.querySelector("strong").textContent=title}card.prepend(art)})})();
+</script>
+</main><script src="language.js?v=1"></script>
 <script src="music.js?v=1"></script>
 </body></html>
