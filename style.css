@@ -1124,11 +1124,7 @@ footer {
   .home-hero h1{font-size:clamp(36px,10vw,52px)}
   .hero-aside{padding:20px 0 0;border-left:0;border-top:1px solid var(--home-line)}
   .hero-aside p{max-width:none;margin:13px 0}
-  .vc-music-player{
-    position:relative;right:auto;bottom:auto;
-    width:max-content;max-width:calc(100% - 24px);
-    margin:18px auto 24px;
-  }
+  .vc-music-player{position:fixed!important;right:16px!important;bottom:16px!important;left:auto!important;top:auto!important;margin:0!important;z-index:99999!important;width:max-content;max-width:calc(100vw - 20px)}
 }
 @media(max-width:360px){
   .vc-home .site-header{width:calc(100% - 20px)}
@@ -1295,3 +1291,7 @@ footer {
 /* Persistent floating music control on every screen size */
 .vc-music-player{position:fixed!important;right:16px!important;bottom:16px!important;left:auto!important;top:auto!important;margin:0!important;z-index:1200!important;width:max-content;max-width:calc(100vw - 20px)}
 @media(max-width:480px){.vc-music-player{right:10px!important;bottom:10px!important;gap:7px;padding:8px}}
+
+/* Floating ambient player: override legacy mobile flow layout */
+.vc-music-player{position:fixed!important;inset:auto 16px 16px auto!important;z-index:99999!important;margin:0!important;transform:none!important;}
+@media(max-width:480px){.vc-music-player{right:10px!important;bottom:10px!important;left:auto!important;top:auto!important;max-width:calc(100vw - 20px)!important}}
