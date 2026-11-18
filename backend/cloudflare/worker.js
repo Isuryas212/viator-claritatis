@@ -58,6 +58,16 @@ export default {
       return json({ error: "Method not allowed" }, 405, origin || ALLOWED_ORIGIN);
     }
 
+    // Require the Cloudflare Rate Limiting binding before accepting paid inference calls.
+    if (!env.VIATOR_LIMITER || typeof env.VIATOR_LIMITER.limit !== "function") {
+      return json({ error: "Rate limiter is not configured" }, 503, origin || ALLOWED_ORIGIN);
+    }
+    const clientIp = request.headers.get("CF-Connecting-IP") || "unknown";
+    const limit = await env.VIATOR_LIMITER.limit({ key: clientIp });
+    if (!limit.success) {
+      return json({ error: "Too many requests. Please wait before trying again." }, 429, origin || ALLOWED_ORIGIN);
+    }
+
     const contentLength = Number(request.headers.get("Content-Length") || 0);
     if (contentLength > 30000) return json({ error: "Request too large" }, 413, origin);
 
