@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "description": "Daftar rujukan publik awal. Tautan bukan bukti bahwa isi penuh naskah sudah diindeks.",
+  "sources": [
+    {
+      "id": "main-books",
+      "title": "Buku Utama",
+      "path": "../foundation.html",
+      "type": "catalog",
+      "ingestion_status": "link_only"
+    },
+    {
+      "id": "essays-and-ideas",
+      "title": "Esai dan Ide",
+      "path": "../aphorism.html",
+      "type": "catalog",
+      "ingestion_status": "link_only"
+    },
+    {
+      "id": "work-relations",
+      "title": "Hubungan Karya",
+      "path": "../relations.html",
+      "type": "catalog",
+      "ingestion_status": "link_only"
+    },
+    {
+      "id": "about-viator",
+      "title": "Tentang Viator Claritatis",
+      "path": "../about.html",
+      "type": "orientation",
+      "ingestion_status": "link_only"
+    }
+  ]
+}
