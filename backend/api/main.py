@@ -67,7 +67,7 @@ async def health():
 async def chat(payload: ChatRequest, request: Request):
     if not LITELLM_API_KEY:
         raise HTTPException(status_code=503, detail="Backend AI belum dikonfigurasi.")
-    client_ip = request.client.host if request.client else "unknown"
+    client_ip = request.headers.get("x-real-ip") or (request.client.host if request.client else "unknown")
     enforce_rate_limit(client_ip)
 
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
