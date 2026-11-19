@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "title": "Fondasi Pengetahuan VIATOR",
+  "language": "id",
+  "purpose": "Lapisan pengetahuan awal yang merangkum orientasi publik Viator Claritatis. Bukan pengganti naskah sumber lengkap.",
+  "source_policy": "Setiap entri memiliki rujukan halaman. Ringkasan tidak boleh diperluas menjadi klaim yang tidak didukung sumber. Jika pengguna meminta isi rinci naskah yang belum diindeks, VIATOR harus menyatakan keterbatasannya.",
+  "entries": [
+    {
+      "id": "vc-orientation",
+      "title": "Orientasi Viator Claritatis",
+      "category": "fondasi",
+      "content": "Viator Claritatis adalah ruang karya dan gagasan yang berangkat dari upaya mengamati realitas, menguji pemahaman, serta menimbang tindakan dan konsekuensinya dalam kehidupan. Prinsip utamanya: mengikuti perkembangan tanpa kehilangan diri.",
+      "source": "../about.html",
+      "source_section": "Tentang ruang ini",
+      "status": "public-page-reviewed"
+    },
+    {
+      "id": "vc-observation",
+      "title": "Amati sebelum menyimpulkan",
+      "category": "metode",
+      "content": "Bedakan kejadian yang dapat diperiksa dari dugaan, ingatan, dan penafsiran yang menyertainya. Pengamatan menjadi langkah awal sebelum kesimpulan dibentuk.",
+      "source": "../about.html",
+      "source_section": "Orientasi",
+      "status": "public-page-reviewed"
+    },
+    {
+      "id": "vc-knowledge-limits",
+      "title": "Pahami batas pengetahuan",
+      "category": "metode",
+      "content": "Kenali bagian yang telah diketahui, bagian yang belum teruji, dan hal yang masih perlu ditelusuri. Jangan menyamakan informasi yang dimiliki dengan pemahaman yang sudah teruji.",
+      "source": "../about.html",
+      "source_section": "Orientasi",
+      "status": "public-page-reviewed"
+    },
+    {
+      "id": "vc-reality-consequence",
+      "title": "Tetap berpijak pada realitas",
+      "category": "prinsip",
+      "content": "Gagasan dan pilihan perlu berhadapan dengan keadaan nyata serta konsekuensi yang ditimbulkannya. Tafsir tidak menggantikan kenyataan.",
+      "source": "../about.html",
+      "source_section": "Orientasi",
+      "status": "public-page-reviewed"
+    },
+    {
+      "id": "vc-open-ideas",
+      "title": "Gagasan harus tetap dapat diuji",
+      "category": "sikap-intelektual",
+      "content": "Esai dan ide merupakan ruang untuk mencatat, mempertanyakan, dan menguji gagasan. Sebuah gagasan tidak otomatis menjadi kesimpulan hanya karena telah dituliskan.",
+      "source": "../aphorism.html",
+      "source_section": "Ruang pemikiran",
+      "status": "public-page-reviewed"
+    },
+    {
+      "id": "vc-work-independence",
+      "title": "Kedekatan gagasan tidak menghapus kemandirian karya",
+      "category": "arsitektur-karya",
+      "content": "Karya dapat memiliki landasan atau tema yang berdekatan tanpa harus berada dalam satu dunia cerita, satu seri, atau satu alur wajib. Hubungan karya bukan hierarki dan bukan urutan baca wajib.",
+      "source": "../relations.html",
+      "source_section": "Peta konseptual",
+      "status": "public-page-reviewed"
+    },
+    {
+      "id": "vc-main-foundations",
+      "title": "Naskah fondasi utama",
+      "category": "rujukan",
+      "content": "Katalog Buku Utama mencantumkan Via Silentii et Claritatis sebagai landasan perjalanan seorang Viator: mengamati, menahan kesimpulan yang tergesa, dan membangun kejernihan melalui pemahaman terhadap realitas. Arsitektur Realitas dicantumkan sebagai eksplorasi realitas, struktur pemahaman, dan cara manusia membangun pengetahuan.",
+      "source": "../foundation.html",
+      "source_section": "Naskah fondasi",
+      "status": "catalog-summary-only",
+      "limitation": "Isi lengkap kedua naskah belum diindeks dalam lapisan pengetahuan ini."
+    }
+  ]
+}
