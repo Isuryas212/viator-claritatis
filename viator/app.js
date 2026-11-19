@@ -7,11 +7,13 @@
   const transcript = document.querySelector(".dialog-empty");
   const notice = document.querySelector(".notice");
   const status = document.querySelector(".status");
+  const helper = form?.querySelector("small");
   if (!form || !input || !send || !transcript) return;
 
   const endpoint = document.querySelector('meta[name="viator-api-endpoint"]')?.content?.trim() || "";
   const STORAGE_KEY = "viator-dialog-v1";
   const MAX_HISTORY = 24;
+  const API_HISTORY_LIMIT = 12;
   let history = [];
   let busy = false;
 
@@ -62,12 +64,14 @@
   if (endpoint) {
     input.disabled = false;
     send.disabled = false;
-    setStatus("Backend terkonfigurasi", true);
-    if (notice) notice.textContent = "Percakapan dikirim ke layanan VIATOR yang dikonfigurasi. Hindari memasukkan data rahasia atau sensitif.";
+    setStatus("Layanan AI aktif", true);
+    if (notice) notice.textContent = "Dialog terhubung ke VIATOR melalui Cloudflare Workers AI. Hindari memasukkan kata sandi, data keuangan, atau informasi pribadi yang sensitif.";
+    if (helper) helper.textContent = "Riwayat tersimpan di browser ini. Maksimal 12 pesan terakhir dikirim sebagai konteks.";
   } else {
     input.disabled = true;
     send.disabled = true;
     setStatus("Backend belum terhubung");
+    if (helper) helper.textContent = "Kolom dialog belum tersedia.";
   }
 
   if (history.length) renderHistory();
@@ -77,7 +81,7 @@
     send.disabled = value || !endpoint;
     input.disabled = value || !endpoint;
     send.textContent = value ? "…" : "↑";
-    setStatus(value ? "VIATOR sedang menimbang…" : (endpoint ? "Backend terkonfigurasi" : "Backend belum terhubung"), !!endpoint && !value);
+    setStatus(value ? "VIATOR sedang menimbang…" : (endpoint ? "Layanan AI aktif" : "Backend belum terhubung"), !!endpoint && !value);
   }
 
   form.addEventListener("submit", async event => {
@@ -93,13 +97,14 @@
     setBusy(true);
 
     try {
+      const apiMessages = history.slice(-API_HISTORY_LIMIT);
       const response = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history })
+        body: JSON.stringify({ messages: apiMessages })
       });
-      if (!response.ok) throw new Error("Layanan mengembalikan status " + response.status);
-      const data = await response.json();
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(data.error || ("Layanan mengembalikan status " + response.status));
       const reply = typeof data.reply === "string" ? data.reply.trim() : "";
       if (!reply) throw new Error("Format jawaban layanan tidak sesuai.");
       history.push({ role: "assistant", content: reply });
