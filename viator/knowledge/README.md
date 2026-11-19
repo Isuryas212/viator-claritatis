@@ -56,3 +56,16 @@ Jangan mengarang nomor halaman. Untuk dokumen tanpa nomor halaman yang stabil, g
 
 ## Batas implementasi
 File `core.json` saat ini adalah ringkasan awal untuk perancangan, bukan mesin pencarian semantik atau bukti bahwa model AI sudah mengakses seluruh arsip. Integrasi retrieval, kutipan sumber pada jawaban, dan pengelolaan versi baru dapat dinyatakan aktif setelah benar-benar dibangun dan diuji.
+
+
+## Kebijakan katalog dan akses karya
+- `catalog.json` adalah katalog pengenalan publik: judul, kategori, deskripsi singkat, status yang tercantum, dan tautan resmi.
+- Katalog bukan salinan naskah dan tidak memuat bab atau isi eksklusif.
+- VIATOR boleh menjawab pertanyaan pengenalan berdasarkan katalog.
+- Jika pengguna meminta isi lengkap, bab, subbab, kutipan panjang, atau pembahasan eksklusif dari buku, VIATOR harus memberi gambaran umum seperlunya dan mengarahkan pengguna ke halaman/kanal resmi karya.
+- Jangan menyatakan harga, ketersediaan, atau status publikasi yang tidak tercantum atau belum diverifikasi.
+- Jangan mengarang tautan pembelian. Tautan KaryaKarsa yang dicantumkan adalah profil kanal, bukan jaminan setiap judul tersedia di sana.
+
+## Integrasi katalog pada backend
+Backend Cloudflare Worker pada branch pengembangan memuat `catalog.json` dari GitHub Pages dan menyertakannya sebagai konteks rujukan ketika menjawab. Jika katalog gagal dimuat, VIATOR harus mengakui keterbatasan dan tidak mengarang informasi karya.
+Perubahan di branch belum otomatis mengubah Worker yang sedang berjalan. Kode Worker perlu ditinjau, digabungkan, lalu dideploy ke Cloudflare sebelum kebijakan dan katalog ini berlaku pada layanan publik.
