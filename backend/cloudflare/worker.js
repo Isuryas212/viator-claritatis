@@ -132,7 +132,7 @@ export default {
         const catalogResponse = await fetch(CATALOG_URL, { headers: { "Accept": "application/json" } });
         if (catalogResponse.ok) {
           const catalog = await catalogResponse.json();
-          catalogContext = "DATA KATALOG PUBLIK VIATOR CLARITATIS (gunakan hanya untuk pengenalan karya dan tautan):\\n" + JSON.stringify(catalog);
+          catalogContext = "DATA KATALOG PUBLIK VIATOR CLARITATIS (gunakan hanya untuk pengenalan karya dan tautan):\n" + JSON.stringify(catalog);
         }
       } catch (catalogError) {
         console.warn("VIATOR public catalog unavailable", catalogError);
