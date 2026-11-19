@@ -1,3 +1,4 @@
+# VIATOR Cloudflare Worker configuration
 name = "viator-engine-9dcf"
 main = "worker.js"
 compatibility_date = "2026-11-19"
