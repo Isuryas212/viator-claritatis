@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "title": "Katalog publik Viator Claritatis",
+  "language": "id",
+  "purpose": "Mengenalkan ruang karya dan mengarahkan pengunjung ke halaman atau kanal resmi. Bukan salinan atau pengganti naskah.",
+  "access_policy": {
+    "public_information": [
+      "judul karya",
+      "deskripsi singkat yang telah dipublikasikan",
+      "kategori",
+      "status yang tercantum di katalog",
+      "tautan resmi"
+    ],
+    "protected_information": [
+      "isi lengkap buku",
+      "teks bab atau subbab",
+      "kutipan panjang",
+      "rincian eksklusif yang tidak dipublikasikan",
+      "salinan atau rekonstruksi naskah"
+    ],
+    "response_rule": "Jawab pertanyaan pengenalan dengan informasi publik yang tersedia. Jika pengguna meminta isi lengkap, bab, uraian eksklusif, atau pembahasan rinci dari buku, jelaskan bahwa VIATOR hanya menyediakan gambaran umum dan arahkan ke halaman atau kanal karya resmi. Jangan mengarang tautan pembelian atau ketersediaan."
+  },
+  "sections": [
+    {
+      "id": "novel",
+      "title": "Novel",
+      "description": "Katalog karya fiksi Iwan Surya. Setiap proyek memiliki dunia, konflik, dan jalannya sendiri; karya tidak harus saling terhubung.",
+      "url": "https://isuryas212.github.io/viator-claritatis/book.html"
+    },
+    {
+      "id": "main-books",
+      "title": "Buku Utama",
+      "description": "Ruang naskah fondasi, karya selesai, dan instrumen pemahaman.",
+      "url": "https://isuryas212.github.io/viator-claritatis/foundation.html"
+    },
+    {
+      "id": "essays",
+      "title": "Esai dan Ide",
+      "description": "Aforisma, catatan pengamatan, esai, dan gagasan yang masih diuji.",
+      "url": "https://isuryas212.github.io/viator-claritatis/aphorism.html"
+    },
+    {
+      "id": "relations",
+      "title": "Hubungan Karya",
+      "description": "Peta konseptual yang menunjukkan kedekatan gagasan tanpa memaksakan semua karya menjadi satu seri atau semesta.",
+      "url": "https://isuryas212.github.io/viator-claritatis/relations.html"
+    },
+    {
+      "id": "about",
+      "title": "Tentang Viator Claritatis",
+      "description": "Ruang karya dan gagasan yang berangkat dari pengamatan realitas, pengujian pemahaman, serta pertimbangan tindakan dan konsekuensi.",
+      "url": "https://isuryas212.github.io/viator-claritatis/about.html"
+    }
+  ],
+  "works": [
+    {
+      "id": "via-silentii",
+      "title": "Via Silentii et Claritatis",
+      "category": "Naskah fondasi",
+      "description": "Landasan perjalanan seorang Viator: mengamati, menahan kesimpulan yang tergesa, dan membangun kejernihan melalui pemahaman terhadap realitas.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/foundation.html",
+      "availability": "Lihat status pada katalog resmi"
+    },
+    {
+      "id": "arsitektur-realitas",
+      "title": "Arsitektur Realitas",
+      "category": "Naskah fondasi",
+      "description": "Eksplorasi mengenai realitas, struktur pemahaman, dan cara manusia membangun pengetahuan.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/foundation.html",
+      "availability": "Lihat status pada katalog resmi"
+    },
+    {
+      "id": "viator-math",
+      "title": "Viator Math",
+      "category": "Kerangka eksplorasi",
+      "description": "Eksplorasi hubungan matematika, pola, dan proses memahami realitas melalui pendekatan Viator.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/foundation.html",
+      "availability": "Lihat status pada katalog resmi"
+    },
+    {
+      "id": "ars-vivendi",
+      "title": "Ars Vivendi",
+      "category": "Naskah selesai",
+      "subtitle": "Belajar Hidup Setelah Melihat dan Memahami.",
+      "description": "Instrumen untuk membaca kehidupan dengan berangkat dari realitas dan prinsip Viator, bukan dogma atau ramalan.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/foundation.html",
+      "purchase_url": "https://karyakarsa.com/viatorclaritatis",
+      "availability": "Profil KaryaKarsa tersedia; periksa kanal untuk ketersediaan karya"
+    },
+    {
+      "id": "saranjana-yang-misterius",
+      "title": "Saranjana yang Misterius",
+      "category": "Arsip karya",
+      "description": "Karya fiksi yang berangkat dari gagasan tentang Saranjana.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/foundation.html",
+      "availability": "Status publikasi tidak dinyatakan"
+    },
+    {
+      "id": "balada-talasemia",
+      "title": "Balada Talasemia",
+      "category": "Arsip karya",
+      "description": "Kisah nyata yang ditempatkan dalam Buku Utama sebagai catatan pengalaman manusia, bukan novel fantasi.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/foundation.html",
+      "availability": "Status publikasi tidak dinyatakan"
+    },
+    {
+      "id": "viator-i-ching",
+      "title": "VIATOR I-CHING",
+      "category": "Instrumen interaktif",
+      "subtitle": "The Art of Reading Change.",
+      "description": "Menggunakan struktur klasik 64 heksagram sebagai referensi, dengan lapisan interpretasi Viator yang berfokus pada keadaan, perubahan, pilihan, dan konsekuensi.",
+      "catalog_url": "https://isuryas212.github.io/viator-claritatis/iching/",
+      "availability": "Versi awal berfungsi"
+    }
+  ],
+  "notes": [
+    "Status penulisan tidak sama dengan status penerbitan.",
+    "Tautan pembelian hanya boleh disebut untuk karya yang memiliki tautan terverifikasi.",
+    "Katalog ini hanya berisi informasi pengenalan yang dipublikasikan, bukan isi lengkap buku."
+  ]
+}
