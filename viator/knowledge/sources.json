@@ -1,7 +1,15 @@
 {
   "schema_version": 1,
-  "description": "Daftar rujukan publik awal. Tautan bukan bukti bahwa isi penuh naskah sudah diindeks.",
+  "description": "Daftar rujukan publik dan lapisan pengetahuan terkurasi. Status link_only berarti halaman baru ditautkan; bukan berarti seluruh isi naskah sudah diindeks.",
   "sources": [
+    {
+      "id": "core-knowledge",
+      "title": "Fondasi Pengetahuan VIATOR",
+      "path": "core.json",
+      "type": "curated_knowledge",
+      "ingestion_status": "curated_public_page_summaries",
+      "note": "Ringkasan diturunkan dari halaman publik situs. Naskah lengkap belum diindeks."
+    },
     {
       "id": "main-books",
       "title": "Buku Utama",
