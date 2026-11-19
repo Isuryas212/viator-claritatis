@@ -58,7 +58,6 @@ export default {
       return json({ error: "Method not allowed" }, 405, origin || ALLOWED_ORIGIN);
     }
 
-    // Require the Cloudflare Rate Limiting binding before accepting paid inference calls.
     if (!env.VIATOR_LIMITER || typeof env.VIATOR_LIMITER.limit !== "function") {
       return json({ error: "Rate limiter is not configured" }, 503, origin || ALLOWED_ORIGIN);
     }
@@ -107,7 +106,8 @@ export default {
       const result = await env.AI.run(MODEL, {
         messages: [{ role: "system", content: SYSTEM_PROMPT }, ...messages],
         max_tokens: 900,
-        temperature: 0.65
+        temperature: 0.65,
+        chat_template_kwargs: { enable_thinking: false }
       });
       const reply = typeof result?.response === "string"
         ? result.response.trim()
