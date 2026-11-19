@@ -1,0 +1,6 @@
+model_list: []
+router_settings:
+  num_retries: 1
+  timeout: 60
+litellm_settings:
+  drop_params: true

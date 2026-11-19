@@ -1,0 +1,55 @@
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-litellm}
+      POSTGRES_USER: ${POSTGRES_USER:-litellm}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - litellm_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-litellm} -d ${POSTGRES_DB:-litellm}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [private]
+
+  litellm:
+    image: ${LITELLM_IMAGE:-docker.litellm.ai/berriai/litellm:main-stable}
+    restart: unless-stopped
+    command: ["--config", "/app/config.yaml", "--port", "4000"]
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-litellm}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-litellm}
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY:?Set LITELLM_MASTER_KEY in .env}
+      LITELLM_SALT_KEY: ${LITELLM_SALT_KEY:?Set LITELLM_SALT_KEY in .env}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    volumes:
+      - ./litellm-config.yaml:/app/config.yaml:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks: [private]
+    # Intentionally no public port. Only the VIATOR API can reach the gateway.
+
+  viator-api:
+    build: ./api
+    restart: unless-stopped
+    environment:
+      SITE_ORIGIN: ${SITE_ORIGIN:-https://isuryas212.github.io}
+      LITELLM_URL: http://litellm:4000
+      LITELLM_API_KEY: ${LITELLM_API_KEY:-}
+      VIATOR_MODEL: ${VIATOR_MODEL:-viator-main}
+    ports:
+      - "127.0.0.1:${VIATOR_API_PORT:-8080}:8080"
+    depends_on: [litellm]
+    networks: [private]
+
+volumes:
+  litellm_postgres:
+
+networks:
+  private:
+    driver: bridge
