@@ -3,125 +3,167 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Produk Digital | viator claritatis</title>
-  <meta name="description" content="Katalog produk digital dan materi pengembangan viator claritatis.">
+  <title>Toko Buku Digital | Viator Claritatis</title>
+  <meta name="description" content="Beli buku digital resmi Viator Claritatis langsung dari Iwan Surya.">
   <meta name="author" content="Iwan Surya">
   <meta name="theme-color" content="#080706">
   <link rel="canonical" href="https://isuryas212.github.io/viator-claritatis/store.html">
   <link rel="icon" href="viator-favicon.png">
   <link rel="stylesheet" href="style.css?v=17">
+  <style>
+    .shop-wrap{width:min(1080px,calc(100% - 36px));margin:0 auto;padding:34px 0 70px}
+    .shop-hero{padding:48px 0 34px;border-bottom:1px solid var(--line,#444)}
+    .shop-kicker{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;opacity:.7}
+    .shop-hero h1{font-size:clamp(2.4rem,7vw,5rem);line-height:1.02;margin:14px 0}
+    .shop-hero p{max-width:680px;line-height:1.75}
+    .shop-nav{display:flex;flex-wrap:wrap;gap:18px;padding:16px 0;border-bottom:1px solid var(--line,#444)}
+    .shop-nav a{color:inherit;text-decoration:none;font-size:.9rem}
+    .shop-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.85fr);gap:34px;align-items:start;margin:38px 0}
+    .shop-cover{width:100%;max-width:340px;display:block;margin:auto;border-radius:4px;box-shadow:0 16px 44px #0005}
+    .shop-details h2{font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.12;margin:0 0 10px}
+    .shop-subtitle{opacity:.75;font-style:italic}
+    .shop-price{font-size:2rem;font-weight:700;margin:22px 0 8px}
+    .shop-tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+    .shop-tag{border:1px solid #8886;border-radius:30px;padding:6px 11px;font-size:.78rem}
+    .shop-panel{border:1px solid #8886;border-radius:12px;padding:22px;margin:24px 0}
+    .shop-panel h3{margin-top:0}
+    .shop-method{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+    .shop-method label{display:block;border:1px solid #8888;border-radius:9px;padding:13px;cursor:pointer}
+    .shop-method input{margin-right:7px}
+    .shop-account{padding:14px;background:#8881;border-radius:8px;margin:12px 0;overflow-wrap:anywhere}
+    .shop-account strong{display:block;font-size:1.15rem;letter-spacing:.03em}
+    .shop-qr{display:block;width:min(280px,100%);height:auto;margin:14px auto;border-radius:8px;background:#fff}
+    .shop-form{display:grid;gap:12px}
+    .shop-form label{display:grid;gap:6px;font-size:.9rem}
+    .shop-form input,.shop-form select{width:100%;box-sizing:border-box;padding:12px;border:1px solid #8888;border-radius:7px;background:transparent;color:inherit;font:inherit}
+    .shop-form button,.shop-button{display:inline-block;border:0;border-radius:7px;padding:13px 18px;background:#d8c7a0;color:#17130d;font-weight:700;text-decoration:none;text-align:center;cursor:pointer}
+    .shop-note{font-size:.86rem;line-height:1.65;opacity:.78}
+    .shop-warning{border-left:3px solid #b58c4a;padding:10px 14px;background:#b58c4a12;line-height:1.6}
+    .shop-footer{border-top:1px solid #8886;margin-top:48px;padding-top:22px;font-size:.88rem;opacity:.8}
+    @media(max-width:720px){.shop-grid{grid-template-columns:1fr}.shop-cover{max-width:270px}.shop-method{grid-template-columns:1fr}}
+  </style>
 </head>
 <body class="catalog-page">
-  <nav class="catalog-nav" aria-label="Navigasi utama">
-    <a href="index.html">Beranda</a>
-    <a href="book.html">Novel</a>
-    <a href="foundation.html">Buku Utama</a>
-    <a href="aphorism.html">Esai dan Ide</a>
-    <a href="relations.html">Hubungan Karya</a>
-    <a href="store.html" aria-current="page">Produk Digital</a>
-    <a href="viator/">VIATOR AI</a>
-    <a href="contact.html">Kontak</a>
-  </nav>
+  <main class="shop-wrap">
+    <nav class="shop-nav" aria-label="Navigasi toko">
+      <a href="index.html">← Beranda</a>
+      <a href="book.html">Novel</a>
+      <a href="foundation.html">Buku Utama</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
 
-  <main class="catalog-wrap">
-    <header class="catalog-hero">
-      <p class="catalog-kicker">viator claritatis · DIGITAL WORKS</p>
-      <h1>Produk Digital</h1>
-      <h2>Gagasan yang dapat dipelajari, digunakan, dan dikembangkan.</h2>
-      <p>Halaman ini menjadi katalog produk digital viator claritatis. Setiap produk ditampilkan dengan keterangan status, format, harga, dan jalur pembelian yang jelas.</p>
-      <div class="catalog-introline">
-        <span class="catalog-chip">KATALOG RESMI</span>
-        <span class="catalog-chip">STATUS TRANSPARAN</span>
-        <span class="catalog-chip">AKSES MELALUI MITRA</span>
-      </div>
+    <header class="shop-hero">
+      <p class="shop-kicker">VIATOR CLARITATIS · TOKO RESMI</p>
+      <h1>Buku Digital</h1>
+      <p>Karya pemikiran Viator Claritatis tersedia langsung dari penulis. Pembayaran dilakukan melalui rekening atau QRIS yang tercantum di halaman ini. Berkas dikirim setelah pembayaran diperiksa.</p>
     </header>
 
-    <section class="catalog-section">
-      <div class="catalog-section-head">
-        <h2>Karya dengan kanal distribusi</h2>
-        <p>Karya yang telah selesai dan memiliki kanal informasi atau distribusi. Periksa ketersediaan pada kanal tujuan.</p>
+    <section class="shop-grid" aria-labelledby="product-title">
+      <div>
+        <img class="shop-cover" src="assets/images/via-silentii-cover.jpg" alt="Sampul buku Via Silentii et Claritatis">
       </div>
-      <div class="catalog-grid">
-        <article class="catalog-card">
-          <div class="catalog-art">
-            <span>viator claritatis</span>
-            <strong>ARS VIVENDI</strong>
-            <small>BELAJAR HIDUP SETELAH MELIHAT DAN MEMAHAMI</small>
-          </div>
-          <span class="catalog-kicker">VC-003 · NASKAH SELESAI</span>
-          <h3>Ars Vivendi</h3>
-          <p><em>Belajar Hidup Setelah Melihat dan Memahami.</em> Instrumen untuk membaca kehidupan dengan berpijak pada realitas dan prinsip Viator, bukan dogma atau ramalan. Edisi digital tersedia dalam format PDF, 565 halaman.</p>
-          <div class="catalog-meta">
-            <span class="catalog-tag complete">Naskah selesai</span>
-            <span class="catalog-tag">PDF · 565 halaman</span>
-            <span class="catalog-tag">Rp49.000 · harga peluncuran</span>
-          </div>
-          <p><strong>Harga: Rp49.000</strong></p>
-          <a class="catalog-link" href="https://karyakarsa.com/Viatorclaritatis/ars-vivendi-belajar-hidup-setelah-melihat-dan-memahami-1534637" target="_blank" rel="noopener noreferrer">Beli Sekarang ↗</a>
-          <a class="catalog-link" href="ars-vivendi.html">Pelajari detail karya ↗</a>
-        </article>
+      <div class="shop-details">
+        <p class="shop-kicker">PRODUK DIGITAL PERTAMA · VC-001</p>
+        <h2 id="product-title">Via Silentii et Claritatis</h2>
+        <p class="shop-subtitle">Metode Mengamati Sebelum Menyimpulkan</p>
+        <p>Buku tentang cara mengamati realitas, membedakan fakta dari tafsir, mengenali pola, dan membangun pemahaman yang bersedia diuji kembali oleh kehidupan.</p>
+        <div class="shop-tags">
+          <span class="shop-tag">Edisi digital</span>
+          <span class="shop-tag">PDF</span>
+          <span class="shop-tag">355 halaman</span>
+        </div>
+        <div class="shop-price">Rp39.000</div>
+        <p class="shop-note">Satu kali pembayaran. Berkas PDF dikirim secara pribadi melalui email setelah pembayaran terverifikasi.</p>
+        <a class="shop-button" href="#pembayaran">Pesan buku ini ↓</a>
       </div>
     </section>
 
-    <section class="catalog-section">
-      <div class="catalog-section-head">
-        <h2>Dalam pengembangan</h2>
-        <p>Calon produk berikutnya. Bagian ini bukan penawaran penjualan dan belum menerima pembayaran.</p>
+    <section class="shop-panel" id="pembayaran">
+      <h3>1. Pilih metode pembayaran</h3>
+      <div class="shop-method">
+        <label><input type="radio" name="payment" value="BTN" checked> Transfer bank BTN</label>
+        <label><input type="radio" name="payment" value="QRIS DANA"> QRIS DANA</label>
       </div>
-      <div class="catalog-grid">
-        <article class="catalog-card">
-          <div class="catalog-art">
-            <span>viator claritatis</span>
-            <strong>REFLECTION JOURNAL</strong>
-            <small>PROTOTIPE PRODUK</small>
-          </div>
-          <span class="catalog-kicker">PROTOTIPE · BELUM DITERBITKAN</span>
-          <h3>Jurnal Pengamatan dan Refleksi</h3>
-          <p>Rancangan jurnal digital untuk mencatat keadaan, membedakan fakta dan tafsir, serta meninjau pilihan dan konsekuensinya.</p>
-          <div class="catalog-meta">
-            <span class="catalog-tag plan">Dalam perencanaan</span>
-          </div>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-art">
-            <span>viator claritatis</span>
-            <strong>VIATOR AI</strong>
-            <small>RUANG DIALOG</small>
-          </div>
-          <span class="catalog-kicker">KONSEP · BELUM AKTIF</span>
-          <h3>VIATOR AI</h3>
-          <p>Ruang dialog berbasis AI yang sedang dikembangkan. Halaman pengenal dan rancangan modul sudah tersedia, tetapi koneksi AI belum diaktifkan sehingga pengunjung belum dapat menggunakannya untuk berdialog.</p>
-          <div class="catalog-meta">
-            <span class="catalog-tag plan">Dalam pengembangan</span>
-            <span class="catalog-tag">Belum dapat digunakan</span>
-          </div>
-          <a class="catalog-link" href="viator/">Lihat konsep VIATOR ↗</a>
-        </article>
+      <div id="btn-detail">
+        <div class="shop-account">
+          <span>Bank BTN · atas nama Iwan Surya Saputra</span>
+          <strong>15201560030021</strong>
+        </div>
+        <p class="shop-note">Transfer tepat Rp39.000. Periksa kembali nama penerima sebelum menyelesaikan transfer.</p>
+      </div>
+      <div id="qris-detail" hidden>
+        <p>Scan QRIS DANA berikut melalui aplikasi pembayaran yang mendukung QRIS. Masukkan nominal Rp39.000 apabila nominal tidak terisi otomatis.</p>
+        <img class="shop-qr" src="assets/images/qris-dana.jpg" alt="QRIS DANA Viator Claritatis">
+        <p class="shop-note">Pastikan nama merchant dan nominal terlihat benar pada aplikasi pembayaran sebelum mengonfirmasi transaksi.</p>
       </div>
     </section>
 
-    <section class="catalog-section">
-      <div class="catalog-callout">
-        <strong>Transparansi pembelian.</strong> Website ini saat ini berfungsi sebagai katalog dan pusat informasi, belum sebagai kasir atau sistem unduhan otomatis. Pembelian Ars Vivendi dilakukan melalui KaryaKarsa. Pembayaran dan akses berkas mengikuti mekanisme platform. Jangan mengirimkan kata sandi, PIN, atau data keuangan melalui formulir maupun pesan.
-      </div>
+    <section class="shop-panel">
+      <h3>2. Kirim konfirmasi pesanan</h3>
+      <p>Isi data berikut setelah melakukan pembayaran. Tombol di bawah akan membuka WhatsApp dengan ringkasan pesanan. Sertakan bukti transfer pada percakapan WhatsApp tersebut.</p>
+      <form class="shop-form" id="order-form">
+        <label>Nama pembeli
+          <input name="buyer" autocomplete="name" required maxlength="100" placeholder="Nama sesuai pesanan">
+        </label>
+        <label>Email penerima PDF
+          <input name="email" type="email" autocomplete="email" required maxlength="150" placeholder="nama@email.com">
+        </label>
+        <label>Metode pembayaran
+          <select name="method" id="method-select">
+            <option value="BTN">Transfer bank BTN</option>
+            <option value="QRIS DANA">QRIS DANA</option>
+          </select>
+        </label>
+        <button type="submit">Konfirmasi melalui WhatsApp</button>
+      </form>
+      <p class="shop-warning"><strong>Penting:</strong> mengirim formulir atau bukti transfer tidak otomatis berarti pembayaran diterima. Pesanan diproses setelah dana benar-benar masuk dan diverifikasi. Jangan pernah mengirim PIN, kata sandi, atau kode OTP.</p>
     </section>
 
-    <section class="catalog-section">
-      <div class="catalog-section-head">
-        <h2>Informasi produk dan kerja sama</h2>
-        <p>Untuk pertanyaan tentang format, ketersediaan, atau penggunaan produk, hubungi pengelola viator claritatis.</p>
-      </div>
-      <a class="catalog-link" href="https://wa.me/6285973751953?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20produk%20digital%20Viator%20Claritatis." target="_blank" rel="noopener noreferrer">Tanyakan melalui WhatsApp ↗</a>
+    <section class="shop-panel">
+      <h3>3. Pengiriman buku</h3>
+      <p>Setelah pembayaran terverifikasi, PDF akan dikirim secara manual ke alamat email yang dicantumkan. Periksa folder Spam atau Promosi jika email belum terlihat.</p>
+      <p class="shop-note">File digital ini untuk penggunaan pribadi pembeli. Dilarang mengunggah ulang, membagikan, menjual kembali, atau mendistribusikan file tanpa izin tertulis penulis.</p>
     </section>
 
-    <footer class="catalog-footer">
-      <p><strong>viator claritatis</strong> · Via Silentii et Claritatis</p>
-      <p>© 2026 Iwan Surya</p>
-      <p><a href="index.html">Kembali ke beranda ↑</a></p>
+    <footer class="shop-footer">
+      <p><strong>Viator Claritatis</strong> · Iwan Surya</p>
+      <p>Untuk pertanyaan pesanan: <a href="https://wa.me/6285973751953">WhatsApp pengelola</a>.</p>
+      <p><a href="index.html">Kembali ke situs utama ↑</a></p>
+      <small>© 2026 Iwan Surya. Seluruh hak cipta dilindungi.</small>
     </footer>
   </main>
+  <script>
+    const paymentRadios = document.querySelectorAll('input[name="payment"]');
+    const btnDetail = document.getElementById('btn-detail');
+    const qrisDetail = document.getElementById('qris-detail');
+    const methodSelect = document.getElementById('method-select');
+    function updatePayment(value) {
+      btnDetail.hidden = value !== 'BTN';
+      qrisDetail.hidden = value !== 'QRIS DANA';
+      methodSelect.value = value;
+    }
+    paymentRadios.forEach(radio => radio.addEventListener('change', () => updatePayment(radio.value)));
+    methodSelect.addEventListener('change', () => {
+      document.querySelector('input[name="payment"][value="' + methodSelect.value + '"]').checked = true;
+      updatePayment(methodSelect.value);
+    });
+    document.getElementById('order-form').addEventListener('submit', event => {
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+      const message = [
+        'Halo, saya ingin memesan buku digital Via Silentii et Claritatis.',
+        'Nama: ' + data.get('buyer'),
+        'Email penerima: ' + data.get('email'),
+        'Produk: Via Silentii et Claritatis (PDF)',
+        'Harga: Rp39.000',
+        'Pembayaran: ' + data.get('method'),
+        'Saya akan melampirkan bukti pembayaran pada percakapan ini.'
+      ].join('\n');
+      window.open('https://wa.me/6285973751953?text=' + encodeURIComponent(message), '_blank', 'noopener');
+    });
+  </script>
   <script src="language.js?v=1"></script>
   <script src="music.js?v=2"></script>
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dbed8484d4c94c71b0f0c1dec38ce6a5"}'></script><!-- End Cloudflare Web Analytics -->
+  <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"dbed8484d4c94c71b0f0c1dec38ce6a5"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
