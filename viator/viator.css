@@ -25,3 +25,6 @@
 .character-card a{margin-top:auto;align-self:flex-start;color:var(--gold);font-size:12px;text-decoration:none;border-bottom:1px solid #6a5635;padding-bottom:4px}
 .character-note{margin:20px 0 0;color:var(--soft);font-size:11px}
 @media(max-width:650px){.character-heading{display:block}.character-heading>p{margin-top:12px}.character-grid{grid-template-columns:1fr}.character-card{min-height:0;padding:22px}.character-section{margin-bottom:55px}}
+
+.character-cover{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;margin:0 0 18px;background:#0b0908}
+.character-card{overflow:hidden}
