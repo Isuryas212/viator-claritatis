@@ -28,3 +28,22 @@
 
 .character-cover{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;margin:0 0 18px;background:#0b0908}
 .character-card{overflow:hidden}
+
+/* Compact editorial layout for AI character cards */
+.character-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.character-card{display:grid;grid-template-columns:116px minmax(0,1fr);grid-template-rows:auto auto 1fr auto;column-gap:18px;row-gap:5px;align-content:start;min-height:190px;padding:18px}
+.character-card .character-cover{grid-column:1;grid-row:1 / 5;width:116px;height:154px;aspect-ratio:3/4;object-fit:cover;margin:0;border-radius:6px}
+.character-card .character-index{grid-column:2;grid-row:1;align-self:start}
+.character-card h3{grid-column:2;grid-row:2;font-size:19px;margin:5px 0 2px}
+.character-card p{grid-column:2;grid-row:3;font-size:12px;line-height:1.55;margin:0 0 8px}
+.character-card a{grid-column:2;grid-row:4;align-self:end;margin-top:0}
+@media(max-width:650px){
+  .character-grid{grid-template-columns:1fr}
+  .character-card{grid-template-columns:104px minmax(0,1fr);column-gap:14px;min-height:154px;padding:14px}
+  .character-card .character-cover{width:104px;height:139px}
+  .character-card h3{font-size:17px;margin:3px 0}
+  .character-card p{font-size:11px;line-height:1.45}
+  .character-index{font-size:10px}
+  .character-index span{font-size:8px}
+  .character-section{max-width:100%;overflow:hidden}
+}
