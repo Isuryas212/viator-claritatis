@@ -10,3 +10,18 @@
 .status.is-ready{border-color:#6c5935;color:var(--gold)}
 .dialog-empty:has(.dialog-message){padding-top:22px;padding-bottom:22px}
 @media(max-width:650px){.dialog-message{max-width:92%;margin:12px 14px}}
+
+/* AI Character Projects */
+.character-section{margin:0 0 80px;padding:38px 0 0;border-top:1px solid var(--line);scroll-margin-top:24px}
+.character-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:22px}
+.character-heading h2{font-size:clamp(28px,4vw,38px);font-weight:400;margin:7px 0 0}
+.character-heading>p{max-width:470px;color:var(--muted);font-size:14px;margin:0}
+.character-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.character-card{padding:24px;background:linear-gradient(145deg,#17130f,#100d0a);border:1px solid #443722;border-radius:13px;min-height:220px;display:flex;flex-direction:column}
+.character-index{display:flex;align-items:center;gap:12px;color:var(--gold);font-size:12px;letter-spacing:1.5px}
+.character-index span{font-size:9px;color:var(--soft);letter-spacing:1.3px}
+.character-card h3{font-size:23px;font-weight:400;letter-spacing:.5px;margin:20px 0 8px}
+.character-card p{font-size:13px;color:var(--muted);margin:0 0 20px;max-width:520px}
+.character-card a{margin-top:auto;align-self:flex-start;color:var(--gold);font-size:12px;text-decoration:none;border-bottom:1px solid #6a5635;padding-bottom:4px}
+.character-note{margin:20px 0 0;color:var(--soft);font-size:11px}
+@media(max-width:650px){.character-heading{display:block}.character-heading>p{margin-top:12px}.character-grid{grid-template-columns:1fr}.character-card{min-height:0;padding:22px}.character-section{margin-bottom:55px}}
