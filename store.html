@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Toko Buku Digital | Viator Claritatis</title>
-  <meta name="description" content="Beli buku digital resmi Viator Claritatis langsung dari Iwan Surya.">
+  <title>Toko Buku Digital | viator claritatis</title>
+  <meta name="description" content="Beli buku digital resmi viator claritatis langsung dari Iwan Surya.">
   <meta name="author" content="Iwan Surya">
   <meta name="theme-color" content="#080706">
   <link rel="canonical" href="https://isuryas212.github.io/viator-claritatis/store.html">
@@ -53,9 +53,9 @@
     </nav>
 
     <header class="shop-hero">
-      <p class="shop-kicker">VIATOR CLARITATIS · TOKO RESMI</p>
+      <p class="shop-kicker">viator claritatis · TOKO RESMI</p>
       <h1>Buku Digital</h1>
-      <p>Karya pemikiran Viator Claritatis tersedia langsung dari penulis. Pembayaran dilakukan melalui rekening atau QRIS yang tercantum di halaman ini. Berkas dikirim setelah pembayaran diperiksa.</p>
+      <p>Karya pemikiran viator claritatis tersedia langsung dari penulis. Pembayaran dilakukan melalui rekening atau QRIS yang tercantum di halaman ini. Berkas dikirim setelah pembayaran diperiksa.</p>
     </header>
 
     <section class="shop-grid" aria-labelledby="product-title">
@@ -78,6 +78,22 @@
       </div>
     </section>
 
+    
+    <section class="shop-panel" aria-labelledby="ars-vivendi-title">
+      <p class="shop-kicker">PRODUK DIGITAL KEDUA · VC-002</p>
+      <h2 id="ars-vivendi-title">Ars Vivendi</h2>
+      <p class="shop-subtitle">Belajar Hidup Setelah Melihat dan Memahami</p>
+      <p>Buku tentang memahami kehidupan, diri, hubungan, pilihan, perubahan, serta proses mengamati, memahami, membedakan, memilih, bertindak, menerima, melepaskan, dan menjadi.</p>
+      <div class="shop-tags">
+        <span class="shop-tag">Edisi digital</span>
+        <span class="shop-tag">PDF</span>
+        <span class="shop-tag">565 halaman</span>
+      </div>
+      <div class="shop-price">Rp49.000</div>
+      <p class="shop-note">Satu kali pembayaran. Berkas PDF dikirim secara pribadi melalui email setelah pembayaran terverifikasi.</p>
+      <a class="shop-button" href="#pembayaran" onclick="document.getElementById('product-select').value='ars';document.getElementById('product-select').dispatchEvent(new Event('change'))">Pesan buku ini ↓</a>
+    </section>
+
     <section class="shop-panel" id="pembayaran">
       <h3>1. Pilih metode pembayaran</h3>
       <div class="shop-method">
@@ -89,11 +105,11 @@
           <span>Bank BTN · atas nama Iwan Surya Saputra</span>
           <strong>15201560030021</strong>
         </div>
-        <p class="shop-note">Transfer tepat Rp39.000. Periksa kembali nama penerima sebelum menyelesaikan transfer.</p>
+        <p class="shop-note">Transfer sesuai harga buku yang dipilih. Periksa kembali nama penerima sebelum menyelesaikan transfer.</p>
       </div>
       <div id="qris-detail" hidden>
-        <p>Scan QRIS DANA berikut melalui aplikasi pembayaran yang mendukung QRIS. Masukkan nominal Rp39.000 apabila nominal tidak terisi otomatis.</p>
-        <img class="shop-qr" src="assets/images/qris-dana.jpg" alt="QRIS DANA Viator Claritatis">
+        <p>Scan QRIS DANA berikut melalui aplikasi pembayaran yang mendukung QRIS. Masukkan nominal sesuai harga buku yang dipilih apabila nominal tidak terisi otomatis.</p>
+        <img class="shop-qr" src="assets/images/qris-dana.jpg" alt="QRIS DANA viator claritatis">
         <p class="shop-note">Pastikan nama merchant dan nominal terlihat benar pada aplikasi pembayaran sebelum mengonfirmasi transaksi.</p>
       </div>
     </section>
@@ -102,6 +118,12 @@
       <h3>2. Kirim konfirmasi pesanan</h3>
       <p>Isi data berikut setelah melakukan pembayaran. Tombol di bawah akan membuka WhatsApp dengan ringkasan pesanan. Sertakan bukti transfer pada percakapan WhatsApp tersebut.</p>
       <form class="shop-form" id="order-form">
+        <label>Pilih buku
+          <select name="product" id="product-select">
+            <option value="via">Via Silentii et Claritatis — Rp39.000</option>
+            <option value="ars">Ars Vivendi — Rp49.000</option>
+          </select>
+        </label>
         <label>Nama pembeli
           <input name="buyer" autocomplete="name" required maxlength="100" placeholder="Nama sesuai pesanan">
         </label>
@@ -126,7 +148,7 @@
     </section>
 
     <footer class="shop-footer">
-      <p><strong>Viator Claritatis</strong> · Iwan Surya</p>
+      <p><strong>viator claritatis</strong> · Iwan Surya</p>
       <p>Untuk pertanyaan pesanan: <a href="https://wa.me/6285973751953">WhatsApp pengelola</a>.</p>
       <p><a href="index.html">Kembali ke situs utama ↑</a></p>
       <small>© 2026 Iwan Surya. Seluruh hak cipta dilindungi.</small>
@@ -150,12 +172,15 @@
     document.getElementById('order-form').addEventListener('submit', event => {
       event.preventDefault();
       const data = new FormData(event.currentTarget);
+      const selected = document.getElementById('product-select').value;
+      const productName = selected === 'ars' ? 'Ars Vivendi' : 'Via Silentii et Claritatis';
+      const productPrice = selected === 'ars' ? 'Rp49.000' : 'Rp39.000';
       const message = [
-        'Halo, saya ingin memesan buku digital Via Silentii et Claritatis.',
+        'Halo, saya ingin memesan buku digital ' + productName + '.',
         'Nama: ' + data.get('buyer'),
         'Email penerima: ' + data.get('email'),
-        'Produk: Via Silentii et Claritatis (PDF)',
-        'Harga: Rp39.000',
+        'Produk: ' + productName + ' (PDF)',
+        'Harga: ' + productPrice,
         'Pembayaran: ' + data.get('method'),
         'Saya akan melampirkan bukti pembayaran pada percakapan ini.'
       ].join('\n');
