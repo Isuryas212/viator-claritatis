@@ -19,7 +19,7 @@
 .kan-hero h1{font-size:clamp(2.5rem,7vw,5rem);line-height:.98;margin:14px 0;color:#d9c89f}
 .kan-subtitle{font-size:1.15rem;font-style:italic;opacity:.85}
 .kan-lead{max-width:650px;line-height:1.8}
-.kan-cover{min-height:390px;border:1px solid #b89a5b88;border-radius:14px;background:radial-gradient(circle at 50% 24%,#f4d68b 0,#b9c9a0 20%,transparent 40%),linear-gradient(155deg,#0b2d1b,#315b3d 55%,#07180f);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:26px;box-shadow:0 18px 48px #0005}
+.kan-cover-image{max-width:420px;margin:0 auto;border:1px solid #b89a5b88;border-radius:14px;overflow:hidden;box-shadow:0 18px 48px #0005}.kan-cover-image img{display:block;width:100%;height:auto}
 .kan-cover .moon{font-size:2.1rem;letter-spacing:.25em;color:#f0d58e}
 .kan-cover strong{font-family:Georgia,serif;font-size:clamp(2.3rem,5vw,4rem);line-height:1.05;color:#fff8e7;margin:22px 0 8px}
 .kan-cover span{color:#f1dfb2}
@@ -34,7 +34,7 @@
 .kan-point strong{display:block;margin-bottom:5px;color:#d9c89f}
 .kan-note{font-size:.9rem;line-height:1.7;opacity:.78}
 .kan-footer{padding-top:24px;opacity:.8;font-size:.9rem}
-@media(max-width:720px){.kan-hero{grid-template-columns:1fr;padding:36px 0}.kan-cover{min-height:320px}.kan-points{grid-template-columns:1fr}.kan-hero h1{font-size:3rem}}
+@media(max-width:720px){.kan-hero{grid-template-columns:1fr;padding:36px 0}.kan-cover-image{max-width:360px}.kan-points{grid-template-columns:1fr}.kan-hero h1{font-size:3rem}}
 </style>
 </head>
 <body class="catalog-page">
@@ -57,11 +57,8 @@
 </div>
 <p class="kan-note">Tanpa pembayaran dan tanpa kewajiban membeli produk lain. Silakan membaca dan membagikan tautan halaman ini kepada siapa pun yang membutuhkan.</p>
 </div>
-<div class="kan-cover" role="img" aria-label="Ilustrasi sampul Kalender Alam Nusantara dengan tema alam, Matahari, dan fase Bulan">
-<div class="moon">☾ ◐ ● ◑ ☀</div>
-<strong>KAN<br>Kalender Alam<br>Nusantara</strong>
-<span>Membaca Waktu, Memahami Alam</span>
-<span class="kan-edition">EDISI PERCONTOHAN 2027</span>
+<div class="kan-cover-image">
+<img src="assets/images/kan-cover-2027.png" alt="Sampul Kalender Alam Nusantara — Membaca Waktu, Memahami Alam, Edisi Percontohan 2027" loading="eager">
 </div>
 </section>
 <section class="kan-section">
